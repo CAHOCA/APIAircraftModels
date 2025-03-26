@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Simple Aircraft Models API by @CAHOCA</title>
+
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        :root {
+            --primary-color: #0dcaf0; /* Cyan */
+            --secondary-color: #00b3ff3d; /* Cyan oscuro */
+            --background-color: #1b1b1b;
+            --card-bg: #1e1e1e;
+            --text-color: #f8f9fa;
+        }
+
+        body {
+            background-color: var(--background-color);
+            color: var(--text-color); font-family: "PT Sans", sans-serif;
+            font-style: normal;
+            }
+
+        .navbar {
+            background: var(--secondary-color);
+        }
+
+        .container {
+            margin-top: 50px;
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            color: var(--text-color);
+            border: 1px solid var(--secondary-color);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .card:hover {
+            transform: scale(1.03);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+        }
+
+        .btn-primary {
+            background-color: var(--primary-color);
+            border: none;
+        }
+
+        .btn-primary:hover {
+            background-color: #0bb5e0;
+        }
+
+        pre {
+            background-color: #212529;
+            color: var(--primary-color);
+            padding: 15px;
+            border-radius: 5px;
+            border-left: 5px solid var(--primary-color);
+            text-align: initial;
+        }
+
+        footer {
+            margin-top: 30px;
+            padding: 20px 0;
+            text-align: center;
+            background: var(--secondary-color);
+            color: white;
+            background-color: var(--background-color);
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="https://github.com/CAHOCA">✈ Aircraft Models API by @CAHOCA</a>
+        </div>
+    </nav>
+
+    <div class="container text-center">
+        <h1 class="mt-4">Welcome to the Aircraft Models API</h1>
+        <p class="lead">A simple REST API built with Express & Node.js that provides aircraft models and their IATA codes.</p>
+        
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <div class="card p-4">
+                    <h3>📋 Get All Models</h3>
+                    <p>Retrieve the full list of aircraft models.</p>
+                    <code>GET /api/</code>
+                    <p><a href="/api/" target="_blank" class="btn btn-primary mt-2">Try it</a></p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card p-4">
+                    <h3>🔎 Get Model by IATA Code</h3>
+                    <p>Retrieve an aircraft model using its IATA code.</p>
+                    <code>GET /api/&lt;IATA_CODE&gt;</code>
+                    <p><a href="/api/789" target="_blank" class="btn btn-primary mt-2">Try with Example</a></p>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="mt-5">📌 Example Response</h2>
+        <pre>
+{
+    "Aircraft_Model": "Boeing 789 Dreamliner",
+    "IATA_Code": "789"
+}
+        </pre>
+    </div>
+
+    <footer>
+        <p>💙 Made with love by <b>Carlos Hortúa Calderón</b></p>
+        <p>Licensed under <strong>GPL-3.0</strong>. Repo:
+            <a href="https://github.com/CAHOCA/APIAircraftModels" target="_blank">
+                <i class="fab fa-github"></i> GitHub
+            </a>
+        </p>
+    </footer>
+
+</body>
+</html>
