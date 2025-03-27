@@ -1,1034 +1,1692 @@
 [
   {
-    "IATA_Code": "APH",
-    "Model": "Aerospatiale AS332"
-  },
-  {
-    "IATA_Code": "NDE",
-    "Model": "Aerospatiale AS350"
-  },
-  {
-    "IATA_Code": "NDE",
-    "Model": "Aerospatiale AS355"
-  },
-  {
-    "IATA_Code": "NDH",
-    "Model": "Aerospatiale AS365"
-  },
-  {
-    "IATA_Code": "NDC",
-    "Model": "Aerospatiale SN601"
-  },
-  {
-    "IATA_Code": "EH1",
-    "Model": "Agusta EH101"
-  },
-  {
-    "IATA_Code": "AGH",
-    "Model": "AgustaWestland A109"
-  },
-  {
-    "IATA_Code": "AWH",
-    "Model": "AgustaWestland AW139"
-  },
-  {
-    "IATA_Code": "221",
-    "Model": "Airbus A220-100"
-  },
-  {
-    "IATA_Code": "221",
+    "IATA_Code": 223,
+    "ICAO_Code": "BCS3",
     "Model": "Airbus A220-300"
   },
   {
-    "IATA_Code": "312",
-    "Model": "Airbus A310-200"
+    "IATA_Code": 290,
+    "ICAO_Code": "E290",
+    "Model": "Embraer E190-E2"
   },
   {
-    "IATA_Code": "313",
-    "Model": "Airbus A310-300"
+    "IATA_Code": 295,
+    "ICAO_Code": "E295",
+    "Model": "Embraer E195-E2"
   },
   {
-    "IATA_Code": "318",
-    "Model": "Airbus A318"
+    "IATA_Code": 338,
+    "ICAO_Code": "A338",
+    "Model": "Airbus A330-800"
   },
   {
-    "IATA_Code": "32C",
-    "Model": "Airbus A318"
+    "IATA_Code": 400,
+    "ICAO_Code": "A400",
+    "Model": "Airbus A400M Atlas"
   },
   {
-    "IATA_Code": "319",
-    "Model": "Airbus A319"
+    "IATA_Code": 703,
+    "ICAO_Code": "B703",
+    "Model": "Boeing 707"
   },
   {
-    "IATA_Code": "31N",
-    "Model": "Airbus A319neo"
+    "IATA_Code": 717,
+    "ICAO_Code": "B712",
+    "Model": "Boeing 717"
   },
   {
-    "IATA_Code": "32D",
-    "Model": "Airbus A319"
+    "IATA_Code": 732,
+    "ICAO_Code": "B732",
+    "Model": "Boeing 737-200"
   },
   {
-    "IATA_Code": "320",
-    "Model": "Airbus A320"
+    "IATA_Code": 741,
+    "ICAO_Code": "B741",
+    "Model": "Boeing 747-100"
   },
   {
-    "IATA_Code": "32A",
-    "Model": "Airbus A320"
+    "IATA_Code": 742,
+    "ICAO_Code": "B742",
+    "Model": "Boeing 747-200"
   },
   {
-    "IATA_Code": "32N",
-    "Model": "Airbus A320neo"
+    "IATA_Code": 743,
+    "ICAO_Code": "B743",
+    "Model": "Boeing 747-300"
   },
   {
-    "IATA_Code": "321",
-    "Model": "Airbus A321"
+    "IATA_Code": 753,
+    "ICAO_Code": "B753",
+    "Model": "Boeing 757-300"
   },
   {
-    "IATA_Code": "32B",
-    "Model": "Airbus A321"
+    "IATA_Code": 778,
+    "ICAO_Code": "B778",
+    "Model": "Boeing 777-8"
   },
   {
-    "IATA_Code": "32Q",
-    "Model": "Airbus A321neo"
+    "IATA_Code": 779,
+    "ICAO_Code": "B779",
+    "Model": "Boeing 777-9"
   },
   {
-    "IATA_Code": "330",
-    "Model": "Airbus A330ceo"
+    "IATA_Code": 919,
+    "ICAO_Code": "C919",
+    "Model": "Comac C919"
   },
   {
-    "IATA_Code": "332",
-    "Model": "Airbus A330-200"
-  },
-  {
-    "IATA_Code": "333",
-    "Model": "Airbus A330-300"
-  },
-  {
-    "IATA_Code": "342",
-    "Model": "Airbus A340-200"
-  },
-  {
-    "IATA_Code": "343",
-    "Model": "Airbus A340-300"
-  },
-  {
-    "IATA_Code": "345",
-    "Model": "Airbus A340-500"
-  },
-  {
-    "IATA_Code": "346",
-    "Model": "Airbus A340-600"
-  },
-  {
-    "IATA_Code": "359",
-    "Model": "Airbus A350-900"
-  },
-  {
-    "IATA_Code": "351",
-    "Model": "Airbus A350-1000"
-  },
-  {
-    "IATA_Code": "388",
-    "Model": "Airbus A380-800"
-  },
-  {
-    "IATA_Code": "AT3",
-    "Model": "Alenia ATR-42-300"
-  },
-  {
-    "IATA_Code": "AT4",
-    "Model": "Alenia ATR-42-400"
-  },
-  {
-    "IATA_Code": "AT5",
-    "Model": "Alenia ATR-42-500"
-  },
-  {
-    "IATA_Code": "AT6",
-    "Model": "Alenia ATR-42-600"
-  },
-  {
-    "IATA_Code": "AT7",
-    "Model": "Alenia ATR-72"
-  },
-  {
-    "IATA_Code": "AR1",
-    "Model": "Avro RJ100 Avroliner"
-  },
-  {
-    "IATA_Code": "AR7",
-    "Model": "Avro RJ70 Avroliner"
-  },
-  {
-    "IATA_Code": "AR8",
-    "Model": "Avro RJ85 Avroliner"
+    "IATA_Code": "100",
+    "ICAO_Code": "F100",
+    "Model": "Fokker 100"
   },
   {
     "IATA_Code": "141",
+    "ICAO_Code": "B461",
     "Model": "Bae 146-100"
   },
   {
     "IATA_Code": "142",
+    "ICAO_Code": "B462",
     "Model": "Bae 146-200"
   },
   {
     "IATA_Code": "143",
+    "ICAO_Code": "B463",
     "Model": "Bae 146-300"
   },
   {
-    "IATA_Code": "J31",
-    "Model": "Bae Jetstream 31"
+    "IATA_Code": "221",
+    "ICAO_Code": "BCS1",
+    "Model": "Airbus A220-100"
   },
   {
-    "IATA_Code": "J32",
-    "Model": "Bae Jetstream 32"
+    "IATA_Code": "312",
+    "ICAO_Code": "A310",
+    "Model": "Airbus A310-200"
   },
   {
-    "IATA_Code": "J41",
-    "Model": "Bae Jetstream 41"
+    "IATA_Code": "313",
+    "ICAO_Code": "A310",
+    "Model": "Airbus A310-300"
   },
   {
-    "IATA_Code": "BET",
-    "Model": "Beech King Air"
+    "IATA_Code": "318",
+    "ICAO_Code": "A318",
+    "Model": "Airbus A318"
+  },
+  {
+    "IATA_Code": "319",
+    "ICAO_Code": "A319",
+    "Model": "Airbus A319"
+  },
+  {
+    "IATA_Code": "31N",
+    "ICAO_Code": "A319N",
+    "Model": "Airbus A319neo"
+  },
+  {
+    "IATA_Code": "320",
+    "ICAO_Code": "A320",
+    "Model": "Airbus A320"
+  },
+  {
+    "IATA_Code": "321",
+    "ICAO_Code": "A321",
+    "Model": "Airbus A321"
+  },
+  {
+    "IATA_Code": "32A",
+    "ICAO_Code": "A320S",
+    "Model": "Airbus A320 Sharklets"
+  },
+  {
+    "IATA_Code": "32B",
+    "ICAO_Code": "A321I",
+    "Model": "Airbus A321 Intercontinental"
+  },
+  {
+    "IATA_Code": "32C",
+    "ICAO_Code": "A318",
+    "Model": "Airbus A318"
+  },
+  {
+    "IATA_Code": "32D",
+    "ICAO_Code": "A319",
+    "Model": "Airbus A319"
+  },
+  {
+    "IATA_Code": "32N",
+    "ICAO_Code": "A320N",
+    "Model": "Airbus A320neo"
+  },
+  {
+    "IATA_Code": "32Q",
+    "ICAO_Code": "A321N",
+    "Model": "Airbus A321neo"
+  },
+  {
+    "IATA_Code": "330",
+    "ICAO_Code": "A330",
+    "Model": "Airbus A330ceo"
+  },
+  {
+    "IATA_Code": "332",
+    "ICAO_Code": "A332",
+    "Model": "Airbus A330-200"
+  },
+  {
+    "IATA_Code": "333",
+    "ICAO_Code": "A333",
+    "Model": "Airbus A330-300"
+  },
+  {
+    "IATA_Code": "33X",
+    "ICAO_Code": "A332",
+    "Model": "Airbus A330-200 Freighter"
+  },
+  {
+    "IATA_Code": "33Y",
+    "ICAO_Code": "A333",
+    "Model": "Airbus A330-300 Freighter"
+  },
+  {
+    "IATA_Code": "342",
+    "ICAO_Code": "A342",
+    "Model": "Airbus A340-200"
+  },
+  {
+    "IATA_Code": "343",
+    "ICAO_Code": "A343",
+    "Model": "Airbus A340-300"
+  },
+  {
+    "IATA_Code": "345",
+    "ICAO_Code": "A345",
+    "Model": "Airbus A340-500"
+  },
+  {
+    "IATA_Code": "346",
+    "ICAO_Code": "A346",
+    "Model": "Airbus A340-600"
+  },
+  {
+    "IATA_Code": "351",
+    "ICAO_Code": "A35K",
+    "Model": "Airbus A350-1000"
+  },
+  {
+    "IATA_Code": "359",
+    "ICAO_Code": "A359",
+    "Model": "Airbus A350-900"
+  },
+  {
+    "IATA_Code": "388",
+    "ICAO_Code": "A388",
+    "Model": "Airbus A380-800"
   },
   {
     "IATA_Code": "721",
+    "ICAO_Code": "B721",
     "Model": "Boeing 727-100"
   },
   {
     "IATA_Code": "722",
+    "ICAO_Code": "B722",
     "Model": "Boeing 727-200"
   },
   {
     "IATA_Code": "733",
-    "Model": "Boeing 737-300"
-  },
-  {
-    "IATA_Code": "73C",
+    "ICAO_Code": "B733",
     "Model": "Boeing 737-300"
   },
   {
     "IATA_Code": "734",
+    "ICAO_Code": "B734",
     "Model": "Boeing 737-400"
   },
   {
     "IATA_Code": "735",
-    "Model": "Boeing 737-500"
-  },
-  {
-    "IATA_Code": "73E",
+    "ICAO_Code": "B735",
     "Model": "Boeing 737-500"
   },
   {
     "IATA_Code": "736",
+    "ICAO_Code": "B736",
     "Model": "Boeing 737-600"
   },
   {
-    "IATA_Code": "73G",
-    "Model": "Boeing 737-700"
-  },
-  {
-    "IATA_Code": "73W",
-    "Model": "Boeing 737-700"
-  },
-  {
     "IATA_Code": "738",
-    "Model": "Boeing 737-800"
-  },
-  {
-    "IATA_Code": "73H",
-    "Model": "Boeing 737-800"
-  },
-  {
-    "IATA_Code": "7S8",
+    "ICAO_Code": "B738",
     "Model": "Boeing 737-800"
   },
   {
     "IATA_Code": "739",
+    "ICAO_Code": "B739",
     "Model": "Boeing 737-900"
   },
   {
-    "IATA_Code": "73J",
-    "Model": "Boeing 737-900"
+    "IATA_Code": "73C",
+    "ICAO_Code": "B733",
+    "Model": "Boeing 737-300"
   },
   {
-    "IATA_Code": "7M7",
-    "Model": "Boeing 737 MAX 7"
+    "IATA_Code": "73E",
+    "ICAO_Code": "B735",
+    "Model": "Boeing 737-500"
   },
   {
-    "IATA_Code": "7M8",
-    "Model": "Boeing 737 MAX 8"
+    "IATA_Code": "73F",
+    "ICAO_Code": "B732",
+    "Model": "Boeing 737-200 Freighter"
   },
   {
-    "IATA_Code": "7M9",
-    "Model": "Boeing 737 MAX 9"
-  },
-  {
-    "IATA_Code": "7MJ",
-    "Model": "Boeing 737 MAX 10"
-  },
-  {
-    "IATA_Code": "73W",
-    "Model": "Boeing 737-BBJ"
+    "IATA_Code": "73G",
+    "ICAO_Code": "B737",
+    "Model": "Boeing 737-700"
   },
   {
     "IATA_Code": "73H",
+    "ICAO_Code": "B738",
+    "Model": "Boeing 737-800"
+  },
+  {
+    "IATA_Code": "73H2",
+    "ICAO_Code": "B737",
     "Model": "Boeing 737-BBJ2"
   },
   {
     "IATA_Code": "73J",
+    "ICAO_Code": "B739",
+    "Model": "Boeing 737-900"
+  },
+  {
+    "IATA_Code": "73J3",
+    "ICAO_Code": "B739",
     "Model": "Boeing 737-BBJ3"
   },
   {
+    "IATA_Code": "73K",
+    "ICAO_Code": "B738",
+    "Model": "Boeing 737-800 Freighter Winglets"
+  },
+  {
+    "IATA_Code": "73L",
+    "ICAO_Code": "B732",
+    "Model": "Boeing 737-200 Combi[4]"
+  },
+  {
+    "IATA_Code": "73W",
+    "ICAO_Code": "B737",
+    "Model": "Boeing 737-700"
+  },
+  {
+    "IATA_Code": "73W",
+    "ICAO_Code": "B737",
+    "Model": "Boeing 737-BBJ"
+  },
+  {
     "IATA_Code": "744",
+    "ICAO_Code": "B744",
     "Model": "Boeing 747-400"
   },
   {
     "IATA_Code": "748",
+    "ICAO_Code": "B748",
     "Model": "Boeing 747-8"
   },
   {
     "IATA_Code": "74L",
+    "ICAO_Code": "B747",
     "Model": "Boeing 747-SP"
   },
   {
     "IATA_Code": "752",
+    "ICAO_Code": "B752",
     "Model": "Boeing 757-200"
   },
   {
     "IATA_Code": "75W",
+    "ICAO_Code": "B752",
     "Model": "Boeing 757-200"
   },
   {
     "IATA_Code": "762",
+    "ICAO_Code": "B762",
     "Model": "Boeing 767-200"
   },
   {
     "IATA_Code": "763",
-    "Model": "Boeing 767-300"
-  },
-  {
-    "IATA_Code": "76W",
+    "ICAO_Code": "B763",
     "Model": "Boeing 767-300"
   },
   {
     "IATA_Code": "764",
+    "ICAO_Code": "B764",
     "Model": "Boeing 767-400"
   },
   {
+    "IATA_Code": "76W",
+    "ICAO_Code": "B763",
+    "Model": "Boeing 767-300"
+  },
+  {
     "IATA_Code": "772",
+    "ICAO_Code": "B772",
     "Model": "Boeing 777-200"
   },
   {
-    "IATA_Code": "77L",
-    "Model": "Boeing 777-200LR"
-  },
-  {
     "IATA_Code": "773",
+    "ICAO_Code": "B773",
     "Model": "Boeing 777-300"
   },
   {
+    "IATA_Code": "77L",
+    "ICAO_Code": "B772",
+    "Model": "Boeing 777-200LR"
+  },
+  {
     "IATA_Code": "77W",
+    "ICAO_Code": "B773",
     "Model": "Boeing 777-300ER"
   },
   {
+    "IATA_Code": "781",
+    "ICAO_Code": "B78X",
+    "Model": "Boeing 787-10 Dreamliner"
+  },
+  {
     "IATA_Code": "787",
+    "ICAO_Code": "B787",
     "Model": "Boeing 787 Dreamliner"
   },
   {
     "IATA_Code": "788",
+    "ICAO_Code": "B788",
     "Model": "Boeing 787-8 Dreamliner"
   },
   {
     "IATA_Code": "789",
+    "ICAO_Code": "B789",
     "Model": "Boeing 787-9 Dreamliner"
   },
   {
-    "IATA_Code": "MBH",
-    "Model": "Bolkow Bo-105"
+    "IATA_Code": "7M7",
+    "ICAO_Code": "B37M",
+    "Model": "Boeing 737 MAX 7"
   },
   {
-    "IATA_Code": "CCX",
-    "Model": "Bombardier BD700 Global 5000"
+    "IATA_Code": "7M8",
+    "ICAO_Code": "B78M",
+    "Model": "Boeing 737 MAX 8"
   },
   {
-    "IATA_Code": "CL3",
-    "Model": "Bombardier Challenger 300"
+    "IATA_Code": "7M9",
+    "ICAO_Code": "B79M",
+    "Model": "Boeing 737 MAX 9"
   },
   {
-    "IATA_Code": "CCX",
-    "Model": "Bombardier Global Express"
+    "IATA_Code": "7MJ",
+    "ICAO_Code": "B7XM",
+    "Model": "Boeing 737 MAX 10"
   },
   {
-    "IATA_Code": "BNI",
-    "Model": "Britten Norman BN-2"
+    "IATA_Code": "7S8",
+    "ICAO_Code": "B738",
+    "Model": "Boeing 737-800"
   },
   {
-    "IATA_Code": "BNT",
-    "Model": "Britten Norman BN-2 Mk3"
+    "IATA_Code": "A26",
+    "ICAO_Code": "AN26",
+    "Model": "Antonov An-26"
   },
   {
-    "IATA_Code": "CCJ",
-    "Model": "Canadair Challenger 600"
+    "IATA_Code": "A28",
+    "ICAO_Code": "AN28",
+    "Model": "Antonov An-28"
   },
   {
-    "IATA_Code": "CCJ",
-    "Model": "Canadair Challenger 601"
+    "IATA_Code": "A30",
+    "ICAO_Code": "AN30",
+    "Model": "Antonov An-30"
   },
   {
-    "IATA_Code": "CCJ",
-    "Model": "Canadair Challenger 604"
+    "IATA_Code": "A32",
+    "ICAO_Code": "AN32",
+    "Model": "Antonov An-32"
   },
   {
-    "IATA_Code": "CCJ",
-    "Model": "Canadair Challenger 605"
+    "IATA_Code": "A40",
+    "ICAO_Code": "A140",
+    "Model": "Antonov An-140"
   },
   {
-    "IATA_Code": "CR2",
-    "Model": "Canadair Challenger 850"
+    "IATA_Code": "A4F",
+    "ICAO_Code": "A124",
+    "Model": "Antonov An-124 Ruslan"
   },
   {
-    "IATA_Code": "CR7",
-    "Model": "Canadair Challenger 870"
+    "IATA_Code": "A58",
+    "ICAO_Code": "A158",
+    "Model": "Antonov An-158"
   },
   {
-    "IATA_Code": "CR9",
-    "Model": "Canadair Challenger 890"
+    "IATA_Code": "A5F",
+    "ICAO_Code": "A225",
+    "Model": "Antonov An-225 Mriya"
   },
   {
-    "IATA_Code": "CR1",
-    "Model": "Canadair Regional Jet 100"
+    "IATA_Code": "A81",
+    "ICAO_Code": "A148",
+    "Model": "Antonov An-148"
   },
   {
-    "IATA_Code": "CRK",
-    "Model": "Canadair Regional Jet 1000"
+    "IATA_Code": "AB4",
+    "ICAO_Code": "A30B",
+    "Model": "Airbus A300B2, A300B4 and A300C4"
   },
   {
-    "IATA_Code": "CR2",
-    "Model": "Canadair Regional Jet 200"
+    "IATA_Code": "AB6",
+    "ICAO_Code": "A306",
+    "Model": "Airbus A300-600"
   },
   {
-    "IATA_Code": "CR7",
-    "Model": "Canadair Regional Jet 700"
+    "IATA_Code": "ABB",
+    "ICAO_Code": "A3ST",
+    "Model": "Airbus A300-600ST Beluga"
   },
   {
-    "IATA_Code": "CRA",
-    "Model": "Canadair Regional Jet 705"
+    "IATA_Code": "ABY",
+    "ICAO_Code": "A306",
+    "Model": "Airbus A300-600 Freighter[4]"
   },
   {
-    "IATA_Code": "CR9",
-    "Model": "Canadair Regional Jet 900"
+    "IATA_Code": "ACT",
+    "ICAO_Code": "AC90",
+    "Model": "Gulfstream/Rockwell (Aero) Turbo Commander 690"
   },
   {
-    "IATA_Code": "CNC",
-    "Model": "Cessna 208"
+    "IATA_Code": "AGH",
+    "ICAO_Code": "A109",
+    "Model": "AgustaWestland A109"
   },
   {
-    "IATA_Code": "CNT",
-    "Model": "Cessna 425"
+    "IATA_Code": "APH",
+    "ICAO_Code": "AS332",
+    "Model": "Aerospatiale AS332"
   },
   {
-    "IATA_Code": "CNT",
-    "Model": "Cessna 441"
+    "IATA_Code": "AR1",
+    "ICAO_Code": "RJ1H",
+    "Model": "Avro RJ100 Avroliner"
   },
   {
-    "IATA_Code": "CJ1",
-    "Model": "Cessna 500 Citation 1"
+    "IATA_Code": "AR7",
+    "ICAO_Code": "RJ70",
+    "Model": "Avro RJ70 Avroliner"
   },
   {
-    "IATA_Code": "CJ1",
-    "Model": "Cessna 501 Citation 1SP"
+    "IATA_Code": "AR8",
+    "ICAO_Code": "RJ85",
+    "Model": "Avro RJ85 Avroliner"
   },
   {
-    "IATA_Code": "CJM",
-    "Model": "Cessna 510 Citation"
+    "IATA_Code": "ASJ",
+    "ICAO_Code": "I1125",
+    "Model": "IAI 1125"
   },
   {
-    "IATA_Code": "CJ1",
-    "Model": "Cessna 525 Citation CJ1"
+    "IATA_Code": "AT3",
+    "ICAO_Code": "AT43",
+    "Model": "Alenia ATR-42-300"
   },
   {
-    "IATA_Code": "CJ1",
-    "Model": "Cessna 525 Citation CJ2"
+    "IATA_Code": "AT4",
+    "ICAO_Code": "AT44",
+    "Model": "Alenia ATR-42-400"
   },
   {
-    "IATA_Code": "CJ1",
-    "Model": "Cessna 525 Citation CJ3"
+    "IATA_Code": "AT5",
+    "ICAO_Code": "AT45",
+    "Model": "Alenia ATR-42-500"
   },
   {
-    "IATA_Code": "CJ4",
-    "Model": "Cessna 525 Citation CJ4"
+    "IATA_Code": "AT6",
+    "ICAO_Code": "AT46",
+    "Model": "Alenia ATR-42-600"
   },
   {
-    "IATA_Code": "CJ1",
-    "Model": "Cessna 526 Citation"
+    "IATA_Code": "AT7",
+    "ICAO_Code": "AT7",
+    "Model": "Alenia ATR-72"
   },
   {
-    "IATA_Code": "CJ2",
-    "Model": "Cessna 550 Citation 2"
+    "IATA_Code": "ATP",
+    "ICAO_Code": "ATP",
+    "Model": "British Aerospace ATP"
   },
   {
-    "IATA_Code": "CJ2",
-    "Model": "Cessna 551 Citation 2SP"
+    "IATA_Code": "AWH",
+    "ICAO_Code": "AWH",
+    "Model": "AgustaWestland AW139"
   },
   {
-    "IATA_Code": "CJ5",
-    "Model": "Cessna 560 Citation Encore"
+    "IATA_Code": "B11",
+    "ICAO_Code": "BA11",
+    "Model": "British Aerospace (BAC) One Eleven"
   },
   {
-    "IATA_Code": "CJ5",
-    "Model": "Cessna 560 Citation Ultra"
+    "IATA_Code": "B72",
+    "ICAO_Code": "B720",
+    "Model": "Boeing 720B"
   },
   {
-    "IATA_Code": "CJ5",
-    "Model": "Cessna 560 Citation V"
-  },
-  {
-    "IATA_Code": "CJL",
-    "Model": "Cessna 560 Citation XL"
-  },
-  {
-    "IATA_Code": "CJL",
-    "Model": "Cessna 560 Citation XLS"
-  },
-  {
-    "IATA_Code": "CJ6",
-    "Model": "Cessna 650 Citation"
-  },
-  {
-    "IATA_Code": "CJ8",
-    "Model": "Cessna 680 Citation"
-  },
-  {
-    "IATA_Code": "CN7",
-    "Model": "Cessna 750 Citation X"
-  },
-  {
-    "IATA_Code": "DF1",
-    "Model": "Dassault Falcon 10"
-  },
-  {
-    "IATA_Code": "DF1",
-    "Model": "Dassault Falcon 100"
-  },
-  {
-    "IATA_Code": "DF2",
-    "Model": "Dassault Falcon 20"
-  },
-  {
-    "IATA_Code": "DF2",
-    "Model": "Dassault Falcon 200"
-  },
-  {
-    "IATA_Code": "D20",
-    "Model": "Dassault Falcon 2000"
-  },
-  {
-    "IATA_Code": "D20",
-    "Model": "Dassault Falcon 2000DX"
-  },
-  {
-    "IATA_Code": "D2L",
-    "Model": "Dassault Falcon 2000EASY"
-  },
-  {
-    "IATA_Code": "D2L",
-    "Model": "Dassault Falcon 2000EX"
-  },
-  {
-    "IATA_Code": "D2L",
-    "Model": "Dassault Falcon 2000LX"
-  },
-  {
-    "IATA_Code": "DF5",
-    "Model": "Dassault Falcon 50"
-  },
-  {
-    "IATA_Code": "DF7",
-    "Model": "Dassault Falcon 7X"
-  },
-  {
-    "IATA_Code": "DF9",
-    "Model": "Dassault Falcon 900"
-  },
-  {
-    "IATA_Code": "DF9",
-    "Model": "Dassault Falcon 900B"
-  },
-  {
-    "IATA_Code": "DF9",
-    "Model": "Dassault Falcon 900C"
-  },
-  {
-    "IATA_Code": "DF9",
-    "Model": "Dassault Falcon 900DX"
-  },
-  {
-    "IATA_Code": "DF9",
-    "Model": "Dassault Falcon 900EASY"
-  },
-  {
-    "IATA_Code": "DF9",
-    "Model": "Dassault Falcon 900EX"
-  },
-  {
-    "IATA_Code": "D9L",
-    "Model": "Dassault Falcon 900LX"
-  },
-  {
-    "IATA_Code": "DH1",
-    "Model": "De Havilland DHC-8-100"
-  },
-  {
-    "IATA_Code": "DH2",
-    "Model": "De Havilland DHC-8-200"
-  },
-  {
-    "IATA_Code": "DH3",
-    "Model": "De Havilland DHC-8-300"
-  },
-  {
-    "IATA_Code": "DH4",
-    "Model": "De Havilland DHC-8-400"
-  },
-  {
-    "IATA_Code": "D42",
-    "Model": "Diamond DA42"
-  },
-  {
-    "IATA_Code": "D28",
-    "Model": "Dornier 228"
-  },
-  {
-    "IATA_Code": "D38",
-    "Model": "Dornier 328-100"
-  },
-  {
-    "IATA_Code": "FRJ",
-    "Model": "Dornier 328-300"
-  },
-  {
-    "IATA_Code": "EA5",
-    "Model": "Eclipse EA500"
-  },
-  {
-    "IATA_Code": "EMB",
-    "Model": "Embraer 110"
-  },
-  {
-    "IATA_Code": "EM2",
-    "Model": "Embraer 120"
-  },
-  {
-    "IATA_Code": "ER3",
-    "Model": "Embraer 135"
-  },
-  {
-    "IATA_Code": "ER4",
-    "Model": "Embraer 145"
-  },
-  {
-    "IATA_Code": "E70",
-    "Model": "Embraer 170"
-  },
-  {
-    "IATA_Code": "E75",
-    "Model": "Embraer 175"
-  },
-  {
-    "IATA_Code": "E90",
-    "Model": "Embraer 190"
-  },
-  {
-    "IATA_Code": "E95",
-    "Model": "Embraer 195"
-  },
-  {
-    "IATA_Code": "EP1",
-    "Model": "Embraer 500 Phenom 100"
-  },
-  {
-    "IATA_Code": "EP3",
-    "Model": "Embraer 505 Phenom 300"
-  },
-  {
-    "IATA_Code": "ER3",
-    "Model": "Embraer Legacy 600/650"
-  },
-  {
-    "IATA_Code": "E90",
-    "Model": "Embraer Lineage 1000"
-  },
-  {
-    "IATA_Code": "EC3",
-    "Model": "Eurocopter EC130"
-  },
-  {
-    "IATA_Code": "EC3",
-    "Model": "Eurocopter EC135"
-  },
-  {
-    "IATA_Code": "EC5",
-    "Model": "Eurocopter EC155"
-  },
-  {
-    "IATA_Code": "SWM",
-    "Model": "Fairchild SA226/227"
-  },
-  {
-    "IATA_Code": "SWM",
-    "Model": "Fairchild SA26/226"
-  },
-  {
-    "IATA_Code": "100",
-    "Model": "Fokker 100"
-  },
-  {
-    "IATA_Code": "F50",
-    "Model": "Fokker 50"
-  },
-  {
-    "IATA_Code": "F70",
-    "Model": "Fokker 70"
-  },
-  {
-    "IATA_Code": "GA8",
-    "Model": "Gippsland GA-8"
-  },
-  {
-    "IATA_Code": "GRS",
-    "Model": "Gulfstream 1"
-  },
-  {
-    "IATA_Code": "GJ2",
-    "Model": "Gulfstream 2"
-  },
-  {
-    "IATA_Code": "G2B",
-    "Model": "Gulfstream 2B"
-  },
-  {
-    "IATA_Code": "G2S",
-    "Model": "Gulfstream 2SP"
-  },
-  {
-    "IATA_Code": "GJ3",
-    "Model": "Gulfstream 3"
-  },
-  {
-    "IATA_Code": "GJ4",
-    "Model": "Gulfstream 300"
-  },
-  {
-    "IATA_Code": "GJ4",
-    "Model": "Gulfstream 350"
-  },
-  {
-    "IATA_Code": "GJ4",
-    "Model": "Gulfstream 4"
-  },
-  {
-    "IATA_Code": "GJ4",
-    "Model": "Gulfstream 400"
-  },
-  {
-    "IATA_Code": "GJ4",
-    "Model": "Gulfstream 450"
-  },
-  {
-    "IATA_Code": "GJ4",
-    "Model": "Gulfstream 4SP"
-  },
-  {
-    "IATA_Code": "GJ5",
-    "Model": "Gulfstream 5"
-  },
-  {
-    "IATA_Code": "GJ5",
-    "Model": "Gulfstream 500"
-  },
-  {
-    "IATA_Code": "GJ5",
-    "Model": "Gulfstream 550"
-  },
-  {
-    "IATA_Code": "GJ6",
-    "Model": "Gulfstream 650"
-  },
-  {
-    "IATA_Code": "GR1",
-    "Model": "Gulfstream Aerospace (IAI) G100"
-  },
-  {
-    "IATA_Code": "GR1",
-    "Model": "Gulfstream Aerospace (IAI) G150"
-  },
-  {
-    "IATA_Code": "GR2",
-    "Model": "Gulfstream Aerospace (IAI) G200"
-  },
-  {
-    "IATA_Code": "GR3",
-    "Model": "Gulfstream Aerospace (IAI) G280"
-  },
-  {
-    "IATA_Code": "H21",
-    "Model": "Hawker 1000"
-  },
-  {
-    "IATA_Code": "H20",
-    "Model": "Hawker 200"
-  },
-  {
-    "IATA_Code": "PR1",
-    "Model": "Hawker 390 Premier 1"
+    "IATA_Code": "B99",
+    "ICAO_Code": "BE99",
+    "Model": "Beechcraft Model 99"
   },
   {
     "IATA_Code": "BE4",
+    "ICAO_Code": "BE4",
     "Model": "Hawker 400"
   },
   {
-    "IATA_Code": "H24",
-    "Model": "Hawker 4000"
-  },
-  {
     "IATA_Code": "BE4",
+    "ICAO_Code": "BE4A",
     "Model": "Hawker 400A"
   },
   {
     "IATA_Code": "BE4",
+    "ICAO_Code": "BE4T",
     "Model": "Hawker 400T"
   },
   {
     "IATA_Code": "BE4",
+    "ICAO_Code": "VE4X",
     "Model": "Hawker 400XP"
   },
   {
+    "IATA_Code": "BET",
+    "ICAO_Code": "BET",
+    "Model": "Beech King Air"
+  },
+  {
+    "IATA_Code": "BNI",
+    "ICAO_Code": "BNI2",
+    "Model": "Britten Norman BN-2"
+  },
+  {
+    "IATA_Code": "BNT",
+    "ICAO_Code": "BNT2",
+    "Model": "Britten Norman BN-2 Mk3"
+  },
+  {
+    "IATA_Code": "CCJ",
+    "ICAO_Code": "CL60",
+    "Model": "Canadair Challenger 600"
+  },
+  {
+    "IATA_Code": "CCJ",
+    "ICAO_Code": "CL61",
+    "Model": "Canadair Challenger 601"
+  },
+  {
+    "IATA_Code": "CCJ",
+    "ICAO_Code": "CL64",
+    "Model": "Canadair Challenger 604"
+  },
+  {
+    "IATA_Code": "CCJ",
+    "ICAO_Code": "CL65",
+    "Model": "Canadair Challenger 605"
+  },
+  {
+    "IATA_Code": "CCX",
+    "ICAO_Code": "GL5T",
+    "Model": "Bombardier BD700 Global 5000"
+  },
+  {
+    "IATA_Code": "CCX",
+    "ICAO_Code": "GLEX",
+    "Model": "Bombardier Global Express"
+  },
+  {
+    "IATA_Code": "CD2",
+    "ICAO_Code": "NOMA",
+    "Model": "Government Aircraft Factories N22B / N24A Nomad"
+  },
+  {
+    "IATA_Code": "CJ1",
+    "ICAO_Code": "C00",
+    "Model": "Cessna 500 Citation 1"
+  },
+  {
+    "IATA_Code": "CJ1",
+    "ICAO_Code": "C01",
+    "Model": "Cessna 501 Citation 1SP"
+  },
+  {
+    "IATA_Code": "CJ1",
+    "ICAO_Code": "C25",
+    "Model": "Cessna 525 Citation CJ1"
+  },
+  {
+    "IATA_Code": "CJ1",
+    "ICAO_Code": "C25A",
+    "Model": "Cessna 525 Citation CJ2"
+  },
+  {
+    "IATA_Code": "CJ1",
+    "ICAO_Code": "C25B",
+    "Model": "Cessna 525 Citation CJ3"
+  },
+  {
+    "IATA_Code": "CJ1",
+    "ICAO_Code": "C26",
+    "Model": "Cessna 526 Citation"
+  },
+  {
+    "IATA_Code": "CJ2",
+    "ICAO_Code": "C50",
+    "Model": "Cessna 550 Citation 2"
+  },
+  {
+    "IATA_Code": "CJ2",
+    "ICAO_Code": "C51",
+    "Model": "Cessna 551 Citation 2SP"
+  },
+  {
+    "IATA_Code": "CJ4",
+    "ICAO_Code": "C25C",
+    "Model": "Cessna 525 Citation CJ4"
+  },
+  {
+    "IATA_Code": "CJ5",
+    "ICAO_Code": "C60",
+    "Model": "Cessna 560 Citation Encore"
+  },
+  {
+    "IATA_Code": "CJ5",
+    "ICAO_Code": "C60U",
+    "Model": "Cessna 560 Citation Ultra"
+  },
+  {
+    "IATA_Code": "CJ5",
+    "ICAO_Code": "C560",
+    "Model": "Cessna 560 Citation V"
+  },
+  {
+    "IATA_Code": "CJ6",
+    "ICAO_Code": "C650",
+    "Model": "Cessna 650 Citation"
+  },
+  {
+    "IATA_Code": "CJ8",
+    "ICAO_Code": "C680",
+    "Model": "Cessna 680 Citation"
+  },
+  {
+    "IATA_Code": "CJL",
+    "ICAO_Code": "C560",
+    "Model": "Cessna 560 Citation XL"
+  },
+  {
+    "IATA_Code": "CJL",
+    "ICAO_Code": "C650X",
+    "Model": "Cessna 560 Citation XLS"
+  },
+  {
+    "IATA_Code": "CJM",
+    "ICAO_Code": "C750",
+    "Model": "Cessna 510 Citation"
+  },
+  {
+    "IATA_Code": "CL3",
+    "ICAO_Code": "B300",
+    "Model": "Bombardier Challenger 300"
+  },
+  {
+    "IATA_Code": "CN7",
+    "ICAO_Code": "C750X",
+    "Model": "Cessna 750 Citation X"
+  },
+  {
+    "IATA_Code": "CNC",
+    "ICAO_Code": "C208",
+    "Model": "Cessna 208"
+  },
+  {
+    "IATA_Code": "CNJ",
+    "ICAO_Code": "C56X",
+    "Model": "Cessna Citation Excel"
+  },
+  {
+    "IATA_Code": "CNT",
+    "ICAO_Code": "C425",
+    "Model": "Cessna 425"
+  },
+  {
+    "IATA_Code": "CNT",
+    "ICAO_Code": "C441",
+    "Model": "Cessna 441"
+  },
+  {
+    "IATA_Code": "CR1",
+    "ICAO_Code": "CRJ1",
+    "Model": "Canadair Regional Jet 100"
+  },
+  {
+    "IATA_Code": "CR2",
+    "ICAO_Code": "CR2",
+    "Model": "Canadair Challenger 850"
+  },
+  {
+    "IATA_Code": "CR2",
+    "ICAO_Code": "CRJ2",
+    "Model": "Canadair Regional Jet 200"
+  },
+  {
+    "IATA_Code": "CR7",
+    "ICAO_Code": "CRJ7",
+    "Model": "Canadair Challenger 870"
+  },
+  {
+    "IATA_Code": "CR7",
+    "ICAO_Code": "CRJ7",
+    "Model": "Canadair Regional Jet 700"
+  },
+  {
+    "IATA_Code": "CR9",
+    "ICAO_Code": "CRJ9",
+    "Model": "Canadair Challenger 890"
+  },
+  {
+    "IATA_Code": "CR9",
+    "ICAO_Code": "CRJ9",
+    "Model": "Canadair Regional Jet 900"
+  },
+  {
+    "IATA_Code": "CRA",
+    "ICAO_Code": "CRA",
+    "Model": "Canadair Regional Jet 705"
+  },
+  {
+    "IATA_Code": "CRK",
+    "ICAO_Code": "CRX",
+    "Model": "Canadair Regional Jet 1000"
+  },
+  {
+    "IATA_Code": "CV5",
+    "ICAO_Code": "CVLT",
+    "Model": "Convair CV-580"
+  },
+  {
+    "IATA_Code": "D11",
+    "ICAO_Code": "DC10",
+    "Model": "Douglas DC-10-10 / -15 Passenger"
+  },
+  {
+    "IATA_Code": "D1C",
+    "ICAO_Code": "DC10",
+    "Model": "Douglas DC-10-30 / -40 Passenger"
+  },
+  {
+    "IATA_Code": "D1M",
+    "ICAO_Code": "DC10",
+    "Model": "Douglas DC-10-30 Combi"
+  },
+  {
+    "IATA_Code": "D1X",
+    "ICAO_Code": "DC10",
+    "Model": "Douglas DC-10-10 Freighter"
+  },
+  {
+    "IATA_Code": "D1Y",
+    "ICAO_Code": "DC10",
+    "Model": "Douglas DC-10-30 / -40 Freighter"
+  },
+  {
+    "IATA_Code": "D20",
+    "ICAO_Code": "F2TH",
+    "Model": "Dassault Falcon 2000"
+  },
+  {
+    "IATA_Code": "D20",
+    "ICAO_Code": "F2TI",
+    "Model": "Dassault Falcon 2000DX"
+  },
+  {
+    "IATA_Code": "D28",
+    "ICAO_Code": "D28",
+    "Model": "Dornier 228"
+  },
+  {
+    "IATA_Code": "D2L",
+    "ICAO_Code": "D2E",
+    "Model": "Dassault Falcon 2000EASY"
+  },
+  {
+    "IATA_Code": "D2L",
+    "ICAO_Code": "D2X",
+    "Model": "Dassault Falcon 2000EX"
+  },
+  {
+    "IATA_Code": "D2L",
+    "ICAO_Code": "D2L",
+    "Model": "Dassault Falcon 2000LX"
+  },
+  {
+    "IATA_Code": "D38",
+    "ICAO_Code": "D328",
+    "Model": "Dornier 328-100"
+  },
+  {
+    "IATA_Code": "D42",
+    "ICAO_Code": "DA42",
+    "Model": "Diamond DA42"
+  },
+  {
+    "IATA_Code": "D9L",
+    "ICAO_Code": "DL9",
+    "Model": "Dassault Falcon 900LX"
+  },
+  {
+    "IATA_Code": "DF1",
+    "ICAO_Code": "DF1",
+    "Model": "Dassault Falcon 10"
+  },
+  {
+    "IATA_Code": "DF1",
+    "ICAO_Code": "DF1",
+    "Model": "Dassault Falcon 100"
+  },
+  {
+    "IATA_Code": "DF2",
+    "ICAO_Code": "DF2",
+    "Model": "Dassault Falcon 20"
+  },
+  {
+    "IATA_Code": "DF2",
+    "ICAO_Code": "DF2",
+    "Model": "Dassault Falcon 200"
+  },
+  {
+    "IATA_Code": "DF5",
+    "ICAO_Code": "DF5",
+    "Model": "Dassault Falcon 50"
+  },
+  {
+    "IATA_Code": "DF7",
+    "ICAO_Code": "DF7",
+    "Model": "Dassault Falcon 7X"
+  },
+  {
+    "IATA_Code": "DF9",
+    "ICAO_Code": "DF9",
+    "Model": "Dassault Falcon 900"
+  },
+  {
+    "IATA_Code": "DF9",
+    "ICAO_Code": "DFB",
+    "Model": "Dassault Falcon 900B"
+  },
+  {
+    "IATA_Code": "DF9",
+    "ICAO_Code": "DFC",
+    "Model": "Dassault Falcon 900C"
+  },
+  {
+    "IATA_Code": "DF9",
+    "ICAO_Code": "DFX",
+    "Model": "Dassault Falcon 900DX"
+  },
+  {
+    "IATA_Code": "DF9",
+    "ICAO_Code": "DFE",
+    "Model": "Dassault Falcon 900EASY"
+  },
+  {
+    "IATA_Code": "DF9",
+    "ICAO_Code": "DFEX",
+    "Model": "Dassault Falcon 900EX"
+  },
+  {
+    "IATA_Code": "DH1",
+    "ICAO_Code": "DH8A",
+    "Model": "De Havilland DHC-8-100"
+  },
+  {
+    "IATA_Code": "DH2",
+    "ICAO_Code": "DH8B",
+    "Model": "De Havilland DHC-8-200"
+  },
+  {
+    "IATA_Code": "DH3",
+    "ICAO_Code": "DH8C",
+    "Model": "De Havilland DHC-8-300"
+  },
+  {
+    "IATA_Code": "DH4",
+    "ICAO_Code": "DH8D",
+    "Model": "De Havilland DHC-8-400"
+  },
+  {
+    "IATA_Code": "DH7",
+    "ICAO_Code": "DHC7",
+    "Model": "De Havilland Canada DHC-7 Dash 7"
+  },
+  {
+    "IATA_Code": "DHC",
+    "ICAO_Code": "DHC5",
+    "Model": "De Havilland Canada DHC-5 Buffalo"
+  },
+  {
+    "IATA_Code": "DHT",
+    "ICAO_Code": "DHC6",
+    "Model": "De Havilland Canada DHC-6 Twin Otter"
+  },
+  {
+    "IATA_Code": "E50",
+    "ICAO_Code": "EA50",
+    "Model": "Eclipse 500"
+  },
+  {
+    "IATA_Code": "E70",
+    "ICAO_Code": "E170",
+    "Model": "Embraer 170"
+  },
+  {
+    "IATA_Code": "E75",
+    "ICAO_Code": "E75S",
+    "Model": "Embraer 175"
+  },
+  {
+    "IATA_Code": "E7W",
+    "ICAO_Code": "E75L",
+    "Model": "Embraer 175 (long wing)"
+  },
+  {
+    "IATA_Code": "E90",
+    "ICAO_Code": "E190",
+    "Model": "Embraer 190"
+  },
+  {
+    "IATA_Code": "E90",
+    "ICAO_Code": "E190",
+    "Model": "Embraer Lineage 1000"
+  },
+  {
+    "IATA_Code": "E95",
+    "ICAO_Code": "E195",
+    "Model": "Embraer 195"
+  },
+  {
+    "IATA_Code": "EA5",
+    "ICAO_Code": "EA5",
+    "Model": "Eclipse EA500"
+  },
+  {
+    "IATA_Code": "EC3",
+    "ICAO_Code": "EC3",
+    "Model": "Eurocopter EC130"
+  },
+  {
+    "IATA_Code": "EC3",
+    "ICAO_Code": "EC3",
+    "Model": "Eurocopter EC135"
+  },
+  {
+    "IATA_Code": "EC5",
+    "ICAO_Code": "EC5",
+    "Model": "Eurocopter EC155"
+  },
+  {
+    "IATA_Code": "EH1",
+    "ICAO_Code": "EH101",
+    "Model": "Agusta EH101"
+  },
+  {
+    "IATA_Code": "EM2",
+    "ICAO_Code": "EM2",
+    "Model": "Embraer 120"
+  },
+  {
+    "IATA_Code": "EMB",
+    "ICAO_Code": "EMB",
+    "Model": "Embraer 110"
+  },
+  {
+    "IATA_Code": "EP1",
+    "ICAO_Code": "E50P",
+    "Model": "Embraer 500 Phenom 100"
+  },
+  {
+    "IATA_Code": "EP3",
+    "ICAO_Code": "E55P",
+    "Model": "Embraer 505 Phenom 300"
+  },
+  {
+    "IATA_Code": "ER3",
+    "ICAO_Code": "E135",
+    "Model": "Embraer 135"
+  },
+  {
+    "IATA_Code": "ER3",
+    "ICAO_Code": "E35L",
+    "Model": "Embraer Legacy 600/650"
+  },
+  {
+    "IATA_Code": "ER4",
+    "ICAO_Code": "E145",
+    "Model": "Embraer 145"
+  },
+  {
+    "IATA_Code": "ERD",
+    "ICAO_Code": "E135",
+    "Model": "Embraer RJ140"
+  },
+  {
+    "IATA_Code": "F21",
+    "ICAO_Code": "F28",
+    "Model": "Fokker F28 Fellowship"
+  },
+  {
+    "IATA_Code": "F27",
+    "ICAO_Code": "F27",
+    "Model": "Fokker F27 Friendship"
+  },
+  {
+    "IATA_Code": "F50",
+    "ICAO_Code": "F50",
+    "Model": "Fokker 50"
+  },
+  {
+    "IATA_Code": "F70",
+    "ICAO_Code": "F70",
+    "Model": "Fokker 70"
+  },
+  {
+    "IATA_Code": "FRJ",
+    "ICAO_Code": "J328",
+    "Model": "Dornier 328-300"
+  },
+  {
+    "IATA_Code": "G2B",
+    "ICAO_Code": "GL2B",
+    "Model": "Gulfstream 2B"
+  },
+  {
+    "IATA_Code": "G2S",
+    "ICAO_Code": "GL2S",
+    "Model": "Gulfstream 2SP"
+  },
+  {
+    "IATA_Code": "G7C",
+    "ICAO_Code": "GA7C",
+    "Model": "Gulfstream G700"
+  },
+  {
+    "IATA_Code": "GA8",
+    "ICAO_Code": "GA8",
+    "Model": "Gippsland GA-8"
+  },
+  {
+    "IATA_Code": "GJ2",
+    "ICAO_Code": "GLF2",
+    "Model": "Gulfstream 2"
+  },
+  {
+    "IATA_Code": "GJ3",
+    "ICAO_Code": "GLF3",
+    "Model": "Gulfstream 3"
+  },
+  {
+    "IATA_Code": "GJ4",
+    "ICAO_Code": "GLF3",
+    "Model": "Gulfstream 300"
+  },
+  {
+    "IATA_Code": "GJ4",
+    "ICAO_Code": "GLF3",
+    "Model": "Gulfstream 350"
+  },
+  {
+    "IATA_Code": "GJ4",
+    "ICAO_Code": "GLF4",
+    "Model": "Gulfstream 4"
+  },
+  {
+    "IATA_Code": "GJ4",
+    "ICAO_Code": "GLF4",
+    "Model": "Gulfstream 400"
+  },
+  {
+    "IATA_Code": "GJ4",
+    "ICAO_Code": "GLF4",
+    "Model": "Gulfstream 450"
+  },
+  {
+    "IATA_Code": "GJ4",
+    "ICAO_Code": "GLF4",
+    "Model": "Gulfstream 4SP"
+  },
+  {
+    "IATA_Code": "GJ5",
+    "ICAO_Code": "GLF5",
+    "Model": "Gulfstream 5"
+  },
+  {
+    "IATA_Code": "GJ5",
+    "ICAO_Code": "GLF5",
+    "Model": "Gulfstream 500"
+  },
+  {
+    "IATA_Code": "GJ5",
+    "ICAO_Code": "GLF5",
+    "Model": "Gulfstream 550"
+  },
+  {
+    "IATA_Code": "GJ6",
+    "ICAO_Code": "GLF6",
+    "Model": "Gulfstream 650"
+  },
+  {
+    "IATA_Code": "GR1",
+    "ICAO_Code": "GLF10",
+    "Model": "Gulfstream Aerospace (IAI) G100"
+  },
+  {
+    "IATA_Code": "GR1",
+    "ICAO_Code": "GLF15",
+    "Model": "Gulfstream Aerospace (IAI) G150"
+  },
+  {
+    "IATA_Code": "GR2",
+    "ICAO_Code": "GL20",
+    "Model": "Gulfstream Aerospace (IAI) G200"
+  },
+  {
+    "IATA_Code": "GR3",
+    "ICAO_Code": "GL20",
+    "Model": "Gulfstream Aerospace (IAI) G280"
+  },
+  {
+    "IATA_Code": "GRM",
+    "ICAO_Code": "G73T",
+    "Model": "Grumman G-73 Turbo Mallard"
+  },
+  {
+    "IATA_Code": "GRS",
+    "ICAO_Code": "G159",
+    "Model": "Gulfstream 1"
+  },
+  {
+    "IATA_Code": "H20",
+    "ICAO_Code": "H20",
+    "Model": "Hawker 200"
+  },
+  {
+    "IATA_Code": "H21",
+    "ICAO_Code": "H21",
+    "Model": "Hawker 1000"
+  },
+  {
+    "IATA_Code": "H24",
+    "ICAO_Code": "H24",
+    "Model": "Hawker 4000"
+  },
+  {
     "IATA_Code": "H25",
+    "ICAO_Code": "H25B",
     "Model": "Hawker 750"
   },
   {
     "IATA_Code": "H25",
+    "ICAO_Code": "H25C",
     "Model": "Hawker 800"
   },
   {
     "IATA_Code": "H25",
+    "ICAO_Code": "H25D",
     "Model": "Hawker 800SP"
   },
   {
     "IATA_Code": "H25",
+    "ICAO_Code": "H25E",
     "Model": "Hawker 800XP"
   },
   {
+    "IATA_Code": "H25",
+    "ICAO_Code": "H25F",
+    "Model": "Hawker Siddeley (Bae) 125"
+  },
+  {
     "IATA_Code": "H28",
+    "ICAO_Code": "H28X",
     "Model": "Hawker 850XP"
   },
   {
     "IATA_Code": "H28",
+    "ICAO_Code": "H289",
     "Model": "Hawker 900"
   },
   {
     "IATA_Code": "H29",
+    "ICAO_Code": "H29",
     "Model": "Hawker 900XP"
   },
   {
-    "IATA_Code": "H25",
-    "Model": "Hawker Siddeley (Bae) 125"
+    "IATA_Code": "HHJ",
+    "ICAO_Code": "HDJT",
+    "Model": "Honda HA-420"
   },
   {
-    "IATA_Code": "WWP",
-    "Model": "IAI 1124"
+    "IATA_Code": "HS7",
+    "ICAO_Code": "A748",
+    "Model": "Hawker Siddeley HS 748"
   },
   {
-    "IATA_Code": "ASJ",
-    "Model": "IAI 1125"
+    "IATA_Code": "I14",
+    "ICAO_Code": "I114",
+    "Model": "Ilyushin Il-114"
+  },
+  {
+    "IATA_Code": "I93",
+    "ICAO_Code": "IL96",
+    "Model": "Ilyushin Il-96"
   },
   {
     "IATA_Code": "IL6",
+    "ICAO_Code": "IL62",
     "Model": "Ilyushin Il-62"
   },
   {
     "IATA_Code": "IL7",
+    "ICAO_Code": "IL76",
     "Model": "Ilyushin Il-76"
   },
   {
+    "IATA_Code": "IL8",
+    "ICAO_Code": "IL18",
+    "Model": "Ilyushin Il-18"
+  },
+  {
+    "IATA_Code": "IL86",
+    "ICAO_Code": "ILW",
+    "Model": "Ilyushin Il-86"
+  },
+  {
     "IATA_Code": "IL9",
+    "ICAO_Code": "IL96",
     "Model": "Ilyushin Il-96"
   },
   {
-    "IATA_Code": "LJ2",
-    "Model": "Learjet 23"
+    "IATA_Code": "J31",
+    "ICAO_Code": "JS31",
+    "Model": "Bae Jetstream 31"
   },
   {
-    "IATA_Code": "LJ2",
-    "Model": "Learjet 24"
+    "IATA_Code": "J32",
+    "ICAO_Code": "JS32",
+    "Model": "Bae Jetstream 32"
   },
   {
-    "IATA_Code": "LJ2",
-    "Model": "Learjet 25"
-  },
-  {
-    "IATA_Code": "LJ3",
-    "Model": "Learjet 31"
-  },
-  {
-    "IATA_Code": "LJ3",
-    "Model": "Learjet 35"
-  },
-  {
-    "IATA_Code": "LJ4",
-    "Model": "Learjet 40"
-  },
-  {
-    "IATA_Code": "LJ4",
-    "Model": "Learjet 45"
-  },
-  {
-    "IATA_Code": "LJ6",
-    "Model": "Learjet 55"
-  },
-  {
-    "IATA_Code": "LJ6",
-    "Model": "Learjet 60"
-  },
-  {
-    "IATA_Code": "LJ7",
-    "Model": "Learjet 75"
-  },
-  {
-    "IATA_Code": "LJ8",
-    "Model": "Learjet 85"
-  },
-  {
-    "IATA_Code": "L4T",
-    "Model": "LET 410"
-  },
-  {
-    "IATA_Code": "LOH",
-    "Model": "Lockheed C130"
+    "IATA_Code": "J41",
+    "ICAO_Code": "JS41",
+    "Model": "Bae Jetstream 41"
   },
   {
     "IATA_Code": "JSR",
+    "ICAO_Code": "L1322",
     "Model": "Lockheed L1329 Jetstar 2"
   },
   {
     "IATA_Code": "JSR",
+    "ICAO_Code": "L1326",
     "Model": "Lockheed L1329 Jetstar 6/8"
   },
   {
+    "IATA_Code": "K35",
+    "ICAO_Code": "K35R",
+    "Model": "Boeing KC-135 Stratotanker"
+  },
+  {
+    "IATA_Code": "L10",
+    "ICAO_Code": "L101",
+    "Model": "Lockheed L-1011 Tristar"
+  },
+  {
+    "IATA_Code": "L4T",
+    "ICAO_Code": "L4T",
+    "Model": "LET 410"
+  },
+  {
+    "IATA_Code": "L4T",
+    "ICAO_Code": "L410",
+    "Model": "LET 410"
+  },
+  {
+    "IATA_Code": "LJ2",
+    "ICAO_Code": "LJ23",
+    "Model": "Learjet 23"
+  },
+  {
+    "IATA_Code": "LJ2",
+    "ICAO_Code": "LJ24",
+    "Model": "Learjet 24"
+  },
+  {
+    "IATA_Code": "LJ2",
+    "ICAO_Code": "LJ25",
+    "Model": "Learjet 25"
+  },
+  {
+    "IATA_Code": "LJ3",
+    "ICAO_Code": "LJ31",
+    "Model": "Learjet 31"
+  },
+  {
+    "IATA_Code": "LJ3",
+    "ICAO_Code": "LJ35",
+    "Model": "Learjet 35"
+  },
+  {
+    "IATA_Code": "LJ4",
+    "ICAO_Code": "LJ40",
+    "Model": "Learjet 40"
+  },
+  {
+    "IATA_Code": "LJ4",
+    "ICAO_Code": "LJ45",
+    "Model": "Learjet 45"
+  },
+  {
+    "IATA_Code": "LJ6",
+    "ICAO_Code": "LJ55",
+    "Model": "Learjet 55"
+  },
+  {
+    "IATA_Code": "LJ6",
+    "ICAO_Code": "LJ60",
+    "Model": "Learjet 60"
+  },
+  {
+    "IATA_Code": "LJ7",
+    "ICAO_Code": "LJ75",
+    "Model": "Learjet 75"
+  },
+  {
+    "IATA_Code": "LJ8",
+    "ICAO_Code": "LJ85",
+    "Model": "Learjet 85"
+  },
+  {
+    "IATA_Code": "LOE",
+    "ICAO_Code": "L188",
+    "Model": "Lockheed L-188 Electra"
+  },
+  {
+    "IATA_Code": "LOH",
+    "ICAO_Code": "C130",
+    "Model": "Lockheed C130"
+  },
+  {
     "IATA_Code": "M11",
+    "ICAO_Code": "MD11",
     "Model": "McDonnell Douglas MD-11"
   },
   {
+    "IATA_Code": "M1F",
+    "ICAO_Code": "MD11",
+    "Model": "McDonnell Douglas MD-11F"
+  },
+  {
+    "IATA_Code": "M1M",
+    "ICAO_Code": "MD11",
+    "Model": "McDonnell Douglas MD-11C"
+  },
+  {
     "IATA_Code": "M81",
+    "ICAO_Code": "MD81",
     "Model": "McDonnell Douglas MD-81"
   },
   {
     "IATA_Code": "M82",
+    "ICAO_Code": "MD82",
     "Model": "McDonnell Douglas MD-82"
   },
   {
     "IATA_Code": "M83",
+    "ICAO_Code": "MD83",
     "Model": "McDonnell Douglas MD-83"
   },
   {
     "IATA_Code": "M87",
+    "ICAO_Code": "MD87",
     "Model": "McDonnell Douglas MD-87"
   },
   {
     "IATA_Code": "M88",
+    "ICAO_Code": "MD88",
     "Model": "McDonnell Douglas MD-88"
   },
   {
     "IATA_Code": "M90",
+    "ICAO_Code": "MD90",
     "Model": "McDonnell Douglas MD-90"
   },
   {
+    "IATA_Code": "MBH",
+    "ICAO_Code": "BO105",
+    "Model": "Bolkow Bo-105"
+  },
+  {
     "IATA_Code": "MD9",
+    "ICAO_Code": "MD90",
     "Model": "MD Helicopters MD900"
   },
   {
     "IATA_Code": "MU2",
+    "ICAO_Code": "MU2",
     "Model": "Mitsubishi MU-2"
   },
   {
-    "IATA_Code": "PN6",
-    "Model": "Partenavia P68"
+    "IATA_Code": "ND2",
+    "ICAO_Code": "N262",
+    "Model": "Aerospatiale (Nord) 262"
+  },
+  {
+    "IATA_Code": "NDC",
+    "ICAO_Code": "S601",
+    "Model": "Aerospatiale SN601"
+  },
+  {
+    "IATA_Code": "NDE",
+    "ICAO_Code": "AS50",
+    "Model": "Aerospatiale AS350"
+  },
+  {
+    "IATA_Code": "NDE",
+    "ICAO_Code": "AS55",
+    "Model": "Aerospatiale AS355"
+  },
+  {
+    "IATA_Code": "NDH",
+    "ICAO_Code": "AS65",
+    "Model": "Aerospatiale AS365"
   },
   {
     "IATA_Code": "P18",
+    "ICAO_Code": "P180",
     "Model": "Piaggio P180"
   },
   {
-    "IATA_Code": "PL2",
-    "Model": "Pilatus PC-12"
-  },
-  {
     "IATA_Code": "PA2",
+    "ICAO_Code": "PA31",
     "Model": "Piper Pa-31"
   },
   {
+    "IATA_Code": "PAG",
+    "ICAO_Code": "PA46",
+    "Model": "Piper Pa-46"
+  },
+  {
     "IATA_Code": "PAT",
+    "ICAO_Code": "PAY3",
     "Model": "Piper Pa-31T"
   },
   {
     "IATA_Code": "PAT",
+    "ICAO_Code": "PA42",
     "Model": "Piper Pa-42"
   },
   {
-    "IATA_Code": "PAG",
-    "Model": "Piper Pa-46"
+    "IATA_Code": "PL2",
+    "ICAO_Code": "PC12",
+    "Model": "Pilatus PC-12"
+  },
+  {
+    "IATA_Code": "PL4",
+    "ICAO_Code": "PC24",
+    "Model": "Pilatus PC-24"
+  },
+  {
+    "IATA_Code": "PN6",
+    "ICAO_Code": "P68",
+    "Model": "Partenavia P68"
+  },
+  {
+    "IATA_Code": "PR1",
+    "ICAO_Code": "PRM1",
+    "Model": "Hawker 390 Premier 1"
   },
   {
     "IATA_Code": "S20",
+    "ICAO_Code": "SB20",
     "Model": "SAAB 2000"
   },
   {
-    "IATA_Code": "SF3",
-    "Model": "SAAB SF340"
-  },
-  {
     "IATA_Code": "S61",
+    "ICAO_Code": "S61",
     "Model": "Sikorsky S-61"
   },
   {
     "IATA_Code": "S76",
+    "ICAO_Code": "S76",
     "Model": "Sikorsky S-76"
   },
   {
     "IATA_Code": "S92",
+    "ICAO_Code": "S92",
     "Model": "Sikorsky S-92"
   },
   {
-    "IATA_Code": "TBM",
-    "Model": "SOCATA TBM700"
+    "IATA_Code": "SF3",
+    "ICAO_Code": "SF34",
+    "Model": "SAAB SF340"
   },
   {
-    "IATA_Code": "TBM",
-    "Model": "SOCATA TBM850"
+    "IATA_Code": "SH3",
+    "ICAO_Code": "SH33",
+    "Model": "Shorts SD.330"
   },
   {
-    "IATA_Code": "TU3",
-    "Model": "Tupolev Tu-134"
+    "IATA_Code": "SH6",
+    "ICAO_Code": "SH36",
+    "Model": "Shorts SD.360"
   },
   {
-    "IATA_Code": "TU5",
-    "Model": "Tupolev Tu-154"
+    "IATA_Code": "SHB",
+    "ICAO_Code": "BELF",
+    "Model": "Shorts SC-5 Belfast"
+  },
+  {
+    "IATA_Code": "SHS",
+    "ICAO_Code": "SC7",
+    "Model": "Shorts SC-7 Skyvan"
+  },
+  {
+    "IATA_Code": "SU9",
+    "ICAO_Code": "SU95",
+    "Model": "Sukhoi Superjet 100-95"
+  },
+  {
+    "IATA_Code": "SW4",
+    "ICAO_Code": "SW4",
+    "Model": "Fairchild Swearingen Metroliner"
+  },
+  {
+    "IATA_Code": "SWM",
+    "ICAO_Code": "SW4",
+    "Model": "Fairchild SA226/227"
+  },
+  {
+    "IATA_Code": "SWM",
+    "ICAO_Code": "SF34",
+    "Model": "Fairchild SA26/226"
   },
   {
     "IATA_Code": "T20",
+    "ICAO_Code": "T204",
     "Model": "Tupolev Tu-204"
   },
   {
     "IATA_Code": "T20",
+    "ICAO_Code": "T214",
     "Model": "Tupolev Tu-214"
   },
   {
-    "IATA_Code": "YK4",
-    "Model": "Yakovlev Yak-40"
+    "IATA_Code": "TBM",
+    "ICAO_Code": "TBM7",
+    "Model": "SOCATA TBM700"
+  },
+  {
+    "IATA_Code": "TBM",
+    "ICAO_Code": "TBM8",
+    "Model": "SOCATA TBM850"
+  },
+  {
+    "IATA_Code": "TU3",
+    "ICAO_Code": "T134",
+    "Model": "Tupolev Tu-134"
+  },
+  {
+    "IATA_Code": "TU3",
+    "ICAO_Code": "T134",
+    "Model": "Tupolev Tu-134"
+  },
+  {
+    "IATA_Code": "TU5",
+    "ICAO_Code": "T154",
+    "Model": "Tupolev Tu-154"
+  },
+  {
+    "IATA_Code": "TU5",
+    "ICAO_Code": "T154",
+    "Model": "Tupolev Tu-154"
+  },
+  {
+    "IATA_Code": "WWP",
+    "ICAO_Code": "WW24",
+    "Model": "IAI 1124"
   },
   {
     "IATA_Code": "YK2",
+    "ICAO_Code": "YK2",
     "Model": "Yakovlev Yak-42"
+  },
+  {
+    "IATA_Code": "YK4",
+    "ICAO_Code": "YK4",
+    "Model": "Yakovlev Yak-40"
+  },
+  {
+    "IATA_Code": "YN2",
+    "ICAO_Code": "Y12",
+    "Model": "Harbin Y-12"
+  },
+  {
+    "IATA_Code": "YS1",
+    "ICAO_Code": "YS11",
+    "Model": "NAMC YS-11"
   }
 ]
