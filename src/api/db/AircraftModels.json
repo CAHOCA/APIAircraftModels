@@ -2,1691 +2,2705 @@
   {
     "IATA_Code": 223,
     "ICAO_Code": "BCS3",
-    "Model": "Airbus A220-300"
+    "Model": "Airbus A220-300",
+    "Manufacturer": "Airbus",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": 290,
     "ICAO_Code": "E290",
-    "Model": "Embraer E190-E2"
+    "Model": "Embraer E190-E2",
+    "Manufacturer": "Embraer",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": 295,
     "ICAO_Code": "E295",
-    "Model": "Embraer E195-E2"
+    "Model": "Embraer E195-E2",
+    "Manufacturer": "Embraer",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": 338,
     "ICAO_Code": "A338",
-    "Model": "Airbus A330-800"
+    "Model": "Airbus A330-800",
+    "Manufacturer": "Airbus",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": 400,
     "ICAO_Code": "A400",
-    "Model": "Airbus A400M Atlas"
+    "Model": "Airbus A400M Atlas",
+    "Manufacturer": "Airbus",
+    "Engine_Type": "Turboprop",
+    "Number_of_Engines": 4
   },
   {
     "IATA_Code": 703,
     "ICAO_Code": "B703",
-    "Model": "Boeing 707"
+    "Model": "Boeing 707",
+    "Manufacturer": "Boeing",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 4
   },
   {
     "IATA_Code": 717,
     "ICAO_Code": "B712",
-    "Model": "Boeing 717"
+    "Model": "Boeing 717",
+    "Manufacturer": "Boeing",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": 732,
     "ICAO_Code": "B732",
-    "Model": "Boeing 737-200"
+    "Model": "Boeing 737-200",
+    "Manufacturer": "Boeing",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": 741,
     "ICAO_Code": "B741",
-    "Model": "Boeing 747-100"
+    "Model": "Boeing 747-100",
+    "Manufacturer": "Boeing",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 4
   },
   {
     "IATA_Code": 742,
     "ICAO_Code": "B742",
-    "Model": "Boeing 747-200"
+    "Model": "Boeing 747-200",
+    "Manufacturer": "Boeing",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 4
   },
   {
     "IATA_Code": 743,
     "ICAO_Code": "B743",
-    "Model": "Boeing 747-300"
+    "Model": "Boeing 747-300",
+    "Manufacturer": "Boeing",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 4
   },
   {
     "IATA_Code": 753,
     "ICAO_Code": "B753",
-    "Model": "Boeing 757-300"
+    "Model": "Boeing 757-300",
+    "Manufacturer": "Boeing",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": 778,
     "ICAO_Code": "B778",
-    "Model": "Boeing 777-8"
+    "Model": "Boeing 777-8",
+    "Manufacturer": "Boeing",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": 779,
     "ICAO_Code": "B779",
-    "Model": "Boeing 777-9"
+    "Model": "Boeing 777-9",
+    "Manufacturer": "Boeing",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": 919,
     "ICAO_Code": "C919",
-    "Model": "Comac C919"
+    "Model": "Comac C919",
+    "Manufacturer": "Comac",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "100",
     "ICAO_Code": "F100",
-    "Model": "Fokker 100"
+    "Model": "Fokker 100",
+    "Manufacturer": "Fokker",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "141",
     "ICAO_Code": "B461",
-    "Model": "Bae 146-100"
+    "Model": "Bae 146-100",
+    "Manufacturer": "British Aerospace",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 4
   },
   {
     "IATA_Code": "142",
     "ICAO_Code": "B462",
-    "Model": "Bae 146-200"
+    "Model": "Bae 146-200",
+    "Manufacturer": "British Aerospace",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 4
   },
   {
     "IATA_Code": "143",
     "ICAO_Code": "B463",
-    "Model": "Bae 146-300"
+    "Model": "Bae 146-300",
+    "Manufacturer": "British Aerospace",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 4
   },
   {
     "IATA_Code": "221",
     "ICAO_Code": "BCS1",
-    "Model": "Airbus A220-100"
+    "Model": "Airbus A220-100",
+    "Manufacturer": "Airbus",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "312",
     "ICAO_Code": "A310",
-    "Model": "Airbus A310-200"
+    "Model": "Airbus A310-200",
+    "Manufacturer": "Airbus",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "313",
     "ICAO_Code": "A310",
-    "Model": "Airbus A310-300"
+    "Model": "Airbus A310-300",
+    "Manufacturer": "Airbus",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "318",
     "ICAO_Code": "A318",
-    "Model": "Airbus A318"
+    "Model": "Airbus A318",
+    "Manufacturer": "Airbus",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "319",
     "ICAO_Code": "A319",
-    "Model": "Airbus A319"
+    "Model": "Airbus A319",
+    "Manufacturer": "Airbus",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "31N",
     "ICAO_Code": "A319N",
-    "Model": "Airbus A319neo"
+    "Model": "Airbus A319neo",
+    "Manufacturer": "Airbus",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "320",
     "ICAO_Code": "A320",
-    "Model": "Airbus A320"
+    "Model": "Airbus A320",
+    "Manufacturer": "Airbus",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "321",
     "ICAO_Code": "A321",
-    "Model": "Airbus A321"
+    "Model": "Airbus A321",
+    "Manufacturer": "Airbus",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "32A",
     "ICAO_Code": "A320S",
-    "Model": "Airbus A320 Sharklets"
+    "Model": "Airbus A320 Sharklets",
+    "Manufacturer": "Airbus",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "32B",
     "ICAO_Code": "A321I",
-    "Model": "Airbus A321 Intercontinental"
+    "Model": "Airbus A321 Intercontinental",
+    "Manufacturer": "Airbus",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "32C",
     "ICAO_Code": "A318",
-    "Model": "Airbus A318"
+    "Model": "Airbus A318",
+    "Manufacturer": "Airbus",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "32D",
     "ICAO_Code": "A319",
-    "Model": "Airbus A319"
+    "Model": "Airbus A319",
+    "Manufacturer": "Airbus",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "32N",
     "ICAO_Code": "A320N",
-    "Model": "Airbus A320neo"
+    "Model": "Airbus A320neo",
+    "Manufacturer": "Airbus",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "32Q",
     "ICAO_Code": "A321N",
-    "Model": "Airbus A321neo"
+    "Model": "Airbus A321neo",
+    "Manufacturer": "Airbus",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "330",
     "ICAO_Code": "A330",
-    "Model": "Airbus A330ceo"
+    "Model": "Airbus A330ceo",
+    "Manufacturer": "Airbus",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "332",
     "ICAO_Code": "A332",
-    "Model": "Airbus A330-200"
+    "Model": "Airbus A330-200",
+    "Manufacturer": "Airbus",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "333",
     "ICAO_Code": "A333",
-    "Model": "Airbus A330-300"
+    "Model": "Airbus A330-300",
+    "Manufacturer": "Airbus",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "33X",
     "ICAO_Code": "A332",
-    "Model": "Airbus A330-200 Freighter"
+    "Model": "Airbus A330-200 Freighter",
+    "Manufacturer": "Airbus",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "33Y",
     "ICAO_Code": "A333",
-    "Model": "Airbus A330-300 Freighter"
+    "Model": "Airbus A330-300 Freighter",
+    "Manufacturer": "Airbus",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "342",
     "ICAO_Code": "A342",
-    "Model": "Airbus A340-200"
+    "Model": "Airbus A340-200",
+    "Manufacturer": "Airbus",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 4
   },
   {
     "IATA_Code": "343",
     "ICAO_Code": "A343",
-    "Model": "Airbus A340-300"
+    "Model": "Airbus A340-300",
+    "Manufacturer": "Airbus",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 4
   },
   {
     "IATA_Code": "345",
     "ICAO_Code": "A345",
-    "Model": "Airbus A340-500"
+    "Model": "Airbus A340-500",
+    "Manufacturer": "Airbus",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 4
   },
   {
     "IATA_Code": "346",
     "ICAO_Code": "A346",
-    "Model": "Airbus A340-600"
+    "Model": "Airbus A340-600",
+    "Manufacturer": "Airbus",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 4
   },
   {
     "IATA_Code": "351",
     "ICAO_Code": "A35K",
-    "Model": "Airbus A350-1000"
+    "Model": "Airbus A350-1000",
+    "Manufacturer": "Airbus",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "359",
     "ICAO_Code": "A359",
-    "Model": "Airbus A350-900"
+    "Model": "Airbus A350-900",
+    "Manufacturer": "Airbus",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "388",
     "ICAO_Code": "A388",
-    "Model": "Airbus A380-800"
+    "Model": "Airbus A380-800",
+    "Manufacturer": "Airbus",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 4
   },
   {
     "IATA_Code": "721",
     "ICAO_Code": "B721",
-    "Model": "Boeing 727-100"
+    "Model": "Boeing 727-100",
+    "Manufacturer": "Boeing",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 3
   },
   {
     "IATA_Code": "722",
     "ICAO_Code": "B722",
-    "Model": "Boeing 727-200"
+    "Model": "Boeing 727-200",
+    "Manufacturer": "Boeing",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 3
   },
   {
     "IATA_Code": "733",
     "ICAO_Code": "B733",
-    "Model": "Boeing 737-300"
+    "Model": "Boeing 737-300",
+    "Manufacturer": "Boeing",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "734",
     "ICAO_Code": "B734",
-    "Model": "Boeing 737-400"
+    "Model": "Boeing 737-400",
+    "Manufacturer": "Boeing",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "735",
     "ICAO_Code": "B735",
-    "Model": "Boeing 737-500"
+    "Model": "Boeing 737-500",
+    "Manufacturer": "Boeing",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "736",
     "ICAO_Code": "B736",
-    "Model": "Boeing 737-600"
+    "Model": "Boeing 737-600",
+    "Manufacturer": "Boeing",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "738",
     "ICAO_Code": "B738",
-    "Model": "Boeing 737-800"
+    "Model": "Boeing 737-800",
+    "Manufacturer": "Boeing",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "739",
     "ICAO_Code": "B739",
-    "Model": "Boeing 737-900"
+    "Model": "Boeing 737-900",
+    "Manufacturer": "Boeing",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "73C",
     "ICAO_Code": "B733",
-    "Model": "Boeing 737-300"
+    "Model": "Boeing 737-300",
+    "Manufacturer": "Boeing",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "73E",
     "ICAO_Code": "B735",
-    "Model": "Boeing 737-500"
+    "Model": "Boeing 737-500",
+    "Manufacturer": "Boeing",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "73F",
     "ICAO_Code": "B732",
-    "Model": "Boeing 737-200 Freighter"
+    "Model": "Boeing 737-200 Freighter",
+    "Manufacturer": "Boeing",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "73G",
     "ICAO_Code": "B737",
-    "Model": "Boeing 737-700"
+    "Model": "Boeing 737-700",
+    "Manufacturer": "Boeing",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "73H",
     "ICAO_Code": "B738",
-    "Model": "Boeing 737-800"
+    "Model": "Boeing 737-800",
+    "Manufacturer": "Boeing",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "73H2",
     "ICAO_Code": "B737",
-    "Model": "Boeing 737-BBJ2"
+    "Model": "Boeing 737-BBJ2",
+    "Manufacturer": "Boeing",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "73J",
     "ICAO_Code": "B739",
-    "Model": "Boeing 737-900"
+    "Model": "Boeing 737-900",
+    "Manufacturer": "Boeing",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "73J3",
     "ICAO_Code": "B739",
-    "Model": "Boeing 737-BBJ3"
+    "Model": "Boeing 737-BBJ3",
+    "Manufacturer": "Boeing",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "73K",
     "ICAO_Code": "B738",
-    "Model": "Boeing 737-800 Freighter Winglets"
+    "Model": "Boeing 737-800 Freighter Winglets",
+    "Manufacturer": "Boeing",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "73L",
     "ICAO_Code": "B732",
-    "Model": "Boeing 737-200 Combi[4]"
+    "Model": "Boeing 737-200 Combi[4]",
+    "Manufacturer": "Boeing",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "73W",
     "ICAO_Code": "B737",
-    "Model": "Boeing 737-700"
+    "Model": "Boeing 737-700",
+    "Manufacturer": "Boeing",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "73W",
     "ICAO_Code": "B737",
-    "Model": "Boeing 737-BBJ"
+    "Model": "Boeing 737-BBJ",
+    "Manufacturer": "Boeing",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "744",
     "ICAO_Code": "B744",
-    "Model": "Boeing 747-400"
+    "Model": "Boeing 747-400",
+    "Manufacturer": "Boeing",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 4
   },
   {
     "IATA_Code": "748",
     "ICAO_Code": "B748",
-    "Model": "Boeing 747-8"
+    "Model": "Boeing 747-8",
+    "Manufacturer": "Boeing",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 4
   },
   {
     "IATA_Code": "74L",
     "ICAO_Code": "B747",
-    "Model": "Boeing 747-SP"
+    "Model": "Boeing 747-SP",
+    "Manufacturer": "Boeing",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 4
   },
   {
     "IATA_Code": "752",
     "ICAO_Code": "B752",
-    "Model": "Boeing 757-200"
+    "Model": "Boeing 757-200",
+    "Manufacturer": "Boeing",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "75W",
     "ICAO_Code": "B752",
-    "Model": "Boeing 757-200"
+    "Model": "Boeing 757-200",
+    "Manufacturer": "Boeing",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "762",
     "ICAO_Code": "B762",
-    "Model": "Boeing 767-200"
+    "Model": "Boeing 767-200",
+    "Manufacturer": "Boeing",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "763",
     "ICAO_Code": "B763",
-    "Model": "Boeing 767-300"
+    "Model": "Boeing 767-300",
+    "Manufacturer": "Boeing",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "764",
     "ICAO_Code": "B764",
-    "Model": "Boeing 767-400"
+    "Model": "Boeing 767-400",
+    "Manufacturer": "Boeing",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "76W",
     "ICAO_Code": "B763",
-    "Model": "Boeing 767-300"
+    "Model": "Boeing 767-300",
+    "Manufacturer": "Boeing",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "772",
     "ICAO_Code": "B772",
-    "Model": "Boeing 777-200"
+    "Model": "Boeing 777-200",
+    "Manufacturer": "Boeing",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "773",
     "ICAO_Code": "B773",
-    "Model": "Boeing 777-300"
+    "Model": "Boeing 777-300",
+    "Manufacturer": "Boeing",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "77L",
     "ICAO_Code": "B772",
-    "Model": "Boeing 777-200LR"
+    "Model": "Boeing 777-200LR",
+    "Manufacturer": "Boeing",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "77W",
     "ICAO_Code": "B773",
-    "Model": "Boeing 777-300ER"
+    "Model": "Boeing 777-300ER",
+    "Manufacturer": "Boeing",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "781",
     "ICAO_Code": "B78X",
-    "Model": "Boeing 787-10 Dreamliner"
+    "Model": "Boeing 787-10 Dreamliner",
+    "Manufacturer": "Boeing",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "787",
     "ICAO_Code": "B787",
-    "Model": "Boeing 787 Dreamliner"
+    "Model": "Boeing 787 Dreamliner",
+    "Manufacturer": "Boeing",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "788",
     "ICAO_Code": "B788",
-    "Model": "Boeing 787-8 Dreamliner"
+    "Model": "Boeing 787-8 Dreamliner",
+    "Manufacturer": "Boeing",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "789",
     "ICAO_Code": "B789",
-    "Model": "Boeing 787-9 Dreamliner"
+    "Model": "Boeing 787-9 Dreamliner",
+    "Manufacturer": "Boeing",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "7M7",
     "ICAO_Code": "B37M",
-    "Model": "Boeing 737 MAX 7"
+    "Model": "Boeing 737 MAX 7",
+    "Manufacturer": "Boeing",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "7M8",
     "ICAO_Code": "B78M",
-    "Model": "Boeing 737 MAX 8"
+    "Model": "Boeing 737 MAX 8",
+    "Manufacturer": "Boeing",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "7M9",
     "ICAO_Code": "B79M",
-    "Model": "Boeing 737 MAX 9"
+    "Model": "Boeing 737 MAX 9",
+    "Manufacturer": "Boeing",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "7MJ",
     "ICAO_Code": "B7XM",
-    "Model": "Boeing 737 MAX 10"
+    "Model": "Boeing 737 MAX 10",
+    "Manufacturer": "Boeing",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "7S8",
     "ICAO_Code": "B738",
-    "Model": "Boeing 737-800"
+    "Model": "Boeing 737-800",
+    "Manufacturer": "Boeing",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "A26",
     "ICAO_Code": "AN26",
-    "Model": "Antonov An-26"
+    "Model": "Antonov An-26",
+    "Manufacturer": "Antonov",
+    "Engine_Type": "Turboprop",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "A28",
     "ICAO_Code": "AN28",
-    "Model": "Antonov An-28"
+    "Model": "Antonov An-28",
+    "Manufacturer": "Antonov",
+    "Engine_Type": "Turboprop",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "A30",
     "ICAO_Code": "AN30",
-    "Model": "Antonov An-30"
+    "Model": "Antonov An-30",
+    "Manufacturer": "Antonov",
+    "Engine_Type": "Turboprop",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "A32",
     "ICAO_Code": "AN32",
-    "Model": "Antonov An-32"
+    "Model": "Antonov An-32",
+    "Manufacturer": "Antonov",
+    "Engine_Type": "Turboprop",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "A40",
     "ICAO_Code": "A140",
-    "Model": "Antonov An-140"
+    "Model": "Antonov An-140",
+    "Manufacturer": "Antonov",
+    "Engine_Type": "Turboprop",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "A4F",
     "ICAO_Code": "A124",
-    "Model": "Antonov An-124 Ruslan"
+    "Model": "Antonov An-124 Ruslan",
+    "Manufacturer": "Antonov",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 4
   },
   {
     "IATA_Code": "A58",
     "ICAO_Code": "A158",
-    "Model": "Antonov An-158"
+    "Model": "Antonov An-158",
+    "Manufacturer": "Antonov",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "A5F",
     "ICAO_Code": "A225",
-    "Model": "Antonov An-225 Mriya"
+    "Model": "Antonov An-225 Mriya",
+    "Manufacturer": "Antonov",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 6
   },
   {
     "IATA_Code": "A81",
     "ICAO_Code": "A148",
-    "Model": "Antonov An-148"
+    "Model": "Antonov An-148",
+    "Manufacturer": "Antonov",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "AB4",
     "ICAO_Code": "A30B",
-    "Model": "Airbus A300B2, A300B4 and A300C4"
+    "Model": "Airbus A300B2, A300B4 and A300C4",
+    "Manufacturer": "Airbus",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "AB6",
     "ICAO_Code": "A306",
-    "Model": "Airbus A300-600"
+    "Model": "Airbus A300-600",
+    "Manufacturer": "Airbus",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "ABB",
     "ICAO_Code": "A3ST",
-    "Model": "Airbus A300-600ST Beluga"
+    "Model": "Airbus A300-600ST Beluga",
+    "Manufacturer": "Airbus",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "ABY",
     "ICAO_Code": "A306",
-    "Model": "Airbus A300-600 Freighter[4]"
+    "Model": "Airbus A300-600 Freighter[4]",
+    "Manufacturer": "Airbus",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "ACT",
     "ICAO_Code": "AC90",
-    "Model": "Gulfstream/Rockwell (Aero) Turbo Commander 690"
+    "Model": "Gulfstream/Rockwell (Aero) Turbo Commander 690",
+    "Manufacturer": "Gulfstream/Rockwell",
+    "Engine_Type": "Turboprop",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "AGH",
     "ICAO_Code": "A109",
-    "Model": "AgustaWestland A109"
+    "Model": "AgustaWestland A109",
+    "Manufacturer": "AgustaWestland",
+    "Engine_Type": "Turboshaft",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "APH",
     "ICAO_Code": "AS332",
-    "Model": "Aerospatiale AS332"
+    "Model": "Aerospatiale AS332",
+    "Manufacturer": "Aerospatiale",
+    "Engine_Type": "Turboshaft",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "AR1",
     "ICAO_Code": "RJ1H",
-    "Model": "Avro RJ100 Avroliner"
+    "Model": "Avro RJ100 Avroliner",
+    "Manufacturer": "BAE Systems",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 4
   },
   {
     "IATA_Code": "AR7",
     "ICAO_Code": "RJ70",
-    "Model": "Avro RJ70 Avroliner"
+    "Model": "Avro RJ70 Avroliner",
+    "Manufacturer": "BAE Systems",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 4
   },
   {
     "IATA_Code": "AR8",
     "ICAO_Code": "RJ85",
-    "Model": "Avro RJ85 Avroliner"
+    "Model": "Avro RJ85 Avroliner",
+    "Manufacturer": "BAE Systems",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 4
   },
   {
     "IATA_Code": "ASJ",
     "ICAO_Code": "I1125",
-    "Model": "IAI 1125"
+    "Model": "IAI 1125",
+    "Manufacturer": "Israel Aerospace Industries",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "AT3",
     "ICAO_Code": "AT43",
-    "Model": "Alenia ATR-42-300"
+    "Model": "Alenia ATR-42-300",
+    "Manufacturer": "Alenia Aermacchi",
+    "Engine_Type": "Turboprop",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "AT4",
     "ICAO_Code": "AT44",
-    "Model": "Alenia ATR-42-400"
+    "Model": "Alenia ATR-42-400",
+    "Manufacturer": "Alenia Aermacchi",
+    "Engine_Type": "Turboprop",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "AT5",
     "ICAO_Code": "AT45",
-    "Model": "Alenia ATR-42-500"
+    "Model": "Alenia ATR-42-500",
+    "Manufacturer": "Alenia Aermacchi",
+    "Engine_Type": "Turboprop",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "AT6",
     "ICAO_Code": "AT46",
-    "Model": "Alenia ATR-42-600"
+    "Model": "Alenia ATR-42-600",
+    "Manufacturer": "Alenia Aermacchi",
+    "Engine_Type": "Turboprop",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "AT7",
     "ICAO_Code": "AT7",
-    "Model": "Alenia ATR-72"
+    "Model": "Alenia ATR-72",
+    "Manufacturer": "Alenia Aermacchi",
+    "Engine_Type": "Turboprop",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "ATP",
     "ICAO_Code": "ATP",
-    "Model": "British Aerospace ATP"
+    "Model": "British Aerospace ATP",
+    "Manufacturer": "British Aerospace",
+    "Engine_Type": "Turboprop",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "AWH",
     "ICAO_Code": "AWH",
-    "Model": "AgustaWestland AW139"
+    "Model": "AgustaWestland AW139",
+    "Manufacturer": "AgustaWestland",
+    "Engine_Type": "Turboshaft",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "B11",
     "ICAO_Code": "BA11",
-    "Model": "British Aerospace (BAC) One Eleven"
+    "Model": "British Aerospace (BAC) One Eleven",
+    "Manufacturer": "British Aerospace",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "B72",
     "ICAO_Code": "B720",
-    "Model": "Boeing 720B"
+    "Model": "Boeing 720B",
+    "Manufacturer": "Boeing",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 4
   },
   {
     "IATA_Code": "B99",
     "ICAO_Code": "BE99",
-    "Model": "Beechcraft Model 99"
+    "Model": "Beechcraft Model 99",
+    "Manufacturer": "Beechcraft",
+    "Engine_Type": "Turboprop",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "BE4",
     "ICAO_Code": "BE4",
-    "Model": "Hawker 400"
+    "Model": "Hawker 400",
+    "Manufacturer": "Hawker Beechcraft",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "BE4",
     "ICAO_Code": "BE4A",
-    "Model": "Hawker 400A"
+    "Model": "Hawker 400A",
+    "Manufacturer": "Hawker Beechcraft",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "BE4",
     "ICAO_Code": "BE4T",
-    "Model": "Hawker 400T"
+    "Model": "Hawker 400T",
+    "Manufacturer": "Hawker Beechcraft",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "BE4",
     "ICAO_Code": "VE4X",
-    "Model": "Hawker 400XP"
+    "Model": "Hawker 400XP",
+    "Manufacturer": "Hawker Beechcraft",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "BET",
     "ICAO_Code": "BET",
-    "Model": "Beech King Air"
+    "Model": "Beech King Air",
+    "Manufacturer": "Beechcraft",
+    "Engine_Type": "Turboprop",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "BNI",
     "ICAO_Code": "BNI2",
-    "Model": "Britten Norman BN-2"
+    "Model": "Britten Norman BN-2",
+    "Manufacturer": "Britten-Norman",
+    "Engine_Type": "Piston",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "BNT",
     "ICAO_Code": "BNT2",
-    "Model": "Britten Norman BN-2 Mk3"
+    "Model": "Britten Norman BN-2 Mk3",
+    "Manufacturer": "Britten-Norman",
+    "Engine_Type": "Piston",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "CCJ",
     "ICAO_Code": "CL60",
-    "Model": "Canadair Challenger 600"
+    "Model": "Canadair Challenger 600",
+    "Manufacturer": "Bombardier",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "CCJ",
     "ICAO_Code": "CL61",
-    "Model": "Canadair Challenger 601"
+    "Model": "Canadair Challenger 601",
+    "Manufacturer": "Bombardier",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "CCJ",
     "ICAO_Code": "CL64",
-    "Model": "Canadair Challenger 604"
+    "Model": "Canadair Challenger 604",
+    "Manufacturer": "Bombardier",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "CCJ",
     "ICAO_Code": "CL65",
-    "Model": "Canadair Challenger 605"
+    "Model": "Canadair Challenger 605",
+    "Manufacturer": "Bombardier",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "CCX",
     "ICAO_Code": "GL5T",
-    "Model": "Bombardier BD700 Global 5000"
+    "Model": "Bombardier BD700 Global 5000",
+    "Manufacturer": "Bombardier",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "CCX",
     "ICAO_Code": "GLEX",
-    "Model": "Bombardier Global Express"
+    "Model": "Bombardier Global Express",
+    "Manufacturer": "Bombardier",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "CD2",
     "ICAO_Code": "NOMA",
-    "Model": "Government Aircraft Factories N22B / N24A Nomad"
+    "Model": "Government Aircraft Factories N22B / N24A Nomad",
+    "Manufacturer": "Government Aircraft Factories",
+    "Engine_Type": "Turboprop",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "CJ1",
     "ICAO_Code": "C00",
-    "Model": "Cessna 500 Citation 1"
+    "Model": "Cessna 500 Citation 1",
+    "Manufacturer": "Cessna",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "CJ1",
     "ICAO_Code": "C01",
-    "Model": "Cessna 501 Citation 1SP"
+    "Model": "Cessna 501 Citation 1SP",
+    "Manufacturer": "Cessna",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "CJ1",
     "ICAO_Code": "C25",
-    "Model": "Cessna 525 Citation CJ1"
+    "Model": "Cessna 525 Citation CJ1",
+    "Manufacturer": "Cessna",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "CJ1",
     "ICAO_Code": "C25A",
-    "Model": "Cessna 525 Citation CJ2"
+    "Model": "Cessna 525 Citation CJ2",
+    "Manufacturer": "Cessna",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "CJ1",
     "ICAO_Code": "C25B",
-    "Model": "Cessna 525 Citation CJ3"
+    "Model": "Cessna 525 Citation CJ3",
+    "Manufacturer": "Cessna",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "CJ1",
     "ICAO_Code": "C26",
-    "Model": "Cessna 526 Citation"
+    "Model": "Cessna 526 Citation",
+    "Manufacturer": "Cessna",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "CJ2",
     "ICAO_Code": "C50",
-    "Model": "Cessna 550 Citation 2"
+    "Model": "Cessna 550 Citation 2",
+    "Manufacturer": "Cessna",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "CJ2",
     "ICAO_Code": "C51",
-    "Model": "Cessna 551 Citation 2SP"
+    "Model": "Cessna 551 Citation 2SP",
+    "Manufacturer": "Cessna",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "CJ4",
     "ICAO_Code": "C25C",
-    "Model": "Cessna 525 Citation CJ4"
+    "Model": "Cessna 525 Citation CJ4",
+    "Manufacturer": "Cessna",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "CJ5",
     "ICAO_Code": "C60",
-    "Model": "Cessna 560 Citation Encore"
+    "Model": "Cessna 560 Citation Encore",
+    "Manufacturer": "Cessna",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "CJ5",
     "ICAO_Code": "C60U",
-    "Model": "Cessna 560 Citation Ultra"
+    "Model": "Cessna 560 Citation Ultra",
+    "Manufacturer": "Cessna",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "CJ5",
     "ICAO_Code": "C560",
-    "Model": "Cessna 560 Citation V"
+    "Model": "Cessna 560 Citation V",
+    "Manufacturer": "Cessna",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "CJ6",
     "ICAO_Code": "C650",
-    "Model": "Cessna 650 Citation"
+    "Model": "Cessna 650 Citation",
+    "Manufacturer": "Cessna",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "CJ8",
     "ICAO_Code": "C680",
-    "Model": "Cessna 680 Citation"
+    "Model": "Cessna 680 Citation",
+    "Manufacturer": "Cessna",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "CJL",
     "ICAO_Code": "C560",
-    "Model": "Cessna 560 Citation XL"
+    "Model": "Cessna 560 Citation XL",
+    "Manufacturer": "Cessna",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "CJL",
     "ICAO_Code": "C650X",
-    "Model": "Cessna 560 Citation XLS"
+    "Model": "Cessna 560 Citation XLS",
+    "Manufacturer": "Cessna",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "CJM",
     "ICAO_Code": "C750",
-    "Model": "Cessna 510 Citation"
+    "Model": "Cessna 510 Citation",
+    "Manufacturer": "Cessna",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "CL3",
     "ICAO_Code": "B300",
-    "Model": "Bombardier Challenger 300"
+    "Model": "Bombardier Challenger 300",
+    "Manufacturer": "Bombardier",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "CN7",
     "ICAO_Code": "C750X",
-    "Model": "Cessna 750 Citation X"
+    "Model": "Cessna 750 Citation X",
+    "Manufacturer": "Cessna",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "CNC",
     "ICAO_Code": "C208",
-    "Model": "Cessna 208"
+    "Model": "Cessna 208",
+    "Manufacturer": "Cessna",
+    "Engine_Type": "Turboprop",
+    "Number_of_Engines": 1
   },
   {
     "IATA_Code": "CNJ",
     "ICAO_Code": "C56X",
-    "Model": "Cessna Citation Excel"
+    "Model": "Cessna Citation Excel",
+    "Manufacturer": "Cessna",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "CNT",
     "ICAO_Code": "C425",
-    "Model": "Cessna 425"
+    "Model": "Cessna 425",
+    "Manufacturer": "Cessna",
+    "Engine_Type": "Turboprop",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "CNT",
     "ICAO_Code": "C441",
-    "Model": "Cessna 441"
+    "Model": "Cessna 441",
+    "Manufacturer": "Cessna",
+    "Engine_Type": "Turboprop",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "CR1",
     "ICAO_Code": "CRJ1",
-    "Model": "Canadair Regional Jet 100"
+    "Model": "Canadair Regional Jet 100",
+    "Manufacturer": "Bombardier",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "CR2",
     "ICAO_Code": "CR2",
-    "Model": "Canadair Challenger 850"
+    "Model": "Canadair Challenger 850",
+    "Manufacturer": "Bombardier",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "CR2",
     "ICAO_Code": "CRJ2",
-    "Model": "Canadair Regional Jet 200"
+    "Model": "Canadair Regional Jet 200",
+    "Manufacturer": "Bombardier",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "CR7",
     "ICAO_Code": "CRJ7",
-    "Model": "Canadair Challenger 870"
+    "Model": "Canadair Challenger 870",
+    "Manufacturer": "Bombardier",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "CR7",
     "ICAO_Code": "CRJ7",
-    "Model": "Canadair Regional Jet 700"
+    "Model": "Canadair Regional Jet 700",
+    "Manufacturer": "Bombardier",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "CR9",
     "ICAO_Code": "CRJ9",
-    "Model": "Canadair Challenger 890"
+    "Model": "Canadair Challenger 890",
+    "Manufacturer": "Bombardier",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "CR9",
     "ICAO_Code": "CRJ9",
-    "Model": "Canadair Regional Jet 900"
+    "Model": "Canadair Regional Jet 900",
+    "Manufacturer": "Bombardier",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "CRA",
     "ICAO_Code": "CRA",
-    "Model": "Canadair Regional Jet 705"
+    "Model": "Canadair Regional Jet 705",
+    "Manufacturer": "Bombardier",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "CRK",
     "ICAO_Code": "CRX",
-    "Model": "Canadair Regional Jet 1000"
+    "Model": "Canadair Regional Jet 1000",
+    "Manufacturer": "Bombardier",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "CV5",
     "ICAO_Code": "CVLT",
-    "Model": "Convair CV-580"
+    "Model": "Convair CV-580",
+    "Manufacturer": "Convair",
+    "Engine_Type": "Turboprop",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "D11",
     "ICAO_Code": "DC10",
-    "Model": "Douglas DC-10-10 / -15 Passenger"
+    "Model": "Douglas DC-10-10 / -15 Passenger",
+    "Manufacturer": "McDonnell Douglas",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 3
   },
   {
     "IATA_Code": "D1C",
     "ICAO_Code": "DC10",
-    "Model": "Douglas DC-10-30 / -40 Passenger"
+    "Model": "Douglas DC-10-30 / -40 Passenger",
+    "Manufacturer": "McDonnell Douglas",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 3
   },
   {
     "IATA_Code": "D1M",
     "ICAO_Code": "DC10",
-    "Model": "Douglas DC-10-30 Combi"
+    "Model": "Douglas DC-10-30 Combi",
+    "Manufacturer": "McDonnell Douglas",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 3
   },
   {
     "IATA_Code": "D1X",
     "ICAO_Code": "DC10",
-    "Model": "Douglas DC-10-10 Freighter"
+    "Model": "Douglas DC-10-10 Freighter",
+    "Manufacturer": "McDonnell Douglas",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 3
   },
   {
     "IATA_Code": "D1Y",
     "ICAO_Code": "DC10",
-    "Model": "Douglas DC-10-30 / -40 Freighter"
+    "Model": "Douglas DC-10-30 / -40 Freighter",
+    "Manufacturer": "McDonnell Douglas",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 3
   },
   {
     "IATA_Code": "D20",
     "ICAO_Code": "F2TH",
-    "Model": "Dassault Falcon 2000"
+    "Model": "Dassault Falcon 2000",
+    "Manufacturer": "Dassault Aviation",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "D20",
     "ICAO_Code": "F2TI",
-    "Model": "Dassault Falcon 2000DX"
+    "Model": "Dassault Falcon 2000DX",
+    "Manufacturer": "Dassault Aviation",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "D28",
     "ICAO_Code": "D28",
-    "Model": "Dornier 228"
+    "Model": "Dornier 228",
+    "Manufacturer": "Dornier",
+    "Engine_Type": "Turboprop",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "D2L",
     "ICAO_Code": "D2E",
-    "Model": "Dassault Falcon 2000EASY"
+    "Model": "Dassault Falcon 2000EASY",
+    "Manufacturer": "Dassault Aviation",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "D2L",
     "ICAO_Code": "D2X",
-    "Model": "Dassault Falcon 2000EX"
+    "Model": "Dassault Falcon 2000EX",
+    "Manufacturer": "Dassault Aviation",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "D2L",
     "ICAO_Code": "D2L",
-    "Model": "Dassault Falcon 2000LX"
+    "Model": "Dassault Falcon 2000LX",
+    "Manufacturer": "Dassault Aviation",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "D38",
     "ICAO_Code": "D328",
-    "Model": "Dornier 328-100"
+    "Model": "Dornier 328-100",
+    "Manufacturer": "Dornier",
+    "Engine_Type": "Turboprop",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "D42",
     "ICAO_Code": "DA42",
-    "Model": "Diamond DA42"
+    "Model": "Diamond DA42",
+    "Manufacturer": "Diamond Aircraft",
+    "Engine_Type": "Piston",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "D9L",
     "ICAO_Code": "DL9",
-    "Model": "Dassault Falcon 900LX"
+    "Model": "Dassault Falcon 900LX",
+    "Manufacturer": "Dassault Aviation",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 3
   },
   {
     "IATA_Code": "DF1",
     "ICAO_Code": "DF1",
-    "Model": "Dassault Falcon 10"
+    "Model": "Dassault Falcon 10",
+    "Manufacturer": "Dassault Aviation",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "DF1",
     "ICAO_Code": "DF1",
-    "Model": "Dassault Falcon 100"
+    "Model": "Dassault Falcon 100",
+    "Manufacturer": "Dassault Aviation",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "DF2",
     "ICAO_Code": "DF2",
-    "Model": "Dassault Falcon 20"
+    "Model": "Dassault Falcon 20",
+    "Manufacturer": "Dassault Aviation",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "DF2",
     "ICAO_Code": "DF2",
-    "Model": "Dassault Falcon 200"
+    "Model": "Dassault Falcon 200",
+    "Manufacturer": "Dassault Aviation",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "DF5",
     "ICAO_Code": "DF5",
-    "Model": "Dassault Falcon 50"
+    "Model": "Dassault Falcon 50",
+    "Manufacturer": "Dassault Aviation",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 3
   },
   {
     "IATA_Code": "DF7",
     "ICAO_Code": "DF7",
-    "Model": "Dassault Falcon 7X"
+    "Model": "Dassault Falcon 7X",
+    "Manufacturer": "Dassault Aviation",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 3
   },
   {
     "IATA_Code": "DF9",
     "ICAO_Code": "DF9",
-    "Model": "Dassault Falcon 900"
+    "Model": "Dassault Falcon 900",
+    "Manufacturer": "Dassault Aviation",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 3
   },
   {
     "IATA_Code": "DF9",
     "ICAO_Code": "DFB",
-    "Model": "Dassault Falcon 900B"
+    "Model": "Dassault Falcon 900B",
+    "Manufacturer": "Dassault Aviation",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 3
   },
   {
     "IATA_Code": "DF9",
     "ICAO_Code": "DFC",
-    "Model": "Dassault Falcon 900C"
+    "Model": "Dassault Falcon 900C",
+    "Manufacturer": "Dassault Aviation",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 3
   },
   {
     "IATA_Code": "DF9",
     "ICAO_Code": "DFX",
-    "Model": "Dassault Falcon 900DX"
+    "Model": "Dassault Falcon 900DX",
+    "Manufacturer": "Dassault Aviation",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 3
   },
   {
     "IATA_Code": "DF9",
     "ICAO_Code": "DFE",
-    "Model": "Dassault Falcon 900EASY"
+    "Model": "Dassault Falcon 900EASY",
+    "Manufacturer": "Dassault Aviation",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 3
   },
   {
     "IATA_Code": "DF9",
     "ICAO_Code": "DFEX",
-    "Model": "Dassault Falcon 900EX"
+    "Model": "Dassault Falcon 900EX",
+    "Manufacturer": "Dassault Aviation",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 3
   },
   {
     "IATA_Code": "DH1",
     "ICAO_Code": "DH8A",
-    "Model": "De Havilland DHC-8-100"
+    "Model": "De Havilland DHC-8-100",
+    "Manufacturer": "De Havilland Canada",
+    "Engine_Type": "Turboprop",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "DH2",
     "ICAO_Code": "DH8B",
-    "Model": "De Havilland DHC-8-200"
+    "Model": "De Havilland DHC-8-200",
+    "Manufacturer": "De Havilland Canada",
+    "Engine_Type": "Turboprop",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "DH3",
     "ICAO_Code": "DH8C",
-    "Model": "De Havilland DHC-8-300"
+    "Model": "De Havilland DHC-8-300",
+    "Manufacturer": "De Havilland Canada",
+    "Engine_Type": "Turboprop",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "DH4",
     "ICAO_Code": "DH8D",
-    "Model": "De Havilland DHC-8-400"
+    "Model": "De Havilland DHC-8-400",
+    "Manufacturer": "De Havilland Canada",
+    "Engine_Type": "Turboprop",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "DH7",
     "ICAO_Code": "DHC7",
-    "Model": "De Havilland Canada DHC-7 Dash 7"
+    "Model": "De Havilland Canada DHC-7 Dash 7",
+    "Manufacturer": "De Havilland Canada",
+    "Engine_Type": "Turboprop",
+    "Number_of_Engines": 4
   },
   {
     "IATA_Code": "DHC",
     "ICAO_Code": "DHC5",
-    "Model": "De Havilland Canada DHC-5 Buffalo"
+    "Model": "De Havilland Canada DHC-5 Buffalo",
+    "Manufacturer": "De Havilland Canada",
+    "Engine_Type": "Turboprop",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "DHT",
     "ICAO_Code": "DHC6",
-    "Model": "De Havilland Canada DHC-6 Twin Otter"
+    "Model": "De Havilland Canada DHC-6 Twin Otter",
+    "Manufacturer": "De Havilland Canada",
+    "Engine_Type": "Turboprop",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "E50",
     "ICAO_Code": "EA50",
-    "Model": "Eclipse 500"
+    "Model": "Eclipse 500",
+    "Manufacturer": "Eclipse Aerospace",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "E70",
     "ICAO_Code": "E170",
-    "Model": "Embraer 170"
+    "Model": "Embraer 170",
+    "Manufacturer": "Embraer",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "E75",
     "ICAO_Code": "E75S",
-    "Model": "Embraer 175"
+    "Model": "Embraer 175",
+    "Manufacturer": "Embraer",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "E7W",
     "ICAO_Code": "E75L",
-    "Model": "Embraer 175 (long wing)"
+    "Model": "Embraer 175 (long wing)",
+    "Manufacturer": "Embraer",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "E90",
     "ICAO_Code": "E190",
-    "Model": "Embraer 190"
+    "Model": "Embraer 190",
+    "Manufacturer": "Embraer",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "E90",
     "ICAO_Code": "E190",
-    "Model": "Embraer Lineage 1000"
+    "Model": "Embraer Lineage 1000",
+    "Manufacturer": "Embraer",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "E95",
     "ICAO_Code": "E195",
-    "Model": "Embraer 195"
+    "Model": "Embraer 195",
+    "Manufacturer": "Embraer",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "EA5",
     "ICAO_Code": "EA5",
-    "Model": "Eclipse EA500"
+    "Model": "Eclipse EA500",
+    "Manufacturer": "Eclipse Aerospace",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "EC3",
     "ICAO_Code": "EC3",
-    "Model": "Eurocopter EC130"
+    "Model": "Eurocopter EC130",
+    "Manufacturer": "Eurocopter",
+    "Engine_Type": "Turboshaft",
+    "Number_of_Engines": 1
   },
   {
     "IATA_Code": "EC3",
     "ICAO_Code": "EC3",
-    "Model": "Eurocopter EC135"
+    "Model": "Eurocopter EC135",
+    "Manufacturer": "Eurocopter",
+    "Engine_Type": "Turboshaft",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "EC5",
     "ICAO_Code": "EC5",
-    "Model": "Eurocopter EC155"
+    "Model": "Eurocopter EC155",
+    "Manufacturer": "Eurocopter",
+    "Engine_Type": "Turboshaft",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "EH1",
     "ICAO_Code": "EH101",
-    "Model": "Agusta EH101"
+    "Model": "Agusta EH101",
+    "Manufacturer": "AgustaWestland",
+    "Engine_Type": "Turboshaft",
+    "Number_of_Engines": 3
   },
   {
     "IATA_Code": "EM2",
     "ICAO_Code": "EM2",
-    "Model": "Embraer 120"
+    "Model": "Embraer 120",
+    "Manufacturer": "Embraer",
+    "Engine_Type": "Turboprop",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "EMB",
     "ICAO_Code": "EMB",
-    "Model": "Embraer 110"
+    "Model": "Embraer 110",
+    "Manufacturer": "Embraer",
+    "Engine_Type": "Turboprop",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "EP1",
     "ICAO_Code": "E50P",
-    "Model": "Embraer 500 Phenom 100"
+    "Model": "Embraer 500 Phenom 100",
+    "Manufacturer": "Embraer",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "EP3",
     "ICAO_Code": "E55P",
-    "Model": "Embraer 505 Phenom 300"
+    "Model": "Embraer 505 Phenom 300",
+    "Manufacturer": "Embraer",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "ER3",
     "ICAO_Code": "E135",
-    "Model": "Embraer 135"
+    "Model": "Embraer 135",
+    "Manufacturer": "Embraer",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "ER3",
     "ICAO_Code": "E35L",
-    "Model": "Embraer Legacy 600/650"
+    "Model": "Embraer Legacy 600/650",
+    "Manufacturer": "Embraer",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "ER4",
     "ICAO_Code": "E145",
-    "Model": "Embraer 145"
+    "Model": "Embraer 145",
+    "Manufacturer": "Embraer",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "ERD",
     "ICAO_Code": "E135",
-    "Model": "Embraer RJ140"
+    "Model": "Embraer RJ140",
+    "Manufacturer": "Embraer",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "F21",
     "ICAO_Code": "F28",
-    "Model": "Fokker F28 Fellowship"
+    "Model": "Fokker F28 Fellowship",
+    "Manufacturer": "Fokker",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "F27",
     "ICAO_Code": "F27",
-    "Model": "Fokker F27 Friendship"
+    "Model": "Fokker F27 Friendship",
+    "Manufacturer": "Fokker",
+    "Engine_Type": "Turboprop",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "F50",
     "ICAO_Code": "F50",
-    "Model": "Fokker 50"
+    "Model": "Fokker 50",
+    "Manufacturer": "Fokker",
+    "Engine_Type": "Turboprop",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "F70",
     "ICAO_Code": "F70",
-    "Model": "Fokker 70"
+    "Model": "Fokker 70",
+    "Manufacturer": "Fokker",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "FRJ",
     "ICAO_Code": "J328",
-    "Model": "Dornier 328-300"
+    "Model": "Dornier 328-300",
+    "Manufacturer": "Dornier",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "G2B",
     "ICAO_Code": "GL2B",
-    "Model": "Gulfstream 2B"
+    "Model": "Gulfstream 2B",
+    "Manufacturer": "Gulfstream Aerospace",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "G2S",
     "ICAO_Code": "GL2S",
-    "Model": "Gulfstream 2SP"
+    "Model": "Gulfstream 2SP",
+    "Manufacturer": "Gulfstream Aerospace",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "G7C",
     "ICAO_Code": "GA7C",
-    "Model": "Gulfstream G700"
+    "Model": "Gulfstream G700",
+    "Manufacturer": "Gulfstream Aerospace",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "GA8",
     "ICAO_Code": "GA8",
-    "Model": "Gippsland GA-8"
+    "Model": "Gippsland GA-8",
+    "Manufacturer": "GippsAero",
+    "Engine_Type": "Piston",
+    "Number_of_Engines": 1
   },
   {
     "IATA_Code": "GJ2",
     "ICAO_Code": "GLF2",
-    "Model": "Gulfstream 2"
+    "Model": "Gulfstream 2",
+    "Manufacturer": "Gulfstream Aerospace",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "GJ3",
     "ICAO_Code": "GLF3",
-    "Model": "Gulfstream 3"
+    "Model": "Gulfstream 3",
+    "Manufacturer": "Gulfstream Aerospace",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "GJ4",
     "ICAO_Code": "GLF3",
-    "Model": "Gulfstream 300"
+    "Model": "Gulfstream 300",
+    "Manufacturer": "Gulfstream Aerospace",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "GJ4",
     "ICAO_Code": "GLF3",
-    "Model": "Gulfstream 350"
+    "Model": "Gulfstream 350",
+    "Manufacturer": "Gulfstream Aerospace",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "GJ4",
     "ICAO_Code": "GLF4",
-    "Model": "Gulfstream 4"
+    "Model": "Gulfstream 4",
+    "Manufacturer": "Gulfstream Aerospace",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "GJ4",
     "ICAO_Code": "GLF4",
-    "Model": "Gulfstream 400"
+    "Model": "Gulfstream 400",
+    "Manufacturer": "Gulfstream Aerospace",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "GJ4",
     "ICAO_Code": "GLF4",
-    "Model": "Gulfstream 450"
+    "Model": "Gulfstream 450",
+    "Manufacturer": "Gulfstream Aerospace",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "GJ4",
     "ICAO_Code": "GLF4",
-    "Model": "Gulfstream 4SP"
+    "Model": "Gulfstream 4SP",
+    "Manufacturer": "Gulfstream Aerospace",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "GJ5",
     "ICAO_Code": "GLF5",
-    "Model": "Gulfstream 5"
+    "Model": "Gulfstream 5",
+    "Manufacturer": "Gulfstream Aerospace",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "GJ5",
     "ICAO_Code": "GLF5",
-    "Model": "Gulfstream 500"
+    "Model": "Gulfstream 500",
+    "Manufacturer": "Gulfstream Aerospace",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "GJ5",
     "ICAO_Code": "GLF5",
-    "Model": "Gulfstream 550"
+    "Model": "Gulfstream 550",
+    "Manufacturer": "Gulfstream Aerospace",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "GJ6",
     "ICAO_Code": "GLF6",
-    "Model": "Gulfstream 650"
+    "Model": "Gulfstream 650",
+    "Manufacturer": "Gulfstream Aerospace",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "GR1",
     "ICAO_Code": "GLF10",
-    "Model": "Gulfstream Aerospace (IAI) G100"
+    "Model": "Gulfstream Aerospace (IAI) G100",
+    "Manufacturer": "Gulfstream Aerospace",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "GR1",
     "ICAO_Code": "GLF15",
-    "Model": "Gulfstream Aerospace (IAI) G150"
+    "Model": "Gulfstream Aerospace (IAI) G150",
+    "Manufacturer": "Gulfstream Aerospace",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "GR2",
     "ICAO_Code": "GL20",
-    "Model": "Gulfstream Aerospace (IAI) G200"
+    "Model": "Gulfstream Aerospace (IAI) G200",
+    "Manufacturer": "Gulfstream Aerospace",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "GR3",
     "ICAO_Code": "GL20",
-    "Model": "Gulfstream Aerospace (IAI) G280"
+    "Model": "Gulfstream Aerospace (IAI) G280",
+    "Manufacturer": "Gulfstream Aerospace",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "GRM",
     "ICAO_Code": "G73T",
-    "Model": "Grumman G-73 Turbo Mallard"
+    "Model": "Grumman G-73 Turbo Mallard",
+    "Manufacturer": "Grumman",
+    "Engine_Type": "Turboprop",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "GRS",
     "ICAO_Code": "G159",
-    "Model": "Gulfstream 1"
+    "Model": "Gulfstream 1",
+    "Manufacturer": "Gulfstream Aerospace",
+    "Engine_Type": "Turboprop",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "H20",
     "ICAO_Code": "H20",
-    "Model": "Hawker 200"
+    "Model": "Hawker 200",
+    "Manufacturer": "Hawker Beechcraft",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "H21",
     "ICAO_Code": "H21",
-    "Model": "Hawker 1000"
+    "Model": "Hawker 1000",
+    "Manufacturer": "Hawker Beechcraft",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "H24",
     "ICAO_Code": "H24",
-    "Model": "Hawker 4000"
+    "Model": "Hawker 4000",
+    "Manufacturer": "Hawker Beechcraft",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "H25",
     "ICAO_Code": "H25B",
-    "Model": "Hawker 750"
+    "Model": "Hawker 750",
+    "Manufacturer": "Hawker Beechcraft",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "H25",
     "ICAO_Code": "H25C",
-    "Model": "Hawker 800"
+    "Model": "Hawker 800",
+    "Manufacturer": "Hawker Beechcraft",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "H25",
     "ICAO_Code": "H25D",
-    "Model": "Hawker 800SP"
+    "Model": "Hawker 800SP",
+    "Manufacturer": "Hawker Beechcraft",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "H25",
     "ICAO_Code": "H25E",
-    "Model": "Hawker 800XP"
+    "Model": "Hawker 800XP",
+    "Manufacturer": "Hawker Beechcraft",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "H25",
     "ICAO_Code": "H25F",
-    "Model": "Hawker Siddeley (Bae) 125"
+    "Model": "Hawker Siddeley (Bae) 125",
+    "Manufacturer": "Hawker Siddeley",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "H28",
     "ICAO_Code": "H28X",
-    "Model": "Hawker 850XP"
+    "Model": "Hawker 850XP",
+    "Manufacturer": "Hawker Beechcraft",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "H28",
     "ICAO_Code": "H289",
-    "Model": "Hawker 900"
+    "Model": "Hawker 900",
+    "Manufacturer": "Hawker Beechcraft",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "H29",
     "ICAO_Code": "H29",
-    "Model": "Hawker 900XP"
+    "Model": "Hawker 900XP",
+    "Manufacturer": "Hawker Beechcraft",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "HHJ",
     "ICAO_Code": "HDJT",
-    "Model": "Honda HA-420"
+    "Model": "Honda HA-420",
+    "Manufacturer": "Honda Aircraft Company",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "HS7",
     "ICAO_Code": "A748",
-    "Model": "Hawker Siddeley HS 748"
+    "Model": "Hawker Siddeley HS 748",
+    "Manufacturer": "Hawker Siddeley",
+    "Engine_Type": "Turboprop",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "I14",
     "ICAO_Code": "I114",
-    "Model": "Ilyushin Il-114"
+    "Model": "Ilyushin Il-114",
+    "Manufacturer": "Ilyushin",
+    "Engine_Type": "Turboprop",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "I93",
     "ICAO_Code": "IL96",
-    "Model": "Ilyushin Il-96"
+    "Model": "Ilyushin Il-96",
+    "Manufacturer": "Ilyushin",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 4
   },
   {
     "IATA_Code": "IL6",
     "ICAO_Code": "IL62",
-    "Model": "Ilyushin Il-62"
+    "Model": "Ilyushin Il-62",
+    "Manufacturer": "Ilyushin",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 4
   },
   {
     "IATA_Code": "IL7",
     "ICAO_Code": "IL76",
-    "Model": "Ilyushin Il-76"
+    "Model": "Ilyushin Il-76",
+    "Manufacturer": "Ilyushin",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 4
   },
   {
     "IATA_Code": "IL8",
     "ICAO_Code": "IL18",
-    "Model": "Ilyushin Il-18"
+    "Model": "Ilyushin Il-18",
+    "Manufacturer": "Ilyushin",
+    "Engine_Type": "Turboprop",
+    "Number_of_Engines": 4
   },
   {
     "IATA_Code": "IL86",
     "ICAO_Code": "ILW",
-    "Model": "Ilyushin Il-86"
+    "Model": "Ilyushin Il-86",
+    "Manufacturer": "Ilyushin",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 4
   },
   {
     "IATA_Code": "IL9",
     "ICAO_Code": "IL96",
-    "Model": "Ilyushin Il-96"
+    "Model": "Ilyushin Il-96",
+    "Manufacturer": "Ilyushin",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 4
   },
   {
     "IATA_Code": "J31",
     "ICAO_Code": "JS31",
-    "Model": "Bae Jetstream 31"
+    "Model": "Bae Jetstream 31",
+    "Manufacturer": "British Aerospace",
+    "Engine_Type": "Turboprop",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "J32",
     "ICAO_Code": "JS32",
-    "Model": "Bae Jetstream 32"
+    "Model": "Bae Jetstream 32",
+    "Manufacturer": "British Aerospace",
+    "Engine_Type": "Turboprop",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "J41",
     "ICAO_Code": "JS41",
-    "Model": "Bae Jetstream 41"
+    "Model": "Bae Jetstream 41",
+    "Manufacturer": "British Aerospace",
+    "Engine_Type": "Turboprop",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "JSR",
     "ICAO_Code": "L1322",
-    "Model": "Lockheed L1329 Jetstar 2"
+    "Model": "Lockheed L1329 Jetstar 2",
+    "Manufacturer": "Lockheed",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 4
   },
   {
     "IATA_Code": "JSR",
     "ICAO_Code": "L1326",
-    "Model": "Lockheed L1329 Jetstar 6/8"
+    "Model": "Lockheed L1329 Jetstar 6/8",
+    "Manufacturer": "Lockheed",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 4
   },
   {
     "IATA_Code": "K35",
     "ICAO_Code": "K35R",
-    "Model": "Boeing KC-135 Stratotanker"
+    "Model": "Boeing KC-135 Stratotanker",
+    "Manufacturer": "Boeing",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 4
   },
   {
     "IATA_Code": "L10",
     "ICAO_Code": "L101",
-    "Model": "Lockheed L-1011 Tristar"
+    "Model": "Lockheed L-1011 Tristar",
+    "Manufacturer": "Lockheed",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 3
   },
   {
     "IATA_Code": "L4T",
     "ICAO_Code": "L4T",
-    "Model": "LET 410"
+    "Model": "LET 410",
+    "Manufacturer": "LET Aircraft Industries",
+    "Engine_Type": "Turboprop",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "L4T",
     "ICAO_Code": "L410",
-    "Model": "LET 410"
+    "Model": "LET 410",
+    "Manufacturer": "LET Aircraft Industries",
+    "Engine_Type": "Turboprop",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "LJ2",
     "ICAO_Code": "LJ23",
-    "Model": "Learjet 23"
+    "Model": "Learjet 23",
+    "Manufacturer": "Learjet",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "LJ2",
     "ICAO_Code": "LJ24",
-    "Model": "Learjet 24"
+    "Model": "Learjet 24",
+    "Manufacturer": "Learjet",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "LJ2",
     "ICAO_Code": "LJ25",
-    "Model": "Learjet 25"
+    "Model": "Learjet 25",
+    "Manufacturer": "Learjet",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "LJ3",
     "ICAO_Code": "LJ31",
-    "Model": "Learjet 31"
+    "Model": "Learjet 31",
+    "Manufacturer": "Learjet",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "LJ3",
     "ICAO_Code": "LJ35",
-    "Model": "Learjet 35"
+    "Model": "Learjet 35",
+    "Manufacturer": "Learjet",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "LJ4",
     "ICAO_Code": "LJ40",
-    "Model": "Learjet 40"
+    "Model": "Learjet 40",
+    "Manufacturer": "Learjet",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "LJ4",
     "ICAO_Code": "LJ45",
-    "Model": "Learjet 45"
+    "Model": "Learjet 45",
+    "Manufacturer": "Learjet",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "LJ6",
     "ICAO_Code": "LJ55",
-    "Model": "Learjet 55"
+    "Model": "Learjet 55",
+    "Manufacturer": "Learjet",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "LJ6",
     "ICAO_Code": "LJ60",
-    "Model": "Learjet 60"
+    "Model": "Learjet 60",
+    "Manufacturer": "Learjet",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "LJ7",
     "ICAO_Code": "LJ75",
-    "Model": "Learjet 75"
+    "Model": "Learjet 75",
+    "Manufacturer": "Learjet",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "LJ8",
     "ICAO_Code": "LJ85",
-    "Model": "Learjet 85"
+    "Model": "Learjet 85",
+    "Manufacturer": "Learjet",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "LOE",
     "ICAO_Code": "L188",
-    "Model": "Lockheed L-188 Electra"
+    "Model": "Lockheed L-188 Electra",
+    "Manufacturer": "Lockheed",
+    "Engine_Type": "Turboprop",
+    "Number_of_Engines": 4
   },
   {
     "IATA_Code": "LOH",
     "ICAO_Code": "C130",
-    "Model": "Lockheed C130"
+    "Model": "Lockheed C130",
+    "Manufacturer": "Lockheed",
+    "Engine_Type": "Turboprop",
+    "Number_of_Engines": 4
   },
   {
     "IATA_Code": "M11",
     "ICAO_Code": "MD11",
-    "Model": "McDonnell Douglas MD-11"
+    "Model": "McDonnell Douglas MD-11",
+    "Manufacturer": "McDonnell Douglas",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 3
   },
   {
     "IATA_Code": "M1F",
     "ICAO_Code": "MD11",
-    "Model": "McDonnell Douglas MD-11F"
+    "Model": "McDonnell Douglas MD-11F",
+    "Manufacturer": "McDonnell Douglas",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 3
   },
   {
     "IATA_Code": "M1M",
     "ICAO_Code": "MD11",
-    "Model": "McDonnell Douglas MD-11C"
+    "Model": "McDonnell Douglas MD-11C",
+    "Manufacturer": "McDonnell Douglas",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 3
   },
   {
     "IATA_Code": "M81",
     "ICAO_Code": "MD81",
-    "Model": "McDonnell Douglas MD-81"
+    "Model": "McDonnell Douglas MD-81",
+    "Manufacturer": "McDonnell Douglas",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "M82",
     "ICAO_Code": "MD82",
-    "Model": "McDonnell Douglas MD-82"
+    "Model": "McDonnell Douglas MD-82",
+    "Manufacturer": "McDonnell Douglas",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "M83",
     "ICAO_Code": "MD83",
-    "Model": "McDonnell Douglas MD-83"
+    "Model": "McDonnell Douglas MD-83",
+    "Manufacturer": "McDonnell Douglas",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "M87",
     "ICAO_Code": "MD87",
-    "Model": "McDonnell Douglas MD-87"
+    "Model": "McDonnell Douglas MD-87",
+    "Manufacturer": "McDonnell Douglas",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "M88",
     "ICAO_Code": "MD88",
-    "Model": "McDonnell Douglas MD-88"
+    "Model": "McDonnell Douglas MD-88",
+    "Manufacturer": "McDonnell Douglas",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "M90",
     "ICAO_Code": "MD90",
-    "Model": "McDonnell Douglas MD-90"
+    "Model": "McDonnell Douglas MD-90",
+    "Manufacturer": "McDonnell Douglas",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "MBH",
     "ICAO_Code": "BO105",
-    "Model": "Bolkow Bo-105"
+    "Model": "Bolkow Bo-105",
+    "Manufacturer": "MBB (Messerschmitt-Bölkow-Blohm)",
+    "Engine_Type": "Turboshaft",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "MD9",
     "ICAO_Code": "MD90",
-    "Model": "MD Helicopters MD900"
+    "Model": "MD Helicopters MD900",
+    "Manufacturer": "MD Helicopters",
+    "Engine_Type": "Turboshaft",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "MU2",
     "ICAO_Code": "MU2",
-    "Model": "Mitsubishi MU-2"
+    "Model": "Mitsubishi MU-2",
+    "Manufacturer": "Mitsubishi",
+    "Engine_Type": "Turboprop",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "ND2",
     "ICAO_Code": "N262",
-    "Model": "Aerospatiale (Nord) 262"
+    "Model": "Aerospatiale (Nord) 262",
+    "Manufacturer": "Aerospatiale",
+    "Engine_Type": "Turboprop",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "NDC",
     "ICAO_Code": "S601",
-    "Model": "Aerospatiale SN601"
+    "Model": "Aerospatiale SN601",
+    "Manufacturer": "Aerospatiale",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "NDE",
     "ICAO_Code": "AS50",
-    "Model": "Aerospatiale AS350"
+    "Model": "Aerospatiale AS350",
+    "Manufacturer": "Aerospatiale",
+    "Engine_Type": "Turboshaft",
+    "Number_of_Engines": 1
   },
   {
     "IATA_Code": "NDE",
     "ICAO_Code": "AS55",
-    "Model": "Aerospatiale AS355"
+    "Model": "Aerospatiale AS355",
+    "Manufacturer": "Aerospatiale",
+    "Engine_Type": "Turboshaft",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "NDH",
     "ICAO_Code": "AS65",
-    "Model": "Aerospatiale AS365"
+    "Model": "Aerospatiale AS365",
+    "Manufacturer": "Aerospatiale",
+    "Engine_Type": "Turboshaft",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "P18",
     "ICAO_Code": "P180",
-    "Model": "Piaggio P180"
+    "Model": "Piaggio P180",
+    "Manufacturer": "Piaggio Aerospace",
+    "Engine_Type": "Turboprop",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "PA2",
     "ICAO_Code": "PA31",
-    "Model": "Piper Pa-31"
+    "Model": "Piper Pa-31",
+    "Manufacturer": "Piper Aircraft",
+    "Engine_Type": "Piston",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "PAG",
     "ICAO_Code": "PA46",
-    "Model": "Piper Pa-46"
+    "Model": "Piper Pa-46",
+    "Manufacturer": "Piper Aircraft",
+    "Engine_Type": "Piston",
+    "Number_of_Engines": 1
   },
   {
     "IATA_Code": "PAT",
     "ICAO_Code": "PAY3",
-    "Model": "Piper Pa-31T"
+    "Model": "Piper Pa-31T",
+    "Manufacturer": "Piper Aircraft",
+    "Engine_Type": "Turboprop",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "PAT",
     "ICAO_Code": "PA42",
-    "Model": "Piper Pa-42"
+    "Model": "Piper Pa-42",
+    "Manufacturer": "Piper Aircraft",
+    "Engine_Type": "Turboprop",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "PL2",
     "ICAO_Code": "PC12",
-    "Model": "Pilatus PC-12"
+    "Model": "Pilatus PC-12",
+    "Manufacturer": "Pilatus Aircraft",
+    "Engine_Type": "Turboprop",
+    "Number_of_Engines": 1
   },
   {
     "IATA_Code": "PL4",
     "ICAO_Code": "PC24",
-    "Model": "Pilatus PC-24"
+    "Model": "Pilatus PC-24",
+    "Manufacturer": "Pilatus Aircraft",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "PN6",
     "ICAO_Code": "P68",
-    "Model": "Partenavia P68"
+    "Model": "Partenavia P68",
+    "Manufacturer": "Partenavia",
+    "Engine_Type": "Piston",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "PR1",
     "ICAO_Code": "PRM1",
-    "Model": "Hawker 390 Premier 1"
+    "Model": "Hawker 390 Premier 1",
+    "Manufacturer": "Hawker Beechcraft",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "S20",
     "ICAO_Code": "SB20",
-    "Model": "SAAB 2000"
+    "Model": "SAAB 2000",
+    "Manufacturer": "Saab",
+    "Engine_Type": "Turboprop",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "S61",
     "ICAO_Code": "S61",
-    "Model": "Sikorsky S-61"
+    "Model": "Sikorsky S-61",
+    "Manufacturer": "Sikorsky Aircraft",
+    "Engine_Type": "Turboshaft",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "S76",
     "ICAO_Code": "S76",
-    "Model": "Sikorsky S-76"
+    "Model": "Sikorsky S-76",
+    "Manufacturer": "Sikorsky Aircraft",
+    "Engine_Type": "Turboshaft",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "S92",
     "ICAO_Code": "S92",
-    "Model": "Sikorsky S-92"
+    "Model": "Sikorsky S-92",
+    "Manufacturer": "Sikorsky Aircraft",
+    "Engine_Type": "Turboshaft",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "SF3",
     "ICAO_Code": "SF34",
-    "Model": "SAAB SF340"
+    "Model": "SAAB SF340",
+    "Manufacturer": "Saab",
+    "Engine_Type": "Turboprop",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "SH3",
     "ICAO_Code": "SH33",
-    "Model": "Shorts SD.330"
+    "Model": "Shorts SD.330",
+    "Manufacturer": "Short Brothers",
+    "Engine_Type": "Turboprop",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "SH6",
     "ICAO_Code": "SH36",
-    "Model": "Shorts SD.360"
+    "Model": "Shorts SD.360",
+    "Manufacturer": "Short Brothers",
+    "Engine_Type": "Turboprop",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "SHB",
     "ICAO_Code": "BELF",
-    "Model": "Shorts SC-5 Belfast"
+    "Model": "Shorts SC-5 Belfast",
+    "Manufacturer": "Short Brothers",
+    "Engine_Type": "Turboprop",
+    "Number_of_Engines": 4
   },
   {
     "IATA_Code": "SHS",
     "ICAO_Code": "SC7",
-    "Model": "Shorts SC-7 Skyvan"
+    "Model": "Shorts SC-7 Skyvan",
+    "Manufacturer": "Short Brothers",
+    "Engine_Type": "Turboprop",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "SU9",
     "ICAO_Code": "SU95",
-    "Model": "Sukhoi Superjet 100-95"
+    "Model": "Sukhoi Superjet 100-95",
+    "Manufacturer": "Sukhoi",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "SW4",
     "ICAO_Code": "SW4",
-    "Model": "Fairchild Swearingen Metroliner"
+    "Model": "Fairchild Swearingen Metroliner",
+    "Manufacturer": "Fairchild",
+    "Engine_Type": "Turboprop",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "SWM",
     "ICAO_Code": "SW4",
-    "Model": "Fairchild SA226/227"
+    "Model": "Fairchild SA226/227",
+    "Manufacturer": "Fairchild",
+    "Engine_Type": "Turboprop",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "SWM",
     "ICAO_Code": "SF34",
-    "Model": "Fairchild SA26/226"
+    "Model": "Fairchild SA26/226",
+    "Manufacturer": "Fairchild",
+    "Engine_Type": "Turboprop",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "T20",
     "ICAO_Code": "T204",
-    "Model": "Tupolev Tu-204"
+    "Model": "Tupolev Tu-204",
+    "Manufacturer": "Tupolev",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "T20",
     "ICAO_Code": "T214",
-    "Model": "Tupolev Tu-214"
+    "Model": "Tupolev Tu-214",
+    "Manufacturer": "Tupolev",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "TBM",
     "ICAO_Code": "TBM7",
-    "Model": "SOCATA TBM700"
+    "Model": "SOCATA TBM700",
+    "Manufacturer": "SOCATA",
+    "Engine_Type": "Turboprop",
+    "Number_of_Engines": 1
   },
   {
     "IATA_Code": "TBM",
     "ICAO_Code": "TBM8",
-    "Model": "SOCATA TBM850"
+    "Model": "SOCATA TBM850",
+    "Manufacturer": "SOCATA",
+    "Engine_Type": "Turboprop",
+    "Number_of_Engines": 1
   },
   {
     "IATA_Code": "TU3",
     "ICAO_Code": "T134",
-    "Model": "Tupolev Tu-134"
+    "Model": "Tupolev Tu-134",
+    "Manufacturer": "Tupolev",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "TU3",
     "ICAO_Code": "T134",
-    "Model": "Tupolev Tu-134"
+    "Model": "Tupolev Tu-134",
+    "Manufacturer": "Tupolev",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "TU5",
     "ICAO_Code": "T154",
-    "Model": "Tupolev Tu-154"
+    "Model": "Tupolev Tu-154",
+    "Manufacturer": "Tupolev",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 3
   },
   {
     "IATA_Code": "TU5",
     "ICAO_Code": "T154",
-    "Model": "Tupolev Tu-154"
+    "Model": "Tupolev Tu-154",
+    "Manufacturer": "Tupolev",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 3
   },
   {
     "IATA_Code": "WWP",
     "ICAO_Code": "WW24",
-    "Model": "IAI 1124"
+    "Model": "IAI 1124",
+    "Manufacturer": "Israel Aerospace Industries",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "YK2",
     "ICAO_Code": "YK2",
-    "Model": "Yakovlev Yak-42"
+    "Model": "Yakovlev Yak-42",
+    "Manufacturer": "Yakovlev",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 3
   },
   {
     "IATA_Code": "YK4",
     "ICAO_Code": "YK4",
-    "Model": "Yakovlev Yak-40"
+    "Model": "Yakovlev Yak-40",
+    "Manufacturer": "Yakovlev",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 3
   },
   {
     "IATA_Code": "YN2",
     "ICAO_Code": "Y12",
-    "Model": "Harbin Y-12"
+    "Model": "Harbin Y-12",
+    "Manufacturer": "Harbin Aircraft Industry Group",
+    "Engine_Type": "Turboprop",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "YS1",
     "ICAO_Code": "YS11",
-    "Model": "NAMC YS-11"
+    "Model": "NAMC YS-11",
+    "Manufacturer": "NAMC",
+    "Engine_Type": "Turboprop",
+    "Number_of_Engines": 2
   }
 ]

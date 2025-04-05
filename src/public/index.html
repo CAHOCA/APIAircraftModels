@@ -32,6 +32,10 @@
             background: var(--secondary-color);
         }
 
+        .nav .nav-pills {
+            background: var(--secondary-color);
+        }
+
         .container {
             margin-top: 50px;
         }
@@ -87,33 +91,123 @@
 
     <div class="container text-center">
         <h1 class="mt-4">Welcome to the Aircraft Models API</h1>
-        <p class="lead">A simple REST API built with Express & Node.js that provides aircraft models and their IATA (International Air Transport Association) / ICAO (International Civil Aviation Organization) codes.</p>
+        <p class="lead">A simple REST API built with Express & Node.js that provides aircraft models, their IATA (International Air Transport Association) / ICAO (International Civil Aviation Organization) codes, manufacturer, engine type, and number of engines.</p>
         
         <div class="row mt-4">
             <div class="col-md-6">
-                <div class="card p-4">
-                    <h3>📋 Get All Models</h3>
-                    <p>Retrieve the full list of aircraft models.</p>
-                    <code>GET /api/</code>
-                    <p><a href="/api/" target="_blank" class="btn btn-primary mt-2">Try it</a></p>
-                </div>
+            <div class="card p-4">
+            <h3>📋 Get All Models</h3>
+            <p>Retrieve the full list of aircraft models.</p>
+            <code><strong>GET</strong> /api/</code>
+            <h5 class="mt-3">Examples:</h5>
+            <ul class="nav nav-pills" id="getAllModelsTab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="curl-tab" data-bs-toggle="tab" data-bs-target="#curl" type="button" role="tab" aria-controls="curl" aria-selected="true">cURL</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="js-tab" data-bs-toggle="tab" data-bs-target="#js" type="button" role="tab" aria-controls="js" aria-selected="false">JavaScript</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="python-tab" data-bs-toggle="tab" data-bs-target="#python" type="button" role="tab" aria-controls="python" aria-selected="false">Python</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="csharp-tab" data-bs-toggle="tab" data-bs-target="#csharp" type="button" role="tab" aria-controls="csharp" aria-selected="false">C#</button>
+            </li>
+            </ul>
+            <div class="tab-content mt-3" id="getAllModelsTabContent">
+            <div class="tab-pane fade show active" id="curl" role="tabpanel" aria-labelledby="curl-tab">
+                <pre><strong>cURL:</strong> curl -X GET https://api-aircraft-models.vercel.app/api/</pre>
             </div>
+            <div class="tab-pane fade" id="js" role="tabpanel" aria-labelledby="js-tab">
+                <pre><strong>JavaScript (Fetch):</strong>
+fetch('https://api-aircraft-models.vercel.app/api/')
+.then(response => response.json())
+.then(data => console.log(data));</pre>
+            </div>
+            <div class="tab-pane fade" id="python" role="tabpanel" aria-labelledby="python-tab">
+                <pre><strong>Python:</strong>
+import requests
+response = requests.get('https://api-aircraft-models.vercel.app/api/')
+print(response.json())</pre>
+    </div>
+    <div class="tab-pane fade" id="csharp" role="tabpanel" aria-labelledby="csharp-tab">
+        <pre><strong>C#:</strong>
+using System.Net.Http;
+using System.Threading.Tasks;
+
+HttpClient client = new HttpClient();
+HttpResponseMessage response = await client.GetAsync("https://api-aircraft-models.vercel.app/api/");
+string responseBody = await response.Content.ReadAsStringAsync();
+Console.WriteLine(responseBody);</pre>
+            </div>
+            </div>
+            <p><a href="https://api-aircraft-models.vercel.app/api/" target="_blank" class="btn btn-primary mt-2">Try it</a></p>
+            </div>
+            </div>
+
+
+            
             <div class="col-md-6">
-                <div class="card p-4">
-                    <h3>🔎 Get Model by IATA and ICAO Code</h3>
-                    <p>Retrieve an aircraft model using its IATA code.</p>
-                    <code>GET /api/&lt;IATA_CODE&gt;</code>
-                    <p><a href="/api/789" target="_blank" class="btn btn-primary mt-2">Try with Example</a></p>
-                </div>
+            <div class="card p-4">
+            <h3>🔎 Get Model Details</h3>
+            <p>Retrieve an aircraft model using its IATA code, including ICAO code, manufacturer, engine type, and number of engines.</p>
+            <code><strong>GET</strong> /api/&lt;IATA_CODE&gt;</code>
+            <h5 class="mt-3">Examples:</h5>
+            <ul class="nav nav-pills" id="getModelDetailsTab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="curl-details-tab" data-bs-toggle="tab" data-bs-target="#curl-details" type="button" role="tab" aria-controls="curl-details" aria-selected="true">cURL</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="js-details-tab" data-bs-toggle="tab" data-bs-target="#js-details" type="button" role="tab" aria-controls="js-details" aria-selected="false">JavaScript</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="python-details-tab" data-bs-toggle="tab" data-bs-target="#python-details" type="button" role="tab" aria-controls="python-details" aria-selected="false">Python</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="csharp-details-tab" data-bs-toggle="tab" data-bs-target="#csharp-details" type="button" role="tab" aria-controls="csharp-details" aria-selected="false">C#</button>
+            </li>
+            </ul>
+            <div class="tab-content mt-3" id="getModelDetailsTabContent">
+            <div class="tab-pane fade show active" id="curl-details" role="tabpanel" aria-labelledby="curl-details-tab">
+                <pre><strong>cURL:</strong> curl -X GET https://api-aircraft-models.vercel.app/api/789</pre>
+            </div>
+            <div class="tab-pane fade" id="js-details" role="tabpanel" aria-labelledby="js-details-tab">
+                <pre><strong>JavaScript (Fetch):</strong>
+fetch('https://api-aircraft-models.vercel.app/api/789')
+.then(response => response.json())
+.then(data => console.log(data));</pre>
+    </div>
+    <div class="tab-pane fade" id="python-details" role="tabpanel" aria-labelledby="python-details-tab">
+        <pre><strong>Python:</strong>
+import requests
+response = requests.get('https://api-aircraft-models.vercel.app/api/789')
+print(response.json())</pre>
+    </div>
+    <div class="tab-pane fade" id="csharp-details" role="tabpanel" aria-labelledby="csharp-details-tab">
+        <pre><strong>C#:</strong>
+using System.Net.Http;
+using System.Threading.Tasks;
+
+HttpClient client = new HttpClient();
+HttpResponseMessage response = await client.GetAsync("https://api-aircraft-models.vercel.app/api/789");
+string responseBody = await response.Content.ReadAsStringAsync();
+Console.WriteLine(responseBody);</pre>
+            </div>
+            </div>
+            <p><a href="https://api-aircraft-models.vercel.app/api/789" target="_blank" class="btn btn-primary mt-2">Try with Example</a></p>
+            </div>
             </div>
         </div>
 
         <h2 class="mt-5">📌 Example Response</h2>
         <pre>
 {
-    "Aircraft_Model": "Boeing 787-9 Dreamliner",
     "IATA_Code": "789",
-    "ICAO_Code": "B789"
+    "ICAO_Code": "B789",
+    "Model": "Boeing 787-9 Dreamliner",
+    "Manufacturer": "Boeing",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
 }
         </pre>
     </div>
