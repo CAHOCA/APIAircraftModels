@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://cahoca.github.io/assets/img/projects/pers/proj_2.webp" width="400" alt="Aircraft API Logo">
+</p>
+
 # ✈️ Aircraft Models API  
 
 Simple REST API built with Express & Node.js that allows listing and adding different aircraft models along with their IATA codes.  
