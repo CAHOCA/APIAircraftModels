@@ -330,102 +330,162 @@
   {
     "IATA_Code": "346",
     "ICAO_Code": "A346",
-    "Model": "Airbus A340-600"
+    "Model": "Airbus A340-600",
+    "Manufacturer": "Airbus",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 4
   },
   {
     "IATA_Code": "351",
     "ICAO_Code": "A35K",
-    "Model": "Airbus A350-1000"
+    "Model": "Airbus A350-1000",
+    "Manufacturer": "Airbus",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "359",
     "ICAO_Code": "A359",
-    "Model": "Airbus A350-900"
+    "Model": "Airbus A350-900",
+    "Manufacturer": "Airbus",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "388",
     "ICAO_Code": "A388",
-    "Model": "Airbus A380-800"
+    "Model": "Airbus A380-800",
+    "Manufacturer": "Airbus",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 4
   },
   {
     "IATA_Code": "721",
     "ICAO_Code": "B721",
-    "Model": "Boeing 727-100"
+    "Model": "Boeing 727-100",
+    "Manufacturer": "Boeing",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 3
   },
   {
     "IATA_Code": "722",
     "ICAO_Code": "B722",
-    "Model": "Boeing 727-200"
+    "Model": "Boeing 727-200",
+    "Manufacturer": "Boeing",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 3
   },
   {
     "IATA_Code": "733",
     "ICAO_Code": "B733",
-    "Model": "Boeing 737-300"
+    "Model": "Boeing 737-300",
+    "Manufacturer": "Boeing",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "734",
     "ICAO_Code": "B734",
-    "Model": "Boeing 737-400"
+    "Model": "Boeing 737-400",
+    "Manufacturer": "Boeing",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "735",
     "ICAO_Code": "B735",
-    "Model": "Boeing 737-500"
+    "Model": "Boeing 737-500",
+    "Manufacturer": "Boeing",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "736",
     "ICAO_Code": "B736",
-    "Model": "Boeing 737-600"
+    "Model": "Boeing 737-600",
+    "Manufacturer": "Boeing",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "738",
     "ICAO_Code": "B738",
-    "Model": "Boeing 737-800"
+    "Model": "Boeing 737-800",
+    "Manufacturer": "Boeing",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "739",
     "ICAO_Code": "B739",
-    "Model": "Boeing 737-900"
+    "Model": "Boeing 737-900",
+    "Manufacturer": "Boeing",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "73C",
     "ICAO_Code": "B733",
-    "Model": "Boeing 737-300"
+    "Model": "Boeing 737-300",
+    "Manufacturer": "Boeing",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "73E",
     "ICAO_Code": "B735",
-    "Model": "Boeing 737-500"
+    "Model": "Boeing 737-500",
+    "Manufacturer": "Boeing",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "73F",
     "ICAO_Code": "B732",
-    "Model": "Boeing 737-200 Freighter"
+    "Model": "Boeing 737-200 Freighter",
+    "Manufacturer": "Boeing",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "73G",
     "ICAO_Code": "B737",
-    "Model": "Boeing 737-700"
+    "Model": "Boeing 737-700",
+    "Manufacturer": "Boeing",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "73H",
     "ICAO_Code": "B738",
-    "Model": "Boeing 737-800"
+    "Model": "Boeing 737-800",
+    "Manufacturer": "Boeing",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "73H2",
     "ICAO_Code": "B737",
-    "Model": "Boeing 737-BBJ2"
+    "Model": "Boeing 737-BBJ2",
+    "Manufacturer": "Boeing",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "73J",
     "ICAO_Code": "B739",
-    "Model": "Boeing 737-900"
+    "Model": "Boeing 737-900",
+    "Manufacturer": "Boeing",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "73J3",
     "ICAO_Code": "B739",
-    "Model": "Boeing 737-BBJ3"
+    "Model": "Boeing 737-BBJ3",
+    "Manufacturer": "Boeing",
+    "Engine_Type": "Turbofan",
+    "Number_of_Engines": 2
   },
   {
     "IATA_Code": "73K",
