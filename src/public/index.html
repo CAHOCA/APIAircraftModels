@@ -3,135 +3,477 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Simple Aircraft Models API by @CAHOCA</title>
+    <title>Aircraft Models API - REST API with IATA/ICAO Codes | @CAHOCA</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Free REST API for aircraft models with IATA/ICAO codes, manufacturer data, engine specifications, service ceiling, and maximum range. Built with Express & Node.js.">
+    <meta name="keywords" content="aircraft API, aircraft models, IATA codes, ICAO codes, aviation API, REST API, aircraft data, Boeing, Airbus, aircraft specifications">
+    <meta name="author" content="Carlos Hortúa Calderón">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://api-aircraft-models.vercel.app/">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Aircraft Models API - Free REST API with IATA/ICAO Codes">
+    <meta property="og:description" content="Access comprehensive aircraft data including models, IATA/ICAO codes, manufacturers, and technical specifications through our free REST API.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://api-aircraft-models.vercel.app/">
+    <meta property="og:image" content="https://api-aircraft-models.vercel.app/favicon.png">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Aircraft Models API - Free REST API">
+    <meta name="twitter:description" content="Free REST API for aircraft models with IATA/ICAO codes and technical specifications.">
+    <meta name="twitter:image" content="https://api-aircraft-models.vercel.app/favicon.png">
+    <meta name="twitter:creator" content="@CAHOCA">
 
     <link rel="icon" type="image/png" href="favicon.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <style>
         :root {
-            --primary-color: #0dcaf0; /* Cyan */
-            --secondary-color: #00b3ff3d; /* Cyan oscuro */
-            --background-color: #1b1b1b;
-            --card-bg: #1e1e1e;
-            --text-color: #f8f9fa;
+            --primary-color: #00d4ff;
+            --primary-dark: #0099cc;
+            --accent-color: #ff6b6b;
+            --gradient-start: #667eea;
+            --gradient-end: #764ba2;
+            --background-color: #0a0e27;
+            --background-secondary: #151b3d;
+            --card-bg: #1a2247;
+            --card-border: rgba(100, 126, 234, 0.3);
+            --text-color: #e8eaf6;
+            --text-muted: #a0a7c4;
+            --success-color: #4ade80;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
 
         body {
-            background-color: var(--background-color);
-            color: var(--text-color); font-family: "PT Sans", sans-serif;
+            background: linear-gradient(135deg, var(--background-color) 0%, var(--background-secondary) 100%);
+            color: var(--text-color);
+            font-family: "PT Sans", sans-serif;
             font-style: normal;
-            }
-
-        .navbar {
-            background: var(--secondary-color);
+            min-height: 100vh;
+            position: relative;
+            overflow-x: hidden;
         }
 
-        .nav .nav-pills {
-            background: var(--secondary-color);
+        /* Animated background particles */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: 
+                radial-gradient(2px 2px at 20% 30%, rgba(255, 255, 255, 0.15), transparent),
+                radial-gradient(2px 2px at 60% 70%, rgba(255, 255, 255, 0.15), transparent),
+                radial-gradient(1px 1px at 50% 50%, rgba(255, 255, 255, 0.1), transparent),
+                radial-gradient(1px 1px at 80% 10%, rgba(255, 255, 255, 0.1), transparent);
+            background-size: 200% 200%;
+            animation: stars 20s ease-in-out infinite;
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        @keyframes stars {
+            0%, 100% { transform: translate(0, 0); }
+            50% { transform: translate(-20px, -20px); }
+        }
+
+        .navbar {
+            background: rgba(26, 34, 71, 0.95);
+            backdrop-filter: blur(10px);
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+            border-bottom: 1px solid var(--card-border);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            animation: slideDown 0.5s ease-out;
+        }
+
+        @keyframes slideDown {
+            from {
+                transform: translateY(-100%);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        .navbar-brand {
+            font-size: 1.4rem;
+            background: linear-gradient(135deg, var(--primary-color), var(--gradient-start));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            transition: all 0.3s ease;
+        }
+
+        .navbar-brand:hover {
+            transform: translateY(-2px);
+            filter: brightness(1.2);
         }
 
         .container {
             margin-top: 50px;
+            position: relative;
+            z-index: 1;
+        }
+
+        h1 {
+            font-size: 2.8rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--primary-color), var(--gradient-start), var(--gradient-end));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            animation: fadeInUp 0.8s ease-out;
+            margin-bottom: 20px;
+        }
+
+        .lead {
+            color: var(--text-muted);
+            font-size: 1.1rem;
+            line-height: 1.7;
+            animation: fadeInUp 0.8s ease-out 0.2s both;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .row {
+            animation: fadeInUp 0.8s ease-out 0.4s both;
         }
 
         .card {
-            background-color: var(--card-bg);
+            background: linear-gradient(135deg, var(--card-bg) 0%, rgba(26, 34, 71, 0.95) 100%);
             color: var(--text-color);
-            border: 1px solid var(--secondary-color);
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-            transition: transform 0.2s, box-shadow 0.2s;
+            border: 1px solid var(--card-border);
+            border-radius: 16px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            position: relative;
+            overflow: hidden;
+            backdrop-filter: blur(10px);
+        }
+
+        .card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.05), transparent);
+            transition: left 0.5s ease;
+        }
+
+        .card:hover::before {
+            left: 100%;
         }
 
         .card:hover {
-            transform: scale(1.03);
-            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+            transform: translateY(-10px) scale(1.02);
+            box-shadow: 0 16px 48px rgba(102, 126, 234, 0.3);
+            border-color: var(--primary-color);
+        }
+
+        .card h3 {
+            color: var(--primary-color);
+            font-size: 1.6rem;
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+
+        .card p {
+            color: var(--text-muted);
+            line-height: 1.6;
+        }
+
+        .card code {
+            background: rgba(0, 212, 255, 0.1);
+            color: var(--primary-color);
+            padding: 8px 16px;
+            border-radius: 8px;
+            font-size: 0.95rem;
+            display: inline-block;
+            margin: 10px 0;
+            border: 1px solid rgba(0, 212, 255, 0.2);
+        }
+
+        .nav-pills {
+            background: rgba(0, 0, 0, 0.2);
+            padding: 5px;
+            border-radius: 10px;
+            gap: 5px;
+        }
+
+        .nav-pills .nav-link {
+            color: var(--text-muted);
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            font-weight: 500;
+            padding: 8px 16px;
+        }
+
+        .nav-pills .nav-link:hover {
+            background: rgba(0, 212, 255, 0.1);
+            color: var(--primary-color);
+            transform: translateY(-2px);
+        }
+
+        .nav-pills .nav-link.active {
+            background: linear-gradient(135deg, var(--primary-color), var(--gradient-start));
+            color: white;
+            box-shadow: 0 4px 15px rgba(0, 212, 255, 0.4);
         }
 
         .btn-primary {
-            background-color: var(--primary-color);
+            background: linear-gradient(135deg, var(--primary-color), var(--gradient-start));
             border: none;
+            padding: 12px 30px;
+            border-radius: 10px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 212, 255, 0.3);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .btn-primary::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 0;
+            height: 0;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.3);
+            transform: translate(-50%, -50%);
+            transition: width 0.6s ease, height 0.6s ease;
+        }
+
+        .btn-primary:hover::before {
+            width: 300px;
+            height: 300px;
         }
 
         .btn-primary:hover {
-            background-color: #0bb5e0;
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(0, 212, 255, 0.5);
+        }
+
+        .btn-primary:active {
+            transform: translateY(-1px);
         }
 
         pre {
-            background-color: #212529;
-            color: var(--primary-color);
-            padding: 15px;
-            border-radius: 5px;
-            border-left: 5px solid var(--primary-color);
+            background: linear-gradient(135deg, #0d1117 0%, #161b22 100%);
+            color: var(--text-color);
+            padding: 20px;
+            border-radius: 12px;
+            border-left: 4px solid var(--primary-color);
             text-align: initial;
+            box-shadow: inset 0 2px 10px rgba(0, 0, 0, 0.3);
+            font-size: 0.9rem;
+            line-height: 1.6;
+            overflow-x: auto;
+            position: relative;
+        }
+
+        pre strong {
+            color: var(--primary-color);
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        h2 {
+            background: linear-gradient(135deg, var(--primary-color), var(--gradient-start));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-weight: 700;
+        }
+
+        .text-start ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .text-start ul li {
+            padding: 8px 0;
+            padding-left: 25px;
+            position: relative;
+        }
+
+        .text-start ul li::before {
+            content: '▹';
+            position: absolute;
+            left: 0;
+            color: var(--primary-color);
+            font-weight: bold;
+        }
+
+        .text-start code {
+            background: rgba(0, 212, 255, 0.15);
+            padding: 3px 8px;
+            border-radius: 5px;
+            font-size: 0.9rem;
+            border: 1px solid rgba(0, 212, 255, 0.3);
         }
 
         footer {
-            margin-top: 30px;
-            padding: 20px 0;
+            margin-top: 80px;
+            padding: 40px 0;
             text-align: center;
-            background: var(--secondary-color);
-            color: white;
-            background-color: var(--background-color);
+            background: rgba(10, 14, 39, 0.8);
+            backdrop-filter: blur(10px);
+            border-top: 1px solid var(--card-border);
+            position: relative;
+            z-index: 1;
+        }
+
+        footer p {
+            margin: 10px 0;
+            color: var(--text-muted);
+        }
+
+        footer a {
+            color: var(--primary-color);
+            text-decoration: none;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        footer a:hover {
+            color: var(--gradient-start);
+            transform: translateY(-2px);
+        }
+
+        footer i {
+            transition: transform 0.3s ease;
+        }
+
+        footer a:hover i {
+            transform: rotate(360deg) scale(1.2);
+        }
+
+        /* Scroll animations */
+        @media (prefers-reduced-motion: no-preference) {
+            .card {
+                opacity: 0;
+                animation: fadeInUp 0.6s ease-out forwards;
+            }
+
+            .card:nth-child(1) { animation-delay: 0.1s; }
+            .card:nth-child(2) { animation-delay: 0.2s; }
+            .card:nth-child(3) { animation-delay: 0.3s; }
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            h1 { font-size: 2rem; }
+            .lead { font-size: 1rem; }
+            .card { margin-bottom: 20px; }
+            pre { font-size: 0.8rem; }
         }
     </style>
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark">
+    <nav class="navbar navbar-expand navbar-dark">
         <div class="container">
-            <a class="navbar-brand fw-bold" href="https://github.com/CAHOCA">✈ Aircraft Models API by @CAHOCA</a>
+            <a class="navbar-brand fw-bold" href="/">
+                <i class="fas fa-plane"></i> Aircraft Models API
+            </a>
+             | 
+            <a class="navbar-brand fw-bold" href="https://cahoca.github.io/" target="_blank">
+                <span class="ms-2 text-muted" style="font-size: 0.85rem;"><i class="fas fa-user"></i> @CAHOCA</span>
+            </a>
+            <span class="ms-2 text-muted" style="font-size: 0.85rem;">by @CAHOCA</span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://github.com/CAHOCA/APIAircraftModels" target="_blank">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                    </li><li class="nav-item">
+                        <a class="nav-link" href="https://github.com/CAHOCA/APIAircraftModels/issues" target="_blank">
+                            <i class="fas fa-bug"></i> Issues
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
 
     <div class="container text-center">
         <h1 class="mt-4">Welcome to the Aircraft Models API</h1>
-        <p class="lead">A simple REST API built with Express & Node.js that provides aircraft models, their IATA (International Air Transport Association) / ICAO (International Civil Aviation Organization) codes, manufacturer, engine type, and number of engines.</p>
+        <p class="lead">A simple REST API built with Express & Node.js that provides aircraft models, their IATA (International Air Transport Association) / ICAO (International Civil Aviation Organization) codes, manufacturer, engine type, number of engines and additional specifications like service ceiling and maximum range.</p>
         
         <div class="row mt-4">
             <div class="col-md-6">
-            <div class="card p-4">
-            <h3>📋 Get All Models</h3>
-            <p>Retrieve the full list of aircraft models.</p>
-            <code><strong>GET</strong> /api/</code>
-            <h5 class="mt-3">Examples:</h5>
-            <ul class="nav nav-pills" id="getAllModelsTab" role="tablist">
-            <li class="nav-item" role="presentation">
-                <button class="nav-link active" id="curl-tab" data-bs-toggle="tab" data-bs-target="#curl" type="button" role="tab" aria-controls="curl" aria-selected="true">cURL</button>
-            </li>
-            <li class="nav-item" role="presentation">
-                <button class="nav-link" id="js-tab" data-bs-toggle="tab" data-bs-target="#js" type="button" role="tab" aria-controls="js" aria-selected="false">JavaScript</button>
-            </li>
-            <li class="nav-item" role="presentation">
-                <button class="nav-link" id="python-tab" data-bs-toggle="tab" data-bs-target="#python" type="button" role="tab" aria-controls="python" aria-selected="false">Python</button>
-            </li>
-            <li class="nav-item" role="presentation">
-                <button class="nav-link" id="csharp-tab" data-bs-toggle="tab" data-bs-target="#csharp" type="button" role="tab" aria-controls="csharp" aria-selected="false">C#</button>
-            </li>
-            </ul>
-            <div class="tab-content mt-3" id="getAllModelsTabContent">
-            <div class="tab-pane fade show active" id="curl" role="tabpanel" aria-labelledby="curl-tab">
-                <pre><strong>cURL:</strong> curl -X GET https://api-aircraft-models.vercel.app/api/</pre>
-            </div>
-            <div class="tab-pane fade" id="js" role="tabpanel" aria-labelledby="js-tab">
-                <pre><strong>JavaScript (Fetch):</strong>
+                <div class="card p-4">
+                    <h3>📋 Get All Models</h3>
+                    <p>Retrieve the full list of aircraft models.</p>
+                    <code><strong>GET</strong> /api/</code>
+                    <h5 class="mt-3">Examples:</h5>
+                    <ul class="nav nav-pills" id="getAllModelsTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="curl-tab" data-bs-toggle="tab" data-bs-target="#curl" type="button" role="tab" aria-controls="curl" aria-selected="true">cURL</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="js-tab" data-bs-toggle="tab" data-bs-target="#js" type="button" role="tab" aria-controls="js" aria-selected="false">JavaScript</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="python-tab" data-bs-toggle="tab" data-bs-target="#python" type="button" role="tab" aria-controls="python" aria-selected="false">Python</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="csharp-tab" data-bs-toggle="tab" data-bs-target="#csharp" type="button" role="tab" aria-controls="csharp" aria-selected="false">C#</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content mt-3" id="getAllModelsTabContent">
+                        <div class="tab-pane fade show active" id="curl" role="tabpanel" aria-labelledby="curl-tab">
+                            <pre><strong>cURL:</strong> curl -X GET https://api-aircraft-models.vercel.app/api/</pre>
+                        </div>
+                        <div class="tab-pane fade" id="js" role="tabpanel" aria-labelledby="js-tab">
+                            <pre><strong>JavaScript (Fetch):</strong>
 fetch('https://api-aircraft-models.vercel.app/api/')
-.then(response => response.json())
-.then(data => console.log(data));</pre>
-            </div>
-            <div class="tab-pane fade" id="python" role="tabpanel" aria-labelledby="python-tab">
-                <pre><strong>Python:</strong>
+    .then(response => response.json())
+    .then(data => console.log(data));</pre>
+                        </div>
+                        <div class="tab-pane fade" id="python" role="tabpanel" aria-labelledby="python-tab">
+                            <pre><strong>Python:</strong>
 import requests
 response = requests.get('https://api-aircraft-models.vercel.app/api/')
 print(response.json())</pre>
-    </div>
-    <div class="tab-pane fade" id="csharp" role="tabpanel" aria-labelledby="csharp-tab">
-        <pre><strong>C#:</strong>
+                        </div>
+                        <div class="tab-pane fade" id="csharp" role="tabpanel" aria-labelledby="csharp-tab">
+                            <pre><strong>C#:</strong>
 using System.Net.Http;
 using System.Threading.Tasks;
 
@@ -139,52 +481,50 @@ HttpClient client = new HttpClient();
 HttpResponseMessage response = await client.GetAsync("https://api-aircraft-models.vercel.app/api/");
 string responseBody = await response.Content.ReadAsStringAsync();
 Console.WriteLine(responseBody);</pre>
-            </div>
-            </div>
-            <p><a href="https://api-aircraft-models.vercel.app/api/" target="_blank" class="btn btn-primary mt-2">Try it</a></p>
-            </div>
+                        </div>
+                    </div>
+                    <p><a href="https://api-aircraft-models.vercel.app/api/" target="_blank" class="btn btn-primary mt-2">Try it</a></p>
+                </div>
             </div>
 
-
-            
             <div class="col-md-6">
-            <div class="card p-4">
-            <h3>🔎 Get Model Details</h3>
-            <p>Retrieve an aircraft model using its IATA code, including ICAO code, manufacturer, engine type, and number of engines.</p>
-            <code><strong>GET</strong> /api/&lt;IATA_CODE&gt;</code>
-            <h5 class="mt-3">Examples:</h5>
-            <ul class="nav nav-pills" id="getModelDetailsTab" role="tablist">
-            <li class="nav-item" role="presentation">
-                <button class="nav-link active" id="curl-details-tab" data-bs-toggle="tab" data-bs-target="#curl-details" type="button" role="tab" aria-controls="curl-details" aria-selected="true">cURL</button>
-            </li>
-            <li class="nav-item" role="presentation">
-                <button class="nav-link" id="js-details-tab" data-bs-toggle="tab" data-bs-target="#js-details" type="button" role="tab" aria-controls="js-details" aria-selected="false">JavaScript</button>
-            </li>
-            <li class="nav-item" role="presentation">
-                <button class="nav-link" id="python-details-tab" data-bs-toggle="tab" data-bs-target="#python-details" type="button" role="tab" aria-controls="python-details" aria-selected="false">Python</button>
-            </li>
-            <li class="nav-item" role="presentation">
-                <button class="nav-link" id="csharp-details-tab" data-bs-toggle="tab" data-bs-target="#csharp-details" type="button" role="tab" aria-controls="csharp-details" aria-selected="false">C#</button>
-            </li>
-            </ul>
-            <div class="tab-content mt-3" id="getModelDetailsTabContent">
-            <div class="tab-pane fade show active" id="curl-details" role="tabpanel" aria-labelledby="curl-details-tab">
-                <pre><strong>cURL:</strong> curl -X GET https://api-aircraft-models.vercel.app/api/789</pre>
-            </div>
-            <div class="tab-pane fade" id="js-details" role="tabpanel" aria-labelledby="js-details-tab">
-                <pre><strong>JavaScript (Fetch):</strong>
+                <div class="card p-4">
+                    <h3>🔎 Get Model Details</h3>
+                    <p>Retrieve an aircraft model using its IATA code, including ICAO code, manufacturer, engine type, and number of engines.</p>
+                    <code><strong>GET</strong> /api/&lt;IATA_CODE&gt;</code>
+                    <h5 class="mt-3">Examples:</h5>
+                    <ul class="nav nav-pills" id="getModelDetailsTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="curl-details-tab" data-bs-toggle="tab" data-bs-target="#curl-details" type="button" role="tab" aria-controls="curl-details" aria-selected="true">cURL</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="js-details-tab" data-bs-toggle="tab" data-bs-target="#js-details" type="button" role="tab" aria-controls="js-details" aria-selected="false">JavaScript</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="python-details-tab" data-bs-toggle="tab" data-bs-target="#python-details" type="button" role="tab" aria-controls="python-details" aria-selected="false">Python</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="csharp-details-tab" data-bs-toggle="tab" data-bs-target="#csharp-details" type="button" role="tab" aria-controls="csharp-details" aria-selected="false">C#</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content mt-3" id="getModelDetailsTabContent">
+                        <div class="tab-pane fade show active" id="curl-details" role="tabpanel" aria-labelledby="curl-details-tab">
+                            <pre><strong>cURL:</strong> curl -X GET https://api-aircraft-models.vercel.app/api/789</pre>
+                        </div>
+                        <div class="tab-pane fade" id="js-details" role="tabpanel" aria-labelledby="js-details-tab">
+                            <pre><strong>JavaScript (Fetch):</strong>
 fetch('https://api-aircraft-models.vercel.app/api/789')
-.then(response => response.json())
-.then(data => console.log(data));</pre>
-    </div>
-    <div class="tab-pane fade" id="python-details" role="tabpanel" aria-labelledby="python-details-tab">
-        <pre><strong>Python:</strong>
+    .then(response => response.json())
+    .then(data => console.log(data));</pre>
+                        </div>
+                        <div class="tab-pane fade" id="python-details" role="tabpanel" aria-labelledby="python-details-tab">
+                            <pre><strong>Python:</strong>
 import requests
 response = requests.get('https://api-aircraft-models.vercel.app/api/789')
 print(response.json())</pre>
-    </div>
-    <div class="tab-pane fade" id="csharp-details" role="tabpanel" aria-labelledby="csharp-details-tab">
-        <pre><strong>C#:</strong>
+                        </div>
+                        <div class="tab-pane fade" id="csharp-details" role="tabpanel" aria-labelledby="csharp-details-tab">
+                            <pre><strong>C#:</strong>
 using System.Net.Http;
 using System.Threading.Tasks;
 
@@ -192,33 +532,175 @@ HttpClient client = new HttpClient();
 HttpResponseMessage response = await client.GetAsync("https://api-aircraft-models.vercel.app/api/789");
 string responseBody = await response.Content.ReadAsStringAsync();
 Console.WriteLine(responseBody);</pre>
+                        </div>
+                    </div>
+                    <p><a href="https://api-aircraft-models.vercel.app/api/789" target="_blank" class="btn btn-primary mt-2">Try with Example</a></p>
+                </div>
             </div>
-            </div>
-            <p><a href="https://api-aircraft-models.vercel.app/api/789" target="_blank" class="btn btn-primary mt-2">Try with Example</a></p>
-            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-md-12">
+                <div class="card p-4">
+                    <h3>🔢 Filter by Service Ceiling</h3>
+                    <p>Filter aircraft models based on their service ceiling (maximum altitude). Supports operator-based filtering and range filtering.</p>
+                    <code><strong>POST</strong> /api/filter/ceiling</code>
+                    <h5 class="mt-3">Filter Modes:</h5>
+                    <div class="text-start">
+                        <p><strong>1. Operator-based:</strong> Use <code>operator</code> and <code>value</code> parameters</p>
+                        <ul>
+                            <li><code>gt</code>: Greater than</li>
+                            <li><code>lt</code>: Less than</li>
+                            <li><code>gte</code>: Greater than or equal</li>
+                            <li><code>lte</code>: Less than or equal</li>
+                            <li><code>eq</code>: Equal</li>
+                        </ul>
+                        <p><strong>2. Range-based:</strong> Use <code>min</code> and <code>max</code> parameters for inclusive range filtering</p>
+                    </div>
+                    <h5 class="mt-3">Examples:</h5>
+                    <ul class="nav nav-pills" id="filterCeilingTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="curl-ceiling-tab" data-bs-toggle="tab" data-bs-target="#curl-ceiling" type="button" role="tab" aria-controls="curl-ceiling" aria-selected="true">cURL</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="js-ceiling-tab" data-bs-toggle="tab" data-bs-target="#js-ceiling" type="button" role="tab" aria-controls="js-ceiling" aria-selected="false">JavaScript</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="python-ceiling-tab" data-bs-toggle="tab" data-bs-target="#python-ceiling" type="button" role="tab" aria-controls="python-ceiling" aria-selected="false">Python</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="csharp-ceiling-tab" data-bs-toggle="tab" data-bs-target="#csharp-ceiling" type="button" role="tab" aria-controls="csharp-ceiling" aria-selected="false">C#</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content mt-3" id="filterCeilingTabContent">
+                        <div class="tab-pane fade show active" id="curl-ceiling" role="tabpanel" aria-labelledby="curl-ceiling-tab">
+                            <pre><strong>cURL (Operator-based):</strong>
+curl -X POST https://api-aircraft-models.vercel.app/api/filter/ceiling \
+  -H "Content-Type: application/json" \
+  -d '{"operator": "gt", "value": 40000}'
+
+<strong>cURL (Range-based):</strong>
+curl -X POST https://api-aircraft-models.vercel.app/api/filter/ceiling \
+  -H "Content-Type: application/json" \
+  -d '{"min": 35000, "max": 45000}'</pre>
+                        </div>
+                        <div class="tab-pane fade" id="js-ceiling" role="tabpanel" aria-labelledby="js-ceiling-tab">
+                            <pre><strong>JavaScript (Operator-based):</strong>
+fetch('https://api-aircraft-models.vercel.app/api/filter/ceiling', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ operator: 'gt', value: 40000 })
+})
+    .then(response => response.json())
+    .then(data => console.log(data));
+
+<strong>JavaScript (Range-based):</strong>
+fetch('https://api-aircraft-models.vercel.app/api/filter/ceiling', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ min: 35000, max: 45000 })
+})
+    .then(response => response.json())
+    .then(data => console.log(data));</pre>
+                        </div>
+                        <div class="tab-pane fade" id="python-ceiling" role="tabpanel" aria-labelledby="python-ceiling-tab">
+                            <pre><strong>Python (Operator-based):</strong>
+import requests
+response = requests.post(
+    'https://api-aircraft-models.vercel.app/api/filter/ceiling',
+    json={'operator': 'gt', 'value': 40000}
+)
+print(response.json())
+
+<strong>Python (Range-based):</strong>
+import requests
+response = requests.post(
+    'https://api-aircraft-models.vercel.app/api/filter/ceiling',
+    json={'min': 35000, 'max': 45000}
+)
+print(response.json())</pre>
+                        </div>
+                        <div class="tab-pane fade" id="csharp-ceiling" role="tabpanel" aria-labelledby="csharp-ceiling-tab">
+                            <pre><strong>C# (Operator-based):</strong>
+using System.Net.Http;
+using System.Text;
+using System.Text.Json;
+
+var client = new HttpClient();
+var payload = new { @operator = "gt", value = 40000 };
+var json = JsonSerializer.Serialize(payload);
+var content = new StringContent(json, Encoding.UTF8, "application/json");
+var response = await client.PostAsync(
+    "https://api-aircraft-models.vercel.app/api/filter/ceiling", content);
+var responseBody = await response.Content.ReadAsStringAsync();
+Console.WriteLine(responseBody);
+
+<strong>C# (Range-based):</strong>
+var payload = new { min = 35000, max = 45000 };
+var json = JsonSerializer.Serialize(payload);
+var content = new StringContent(json, Encoding.UTF8, "application/json");
+var response = await client.PostAsync(
+    "https://api-aircraft-models.vercel.app/api/filter/ceiling", content);
+var responseBody = await response.Content.ReadAsStringAsync();
+Console.WriteLine(responseBody);</pre>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
         <h2 class="mt-5">📌 Example Response</h2>
         <pre>
 {
-    "IATA_Code": "789",
-    "ICAO_Code": "B789",
-    "Model": "Boeing 787-9 Dreamliner",
-    "Manufacturer": "Boeing",
-    "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+"IATA_Code": "789",
+"ICAO_Code": "B789",
+"Model": "Boeing 787-9 Dreamliner",
+"Manufacturer": "Boeing",
+"Engine_Type": "Turbofan",
+"Number_of_Engines": 2,
+"Service_Ceiling_ft": 43000,
+"Max_Range_nm": 7635
 }
         </pre>
     </div>
 
     <footer>
-        <p>💙 Made with love by <b>Carlos Hortúa Calderón</b></p>
-        <p>Licensed under <strong>GPL-3.0</strong>. Repo:
-            <a href="https://github.com/CAHOCA/APIAircraftModels" target="_blank">
-                <i class="fab fa-github"></i> GitHub
-            </a>
-        </p>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h5 class="mb-3"><i class="fas fa-plane"></i> Aircraft Models API</h5>
+                    <p class="text">Free REST API providing comprehensive aircraft data with IATA/ICAO codes and technical specifications.</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5 class="mb-3"><i class="fas fa-link"></i> Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="https://github.com/CAHOCA/APIAircraftModels" target="_blank"><i class="fab fa-github"></i> GitHub Repository</a></li>
+                        <li><a href="https://github.com/CAHOCA/APIAircraftModels/issues" target="_blank"><i class="fas fa-bug"></i> Report Issues</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5 class="mb-3"><i class="fas fa-user-circle"></i> Connect</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="https://github.com/CAHOCA" target="_blank"><i class="fab fa-github"></i> @CAHOCA</a></li>
+                        <li><a href="https://linkedin.com/in/cahoca" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr style="border-color: var(--card-border); margin: 30px 0;">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p class="mb-2">💙 Crafted with passion by <strong>Carlos Hortúa Calderón</strong></p>
+                    <p class="mb-0">
+                        <span class="badge bg-gradient me-2" style="background: linear-gradient(135deg, var(--primary-color), var(--gradient-start));">
+                            <i class="fas fa-balance-scale"></i> GPL-3.0 License
+                        </span>
+                        <span class="badge bg-gradient" style="background: linear-gradient(135deg, var(--success-color), #10b981);">
+                            <i class="fas fa-check-circle"></i> Open Source
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </div>
     </footer>
 
 </body>

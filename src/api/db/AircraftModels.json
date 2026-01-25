@@ -5,7 +5,9 @@
     "Model": "Airbus A220-300",
     "Manufacturer": "Airbus",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 41000,
+    "Max_Range_nm": 3400
   },
   {
     "IATA_Code": 290,
@@ -13,7 +15,9 @@
     "Model": "Embraer E190-E2",
     "Manufacturer": "Embraer",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 41000,
+    "Max_Range_nm": 2600
   },
   {
     "IATA_Code": 295,
@@ -21,7 +25,9 @@
     "Model": "Embraer E195-E2",
     "Manufacturer": "Embraer",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 41000,
+    "Max_Range_nm": 2700
   },
   {
     "IATA_Code": 338,
@@ -29,7 +35,9 @@
     "Model": "Airbus A330-800",
     "Manufacturer": "Airbus",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 41000,
+    "Max_Range_nm": 4300
   },
   {
     "IATA_Code": 400,
@@ -37,7 +45,9 @@
     "Model": "Airbus A400M Atlas",
     "Manufacturer": "Airbus",
     "Engine_Type": "Turboprop",
-    "Number_of_Engines": 4
+    "Number_of_Engines": 4,
+    "Service_Ceiling_ft": 35000,
+    "Max_Range_nm": 2500
   },
   {
     "IATA_Code": 703,
@@ -45,7 +55,9 @@
     "Model": "Boeing 707",
     "Manufacturer": "Boeing",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 4
+    "Number_of_Engines": 4,
+    "Service_Ceiling_ft": 43000,
+    "Max_Range_nm": 4200
   },
   {
     "IATA_Code": 717,
@@ -53,7 +65,9 @@
     "Model": "Boeing 717",
     "Manufacturer": "Boeing",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 37000,
+    "Max_Range_nm": 2000
   },
   {
     "IATA_Code": 732,
@@ -61,7 +75,9 @@
     "Model": "Boeing 737-200",
     "Manufacturer": "Boeing",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 37000,
+    "Max_Range_nm": 2300
   },
   {
     "IATA_Code": 741,
@@ -69,7 +85,9 @@
     "Model": "Boeing 747-100",
     "Manufacturer": "Boeing",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 4
+    "Number_of_Engines": 4,
+    "Service_Ceiling_ft": 45000,
+    "Max_Range_nm": 4800
   },
   {
     "IATA_Code": 742,
@@ -77,7 +95,9 @@
     "Model": "Boeing 747-200",
     "Manufacturer": "Boeing",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 4
+    "Number_of_Engines": 4,
+    "Service_Ceiling_ft": 45000,
+    "Max_Range_nm": 5100
   },
   {
     "IATA_Code": 743,
@@ -85,7 +105,9 @@
     "Model": "Boeing 747-300",
     "Manufacturer": "Boeing",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 4
+    "Number_of_Engines": 4,
+    "Service_Ceiling_ft": 45000,
+    "Max_Range_nm": 5400
   },
   {
     "IATA_Code": 753,
@@ -93,7 +115,9 @@
     "Model": "Boeing 757-300",
     "Manufacturer": "Boeing",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 42000,
+    "Max_Range_nm": 3250
   },
   {
     "IATA_Code": 778,
@@ -101,7 +125,9 @@
     "Model": "Boeing 777-8",
     "Manufacturer": "Boeing",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 43000,
+    "Max_Range_nm": 8730
   },
   {
     "IATA_Code": 779,
@@ -109,7 +135,9 @@
     "Model": "Boeing 777-9",
     "Manufacturer": "Boeing",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 43000,
+    "Max_Range_nm": 7285
   },
   {
     "IATA_Code": 919,
@@ -117,7 +145,9 @@
     "Model": "Comac C919",
     "Manufacturer": "Comac",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 39000,
+    "Max_Range_nm": 2200
   },
   {
     "IATA_Code": "100",
@@ -125,7 +155,9 @@
     "Model": "Fokker 100",
     "Manufacturer": "Fokker",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 37000,
+    "Max_Range_nm": 1650
   },
   {
     "IATA_Code": "141",
@@ -133,7 +165,9 @@
     "Model": "Bae 146-100",
     "Manufacturer": "British Aerospace",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 4
+    "Number_of_Engines": 4,
+    "Service_Ceiling_ft": 30000,
+    "Max_Range_nm": 1300
   },
   {
     "IATA_Code": "142",
@@ -141,7 +175,9 @@
     "Model": "Bae 146-200",
     "Manufacturer": "British Aerospace",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 4
+    "Number_of_Engines": 4,
+    "Service_Ceiling_ft": 30000,
+    "Max_Range_nm": 1500
   },
   {
     "IATA_Code": "143",
@@ -149,7 +185,9 @@
     "Model": "Bae 146-300",
     "Manufacturer": "British Aerospace",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 4
+    "Number_of_Engines": 4,
+    "Service_Ceiling_ft": 30000,
+    "Max_Range_nm": 1700
   },
   {
     "IATA_Code": "221",
@@ -157,7 +195,9 @@
     "Model": "Airbus A220-100",
     "Manufacturer": "Airbus",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 41000,
+    "Max_Range_nm": 1860
   },
   {
     "IATA_Code": "312",
@@ -165,7 +205,9 @@
     "Model": "Airbus A310-200",
     "Manufacturer": "Airbus",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 39000,
+    "Max_Range_nm": 2780
   },
   {
     "IATA_Code": "313",
@@ -173,7 +215,9 @@
     "Model": "Airbus A310-300",
     "Manufacturer": "Airbus",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 39000,
+    "Max_Range_nm": 3600
   },
   {
     "IATA_Code": "318",
@@ -181,7 +225,9 @@
     "Model": "Airbus A318",
     "Manufacturer": "Airbus",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 39000,
+    "Max_Range_nm": 2000
   },
   {
     "IATA_Code": "319",
@@ -189,7 +235,9 @@
     "Model": "Airbus A319",
     "Manufacturer": "Airbus",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 39000,
+    "Max_Range_nm": 2000
   },
   {
     "IATA_Code": "31N",
@@ -197,7 +245,9 @@
     "Model": "Airbus A319neo",
     "Manufacturer": "Airbus",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 41000,
+    "Max_Range_nm": 2200
   },
   {
     "IATA_Code": "320",
@@ -205,7 +255,9 @@
     "Model": "Airbus A320",
     "Manufacturer": "Airbus",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 39000,
+    "Max_Range_nm": 3300
   },
   {
     "IATA_Code": "321",
@@ -213,7 +265,9 @@
     "Model": "Airbus A321",
     "Manufacturer": "Airbus",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 41000,
+    "Max_Range_nm": 3500
   },
   {
     "IATA_Code": "32A",
@@ -221,7 +275,9 @@
     "Model": "Airbus A320 Sharklets",
     "Manufacturer": "Airbus",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 39000,
+    "Max_Range_nm": 3300
   },
   {
     "IATA_Code": "32B",
@@ -229,7 +285,9 @@
     "Model": "Airbus A321 Intercontinental",
     "Manufacturer": "Airbus",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 41000,
+    "Max_Range_nm": 4000
   },
   {
     "IATA_Code": "32C",
@@ -237,7 +295,9 @@
     "Model": "Airbus A318",
     "Manufacturer": "Airbus",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 39000,
+    "Max_Range_nm": 2000
   },
   {
     "IATA_Code": "32D",
@@ -245,7 +305,9 @@
     "Model": "Airbus A319",
     "Manufacturer": "Airbus",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 39000,
+    "Max_Range_nm": 2000
   },
   {
     "IATA_Code": "32N",
@@ -253,7 +315,9 @@
     "Model": "Airbus A320neo",
     "Manufacturer": "Airbus",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 41000,
+    "Max_Range_nm": 3500
   },
   {
     "IATA_Code": "32Q",
@@ -261,7 +325,9 @@
     "Model": "Airbus A321neo",
     "Manufacturer": "Airbus",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 41000,
+    "Max_Range_nm": 4000
   },
   {
     "IATA_Code": "330",
@@ -269,7 +335,9 @@
     "Model": "Airbus A330ceo",
     "Manufacturer": "Airbus",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 41000,
+    "Max_Range_nm": 6350
   },
   {
     "IATA_Code": "332",
@@ -277,7 +345,9 @@
     "Model": "Airbus A330-200",
     "Manufacturer": "Airbus",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 41000,
+    "Max_Range_nm": 7265
   },
   {
     "IATA_Code": "333",
@@ -285,7 +355,9 @@
     "Model": "Airbus A330-300",
     "Manufacturer": "Airbus",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 41000,
+    "Max_Range_nm": 6351
   },
   {
     "IATA_Code": "33X",
@@ -293,7 +365,9 @@
     "Model": "Airbus A330-200 Freighter",
     "Manufacturer": "Airbus",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 41000,
+    "Max_Range_nm": 4000
   },
   {
     "IATA_Code": "33Y",
@@ -301,7 +375,9 @@
     "Model": "Airbus A330-300 Freighter",
     "Manufacturer": "Airbus",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 41000,
+    "Max_Range_nm": 3500
   },
   {
     "IATA_Code": "342",
@@ -309,7 +385,9 @@
     "Model": "Airbus A340-200",
     "Manufacturer": "Airbus",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 4
+    "Number_of_Engines": 4,
+    "Service_Ceiling_ft": 41000,
+    "Max_Range_nm": 7400
   },
   {
     "IATA_Code": "343",
@@ -317,7 +395,9 @@
     "Model": "Airbus A340-300",
     "Manufacturer": "Airbus",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 4
+    "Number_of_Engines": 4,
+    "Service_Ceiling_ft": 41000,
+    "Max_Range_nm": 6700
   },
   {
     "IATA_Code": "345",
@@ -325,7 +405,9 @@
     "Model": "Airbus A340-500",
     "Manufacturer": "Airbus",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 4
+    "Number_of_Engines": 4,
+    "Service_Ceiling_ft": 41000,
+    "Max_Range_nm": 9000
   },
   {
     "IATA_Code": "346",
@@ -333,7 +415,9 @@
     "Model": "Airbus A340-600",
     "Manufacturer": "Airbus",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 4
+    "Number_of_Engines": 4,
+    "Service_Ceiling_ft": 41000,
+    "Max_Range_nm": 7800
   },
   {
     "IATA_Code": "351",
@@ -341,7 +425,9 @@
     "Model": "Airbus A350-1000",
     "Manufacturer": "Airbus",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 43100,
+    "Max_Range_nm": 8700
   },
   {
     "IATA_Code": "359",
@@ -349,7 +435,9 @@
     "Model": "Airbus A350-900",
     "Manufacturer": "Airbus",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 43100,
+    "Max_Range_nm": 8100
   },
   {
     "IATA_Code": "388",
@@ -357,7 +445,9 @@
     "Model": "Airbus A380-800",
     "Manufacturer": "Airbus",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 4
+    "Number_of_Engines": 4,
+    "Service_Ceiling_ft": 43000,
+    "Max_Range_nm": 8000
   },
   {
     "IATA_Code": "721",
@@ -365,7 +455,9 @@
     "Model": "Boeing 727-100",
     "Manufacturer": "Boeing",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 3
+    "Number_of_Engines": 3,
+    "Service_Ceiling_ft": 42000,
+    "Max_Range_nm": 2250
   },
   {
     "IATA_Code": "722",
@@ -373,7 +465,9 @@
     "Model": "Boeing 727-200",
     "Manufacturer": "Boeing",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 3
+    "Number_of_Engines": 3,
+    "Service_Ceiling_ft": 42000,
+    "Max_Range_nm": 2400
   },
   {
     "IATA_Code": "733",
@@ -381,7 +475,9 @@
     "Model": "Boeing 737-300",
     "Manufacturer": "Boeing",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 37000,
+    "Max_Range_nm": 2800
   },
   {
     "IATA_Code": "734",
@@ -389,7 +485,9 @@
     "Model": "Boeing 737-400",
     "Manufacturer": "Boeing",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 37000,
+    "Max_Range_nm": 2400
   },
   {
     "IATA_Code": "735",
@@ -397,7 +495,9 @@
     "Model": "Boeing 737-500",
     "Manufacturer": "Boeing",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 37000,
+    "Max_Range_nm": 2400
   },
   {
     "IATA_Code": "736",
@@ -405,7 +505,9 @@
     "Model": "Boeing 737-600",
     "Manufacturer": "Boeing",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 41000,
+    "Max_Range_nm": 3200
   },
   {
     "IATA_Code": "738",
@@ -413,7 +515,9 @@
     "Model": "Boeing 737-800",
     "Manufacturer": "Boeing",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 41000,
+    "Max_Range_nm": 2935
   },
   {
     "IATA_Code": "739",
@@ -421,7 +525,9 @@
     "Model": "Boeing 737-900",
     "Manufacturer": "Boeing",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 41000,
+    "Max_Range_nm": 2950
   },
   {
     "IATA_Code": "73C",
@@ -429,7 +535,9 @@
     "Model": "Boeing 737-300",
     "Manufacturer": "Boeing",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 37000,
+    "Max_Range_nm": 2800
   },
   {
     "IATA_Code": "73E",
@@ -437,7 +545,9 @@
     "Model": "Boeing 737-500",
     "Manufacturer": "Boeing",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 37000,
+    "Max_Range_nm": 2400
   },
   {
     "IATA_Code": "73F",
@@ -445,7 +555,9 @@
     "Model": "Boeing 737-200 Freighter",
     "Manufacturer": "Boeing",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 37000,
+    "Max_Range_nm": 2000
   },
   {
     "IATA_Code": "73G",
@@ -453,7 +565,9 @@
     "Model": "Boeing 737-700",
     "Manufacturer": "Boeing",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 41000,
+    "Max_Range_nm": 3365
   },
   {
     "IATA_Code": "73H",
@@ -461,7 +575,9 @@
     "Model": "Boeing 737-800",
     "Manufacturer": "Boeing",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 41000,
+    "Max_Range_nm": 2935
   },
   {
     "IATA_Code": "73H2",
@@ -469,7 +585,9 @@
     "Model": "Boeing 737-BBJ2",
     "Manufacturer": "Boeing",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 41000,
+    "Max_Range_nm": 5550
   },
   {
     "IATA_Code": "73J",
@@ -477,7 +595,9 @@
     "Model": "Boeing 737-900",
     "Manufacturer": "Boeing",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 41000,
+    "Max_Range_nm": 2950
   },
   {
     "IATA_Code": "73J3",
@@ -485,7 +605,9 @@
     "Model": "Boeing 737-BBJ3",
     "Manufacturer": "Boeing",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 41000,
+    "Max_Range_nm": 6200
   },
   {
     "IATA_Code": "73K",
@@ -493,7 +615,9 @@
     "Model": "Boeing 737-800 Freighter Winglets",
     "Manufacturer": "Boeing",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 41000,
+    "Max_Range_nm": 2000
   },
   {
     "IATA_Code": "73L",
@@ -501,7 +625,9 @@
     "Model": "Boeing 737-200 Combi[4]",
     "Manufacturer": "Boeing",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 37000,
+    "Max_Range_nm": 2300
   },
   {
     "IATA_Code": "73W",
@@ -509,7 +635,9 @@
     "Model": "Boeing 737-700",
     "Manufacturer": "Boeing",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 41000,
+    "Max_Range_nm": 3365
   },
   {
     "IATA_Code": "73W",
@@ -517,7 +645,9 @@
     "Model": "Boeing 737-BBJ",
     "Manufacturer": "Boeing",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 41000,
+    "Max_Range_nm": 5785
   },
   {
     "IATA_Code": "744",
@@ -525,7 +655,9 @@
     "Model": "Boeing 747-400",
     "Manufacturer": "Boeing",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 4
+    "Number_of_Engines": 4,
+    "Service_Ceiling_ft": 45100,
+    "Max_Range_nm": 7285
   },
   {
     "IATA_Code": "748",
@@ -533,7 +665,9 @@
     "Model": "Boeing 747-8",
     "Manufacturer": "Boeing",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 4
+    "Number_of_Engines": 4,
+    "Service_Ceiling_ft": 43000,
+    "Max_Range_nm": 8000
   },
   {
     "IATA_Code": "74L",
@@ -541,7 +675,9 @@
     "Model": "Boeing 747-SP",
     "Manufacturer": "Boeing",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 4
+    "Number_of_Engines": 4,
+    "Service_Ceiling_ft": 45000,
+    "Max_Range_nm": 6650
   },
   {
     "IATA_Code": "752",
@@ -549,7 +685,9 @@
     "Model": "Boeing 757-200",
     "Manufacturer": "Boeing",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 42000,
+    "Max_Range_nm": 3915
   },
   {
     "IATA_Code": "75W",
@@ -557,7 +695,9 @@
     "Model": "Boeing 757-200",
     "Manufacturer": "Boeing",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 42000,
+    "Max_Range_nm": 3915
   },
   {
     "IATA_Code": "762",
@@ -565,7 +705,9 @@
     "Model": "Boeing 767-200",
     "Manufacturer": "Boeing",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 43000,
+    "Max_Range_nm": 3900
   },
   {
     "IATA_Code": "763",
@@ -573,7 +715,9 @@
     "Model": "Boeing 767-300",
     "Manufacturer": "Boeing",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 43000,
+    "Max_Range_nm": 5990
   },
   {
     "IATA_Code": "764",
@@ -581,7 +725,9 @@
     "Model": "Boeing 767-400",
     "Manufacturer": "Boeing",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 43000,
+    "Max_Range_nm": 5625
   },
   {
     "IATA_Code": "76W",
@@ -589,7 +735,9 @@
     "Model": "Boeing 767-300",
     "Manufacturer": "Boeing",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 43000,
+    "Max_Range_nm": 5990
   },
   {
     "IATA_Code": "772",
@@ -597,7 +745,9 @@
     "Model": "Boeing 777-200",
     "Manufacturer": "Boeing",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 43100,
+    "Max_Range_nm": 5240
   },
   {
     "IATA_Code": "773",
@@ -605,7 +755,9 @@
     "Model": "Boeing 777-300",
     "Manufacturer": "Boeing",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 43100,
+    "Max_Range_nm": 6013
   },
   {
     "IATA_Code": "77L",
@@ -613,7 +765,9 @@
     "Model": "Boeing 777-200LR",
     "Manufacturer": "Boeing",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 43100,
+    "Max_Range_nm": 9395
   },
   {
     "IATA_Code": "77W",
@@ -621,7 +775,9 @@
     "Model": "Boeing 777-300ER",
     "Manufacturer": "Boeing",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 43100,
+    "Max_Range_nm": 7370
   },
   {
     "IATA_Code": "781",
@@ -629,7 +785,9 @@
     "Model": "Boeing 787-10 Dreamliner",
     "Manufacturer": "Boeing",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 43000,
+    "Max_Range_nm": 6430
   },
   {
     "IATA_Code": "787",
@@ -637,7 +795,9 @@
     "Model": "Boeing 787 Dreamliner",
     "Manufacturer": "Boeing",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 43000,
+    "Max_Range_nm": 7635
   },
   {
     "IATA_Code": "788",
@@ -645,7 +805,9 @@
     "Model": "Boeing 787-8 Dreamliner",
     "Manufacturer": "Boeing",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 43000,
+    "Max_Range_nm": 7355
   },
   {
     "IATA_Code": "789",
@@ -653,7 +815,9 @@
     "Model": "Boeing 787-9 Dreamliner",
     "Manufacturer": "Boeing",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 43000,
+    "Max_Range_nm": 7635
   },
   {
     "IATA_Code": "7M7",
@@ -661,7 +825,9 @@
     "Model": "Boeing 737 MAX 7",
     "Manufacturer": "Boeing",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 41000,
+    "Max_Range_nm": 3850
   },
   {
     "IATA_Code": "7M8",
@@ -669,7 +835,9 @@
     "Model": "Boeing 737 MAX 8",
     "Manufacturer": "Boeing",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 41000,
+    "Max_Range_nm": 3550
   },
   {
     "IATA_Code": "7M9",
@@ -677,7 +845,9 @@
     "Model": "Boeing 737 MAX 9",
     "Manufacturer": "Boeing",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 41000,
+    "Max_Range_nm": 3550
   },
   {
     "IATA_Code": "7MJ",
@@ -685,7 +855,9 @@
     "Model": "Boeing 737 MAX 10",
     "Manufacturer": "Boeing",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 41000,
+    "Max_Range_nm": 3300
   },
   {
     "IATA_Code": "7S8",
@@ -693,7 +865,9 @@
     "Model": "Boeing 737-800",
     "Manufacturer": "Boeing",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 41000,
+    "Max_Range_nm": 2935
   },
   {
     "IATA_Code": "A26",
@@ -701,7 +875,9 @@
     "Model": "Antonov An-26",
     "Manufacturer": "Antonov",
     "Engine_Type": "Turboprop",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 24600,
+    "Max_Range_nm": 1400
   },
   {
     "IATA_Code": "A28",
@@ -709,7 +885,9 @@
     "Model": "Antonov An-28",
     "Manufacturer": "Antonov",
     "Engine_Type": "Turboprop",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 19700,
+    "Max_Range_nm": 540
   },
   {
     "IATA_Code": "A30",
@@ -717,7 +895,9 @@
     "Model": "Antonov An-30",
     "Manufacturer": "Antonov",
     "Engine_Type": "Turboprop",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 26250,
+    "Max_Range_nm": 1350
   },
   {
     "IATA_Code": "A32",
@@ -725,7 +905,9 @@
     "Model": "Antonov An-32",
     "Manufacturer": "Antonov",
     "Engine_Type": "Turboprop",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 31200,
+    "Max_Range_nm": 1300
   },
   {
     "IATA_Code": "A40",
@@ -733,7 +915,9 @@
     "Model": "Antonov An-140",
     "Manufacturer": "Antonov",
     "Engine_Type": "Turboprop",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 25000,
+    "Max_Range_nm": 1080
   },
   {
     "IATA_Code": "A4F",
@@ -741,7 +925,9 @@
     "Model": "Antonov An-124 Ruslan",
     "Manufacturer": "Antonov",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 4
+    "Number_of_Engines": 4,
+    "Service_Ceiling_ft": 39400,
+    "Max_Range_nm": 2700
   },
   {
     "IATA_Code": "A58",
@@ -749,7 +935,9 @@
     "Model": "Antonov An-158",
     "Manufacturer": "Antonov",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 39000,
+    "Max_Range_nm": 1700
   },
   {
     "IATA_Code": "A5F",
@@ -757,7 +945,9 @@
     "Model": "Antonov An-225 Mriya",
     "Manufacturer": "Antonov",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 6
+    "Number_of_Engines": 6,
+    "Service_Ceiling_ft": 36000,
+    "Max_Range_nm": 2700
   },
   {
     "IATA_Code": "A81",
@@ -765,7 +955,9 @@
     "Model": "Antonov An-148",
     "Manufacturer": "Antonov",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 39000,
+    "Max_Range_nm": 1890
   },
   {
     "IATA_Code": "AB4",
@@ -773,7 +965,9 @@
     "Model": "Airbus A300B2, A300B4 and A300C4",
     "Manufacturer": "Airbus",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 40000,
+    "Max_Range_nm": 3350
   },
   {
     "IATA_Code": "AB6",
@@ -781,7 +975,9 @@
     "Model": "Airbus A300-600",
     "Manufacturer": "Airbus",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 40000,
+    "Max_Range_nm": 4050
   },
   {
     "IATA_Code": "ABB",
@@ -789,7 +985,9 @@
     "Model": "Airbus A300-600ST Beluga",
     "Manufacturer": "Airbus",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 35000,
+    "Max_Range_nm": 900
   },
   {
     "IATA_Code": "ABY",
@@ -797,7 +995,9 @@
     "Model": "Airbus A300-600 Freighter[4]",
     "Manufacturer": "Airbus",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 40000,
+    "Max_Range_nm": 3200
   },
   {
     "IATA_Code": "ACT",
@@ -805,7 +1005,9 @@
     "Model": "Gulfstream/Rockwell (Aero) Turbo Commander 690",
     "Manufacturer": "Gulfstream/Rockwell",
     "Engine_Type": "Turboprop",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 31000,
+    "Max_Range_nm": 1000
   },
   {
     "IATA_Code": "AGH",
@@ -813,7 +1015,9 @@
     "Model": "AgustaWestland A109",
     "Manufacturer": "AgustaWestland",
     "Engine_Type": "Turboshaft",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 20000,
+    "Max_Range_nm": 310
   },
   {
     "IATA_Code": "APH",
@@ -821,7 +1025,9 @@
     "Model": "Aerospatiale AS332",
     "Manufacturer": "Aerospatiale",
     "Engine_Type": "Turboshaft",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 15000,
+    "Max_Range_nm": 420
   },
   {
     "IATA_Code": "AR1",
@@ -829,7 +1035,9 @@
     "Model": "Avro RJ100 Avroliner",
     "Manufacturer": "BAE Systems",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 4
+    "Number_of_Engines": 4,
+    "Service_Ceiling_ft": 35000,
+    "Max_Range_nm": 1610
   },
   {
     "IATA_Code": "AR7",
@@ -837,7 +1045,9 @@
     "Model": "Avro RJ70 Avroliner",
     "Manufacturer": "BAE Systems",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 4
+    "Number_of_Engines": 4,
+    "Service_Ceiling_ft": 35000,
+    "Max_Range_nm": 1400
   },
   {
     "IATA_Code": "AR8",
@@ -845,7 +1055,9 @@
     "Model": "Avro RJ85 Avroliner",
     "Manufacturer": "BAE Systems",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 4
+    "Number_of_Engines": 4,
+    "Service_Ceiling_ft": 35000,
+    "Max_Range_nm": 1650
   },
   {
     "IATA_Code": "ASJ",
@@ -853,7 +1065,9 @@
     "Model": "IAI 1125",
     "Manufacturer": "Israel Aerospace Industries",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 45000,
+    "Max_Range_nm": 2800
   },
   {
     "IATA_Code": "AT3",
@@ -861,7 +1075,9 @@
     "Model": "Alenia ATR-42-300",
     "Manufacturer": "Alenia Aermacchi",
     "Engine_Type": "Turboprop",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 25000,
+    "Max_Range_nm": 700
   },
   {
     "IATA_Code": "AT4",
@@ -869,7 +1085,9 @@
     "Model": "Alenia ATR-42-400",
     "Manufacturer": "Alenia Aermacchi",
     "Engine_Type": "Turboprop",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 25000,
+    "Max_Range_nm": 800
   },
   {
     "IATA_Code": "AT5",
@@ -877,7 +1095,9 @@
     "Model": "Alenia ATR-42-500",
     "Manufacturer": "Alenia Aermacchi",
     "Engine_Type": "Turboprop",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 25000,
+    "Max_Range_nm": 900
   },
   {
     "IATA_Code": "AT6",
@@ -885,7 +1105,9 @@
     "Model": "Alenia ATR-42-600",
     "Manufacturer": "Alenia Aermacchi",
     "Engine_Type": "Turboprop",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 25000,
+    "Max_Range_nm": 950
   },
   {
     "IATA_Code": "AT7",
@@ -893,7 +1115,9 @@
     "Model": "Alenia ATR-72",
     "Manufacturer": "Alenia Aermacchi",
     "Engine_Type": "Turboprop",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 25000,
+    "Max_Range_nm": 900
   },
   {
     "IATA_Code": "ATP",
@@ -901,7 +1125,9 @@
     "Model": "British Aerospace ATP",
     "Manufacturer": "British Aerospace",
     "Engine_Type": "Turboprop",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 25000,
+    "Max_Range_nm": 850
   },
   {
     "IATA_Code": "AWH",
@@ -909,7 +1135,9 @@
     "Model": "AgustaWestland AW139",
     "Manufacturer": "AgustaWestland",
     "Engine_Type": "Turboshaft",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 20000,
+    "Max_Range_nm": 573
   },
   {
     "IATA_Code": "B11",
@@ -917,7 +1145,9 @@
     "Model": "British Aerospace (BAC) One Eleven",
     "Manufacturer": "British Aerospace",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 35000,
+    "Max_Range_nm": 1800
   },
   {
     "IATA_Code": "B72",
@@ -925,7 +1155,9 @@
     "Model": "Boeing 720B",
     "Manufacturer": "Boeing",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 4
+    "Number_of_Engines": 4,
+    "Service_Ceiling_ft": 42000,
+    "Max_Range_nm": 4000
   },
   {
     "IATA_Code": "B99",
@@ -933,7 +1165,9 @@
     "Model": "Beechcraft Model 99",
     "Manufacturer": "Beechcraft",
     "Engine_Type": "Turboprop",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 26500,
+    "Max_Range_nm": 650
   },
   {
     "IATA_Code": "BE4",
@@ -941,7 +1175,9 @@
     "Model": "Hawker 400",
     "Manufacturer": "Hawker Beechcraft",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 45000,
+    "Max_Range_nm": 1200
   },
   {
     "IATA_Code": "BE4",
@@ -949,7 +1185,9 @@
     "Model": "Hawker 400A",
     "Manufacturer": "Hawker Beechcraft",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 45000,
+    "Max_Range_nm": 1300
   },
   {
     "IATA_Code": "BE4",
@@ -957,7 +1195,9 @@
     "Model": "Hawker 400T",
     "Manufacturer": "Hawker Beechcraft",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 45000,
+    "Max_Range_nm": 1300
   },
   {
     "IATA_Code": "BE4",
@@ -965,7 +1205,9 @@
     "Model": "Hawker 400XP",
     "Manufacturer": "Hawker Beechcraft",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 45000,
+    "Max_Range_nm": 1450
   },
   {
     "IATA_Code": "BET",
@@ -973,7 +1215,9 @@
     "Model": "Beech King Air",
     "Manufacturer": "Beechcraft",
     "Engine_Type": "Turboprop",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 35000,
+    "Max_Range_nm": 1700
   },
   {
     "IATA_Code": "BNI",
@@ -981,7 +1225,9 @@
     "Model": "Britten Norman BN-2",
     "Manufacturer": "Britten-Norman",
     "Engine_Type": "Piston",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 13500,
+    "Max_Range_nm": 750
   },
   {
     "IATA_Code": "BNT",
@@ -989,7 +1235,9 @@
     "Model": "Britten Norman BN-2 Mk3",
     "Manufacturer": "Britten-Norman",
     "Engine_Type": "Piston",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 13500,
+    "Max_Range_nm": 800
   },
   {
     "IATA_Code": "CCJ",
@@ -997,7 +1245,9 @@
     "Model": "Canadair Challenger 600",
     "Manufacturer": "Bombardier",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 41000,
+    "Max_Range_nm": 3300
   },
   {
     "IATA_Code": "CCJ",
@@ -1005,7 +1255,9 @@
     "Model": "Canadair Challenger 601",
     "Manufacturer": "Bombardier",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 41000,
+    "Max_Range_nm": 3450
   },
   {
     "IATA_Code": "CCJ",
@@ -1013,7 +1265,9 @@
     "Model": "Canadair Challenger 604",
     "Manufacturer": "Bombardier",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 41000,
+    "Max_Range_nm": 4000
   },
   {
     "IATA_Code": "CCJ",
@@ -1021,7 +1275,9 @@
     "Model": "Canadair Challenger 605",
     "Manufacturer": "Bombardier",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 41000,
+    "Max_Range_nm": 4000
   },
   {
     "IATA_Code": "CCX",
@@ -1029,7 +1285,9 @@
     "Model": "Bombardier BD700 Global 5000",
     "Manufacturer": "Bombardier",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 51000,
+    "Max_Range_nm": 4800
   },
   {
     "IATA_Code": "CCX",
@@ -1037,7 +1295,9 @@
     "Model": "Bombardier Global Express",
     "Manufacturer": "Bombardier",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 51000,
+    "Max_Range_nm": 6000
   },
   {
     "IATA_Code": "CD2",
@@ -1045,7 +1305,9 @@
     "Model": "Government Aircraft Factories N22B / N24A Nomad",
     "Manufacturer": "Government Aircraft Factories",
     "Engine_Type": "Turboprop",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 21000,
+    "Max_Range_nm": 740
   },
   {
     "IATA_Code": "CJ1",
@@ -1053,7 +1315,9 @@
     "Model": "Cessna 500 Citation 1",
     "Manufacturer": "Cessna",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 41000,
+    "Max_Range_nm": 1300
   },
   {
     "IATA_Code": "CJ1",
@@ -1061,7 +1325,9 @@
     "Model": "Cessna 501 Citation 1SP",
     "Manufacturer": "Cessna",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 43000,
+    "Max_Range_nm": 1500
   },
   {
     "IATA_Code": "CJ1",
@@ -1069,7 +1335,9 @@
     "Model": "Cessna 525 Citation CJ1",
     "Manufacturer": "Cessna",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 41000,
+    "Max_Range_nm": 1200
   },
   {
     "IATA_Code": "CJ1",
@@ -1077,7 +1345,9 @@
     "Model": "Cessna 525 Citation CJ2",
     "Manufacturer": "Cessna",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 45000,
+    "Max_Range_nm": 1550
   },
   {
     "IATA_Code": "CJ1",
@@ -1085,7 +1355,9 @@
     "Model": "Cessna 525 Citation CJ3",
     "Manufacturer": "Cessna",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 45000,
+    "Max_Range_nm": 1800
   },
   {
     "IATA_Code": "CJ1",
@@ -1093,7 +1365,9 @@
     "Model": "Cessna 526 Citation",
     "Manufacturer": "Cessna",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 41000,
+    "Max_Range_nm": 1400
   },
   {
     "IATA_Code": "CJ2",
@@ -1101,7 +1375,9 @@
     "Model": "Cessna 550 Citation 2",
     "Manufacturer": "Cessna",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 43000,
+    "Max_Range_nm": 1550
   },
   {
     "IATA_Code": "CJ2",
@@ -1109,7 +1385,9 @@
     "Model": "Cessna 551 Citation 2SP",
     "Manufacturer": "Cessna",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 45000,
+    "Max_Range_nm": 1700
   },
   {
     "IATA_Code": "CJ4",
@@ -1117,7 +1395,9 @@
     "Model": "Cessna 525 Citation CJ4",
     "Manufacturer": "Cessna",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 45000,
+    "Max_Range_nm": 1900
   },
   {
     "IATA_Code": "CJ5",
@@ -1125,7 +1405,9 @@
     "Model": "Cessna 560 Citation Encore",
     "Manufacturer": "Cessna",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 45000,
+    "Max_Range_nm": 1550
   },
   {
     "IATA_Code": "CJ5",
@@ -1133,7 +1415,9 @@
     "Model": "Cessna 560 Citation Ultra",
     "Manufacturer": "Cessna",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 45000,
+    "Max_Range_nm": 1650
   },
   {
     "IATA_Code": "CJ5",
@@ -1141,7 +1425,9 @@
     "Model": "Cessna 560 Citation V",
     "Manufacturer": "Cessna",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 45000,
+    "Max_Range_nm": 1590
   },
   {
     "IATA_Code": "CJ6",
@@ -1149,7 +1435,9 @@
     "Model": "Cessna 650 Citation",
     "Manufacturer": "Cessna",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 43000,
+    "Max_Range_nm": 2000
   },
   {
     "IATA_Code": "CJ8",
@@ -1157,7 +1445,9 @@
     "Model": "Cessna 680 Citation",
     "Manufacturer": "Cessna",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 47000,
+    "Max_Range_nm": 3000
   },
   {
     "IATA_Code": "CJL",
@@ -1165,7 +1455,9 @@
     "Model": "Cessna 560 Citation XL",
     "Manufacturer": "Cessna",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 45000,
+    "Max_Range_nm": 1860
   },
   {
     "IATA_Code": "CJL",
@@ -1173,7 +1465,9 @@
     "Model": "Cessna 560 Citation XLS",
     "Manufacturer": "Cessna",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 45000,
+    "Max_Range_nm": 1900
   },
   {
     "IATA_Code": "CJM",
@@ -1181,7 +1475,9 @@
     "Model": "Cessna 510 Citation",
     "Manufacturer": "Cessna",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 41000,
+    "Max_Range_nm": 1100
   },
   {
     "IATA_Code": "CL3",
@@ -1189,7 +1485,9 @@
     "Model": "Bombardier Challenger 300",
     "Manufacturer": "Bombardier",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 45000,
+    "Max_Range_nm": 3100
   },
   {
     "IATA_Code": "CN7",
@@ -1197,7 +1495,9 @@
     "Model": "Cessna 750 Citation X",
     "Manufacturer": "Cessna",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 51000,
+    "Max_Range_nm": 3200
   },
   {
     "IATA_Code": "CNC",
@@ -1205,7 +1505,9 @@
     "Model": "Cessna 208",
     "Manufacturer": "Cessna",
     "Engine_Type": "Turboprop",
-    "Number_of_Engines": 1
+    "Number_of_Engines": 1,
+    "Service_Ceiling_ft": 25000,
+    "Max_Range_nm": 920
   },
   {
     "IATA_Code": "CNJ",
@@ -1213,7 +1515,9 @@
     "Model": "Cessna Citation Excel",
     "Manufacturer": "Cessna",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 45000,
+    "Max_Range_nm": 1750
   },
   {
     "IATA_Code": "CNT",
@@ -1221,7 +1525,9 @@
     "Model": "Cessna 425",
     "Manufacturer": "Cessna",
     "Engine_Type": "Turboprop",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 30000,
+    "Max_Range_nm": 1050
   },
   {
     "IATA_Code": "CNT",
@@ -1229,7 +1535,9 @@
     "Model": "Cessna 441",
     "Manufacturer": "Cessna",
     "Engine_Type": "Turboprop",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 35000,
+    "Max_Range_nm": 1200
   },
   {
     "IATA_Code": "CR1",
@@ -1237,7 +1545,9 @@
     "Model": "Canadair Regional Jet 100",
     "Manufacturer": "Bombardier",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 41000,
+    "Max_Range_nm": 1550
   },
   {
     "IATA_Code": "CR2",
@@ -1245,7 +1555,9 @@
     "Model": "Canadair Challenger 850",
     "Manufacturer": "Bombardier",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 41000,
+    "Max_Range_nm": 2500
   },
   {
     "IATA_Code": "CR2",
@@ -1253,7 +1565,9 @@
     "Model": "Canadair Regional Jet 200",
     "Manufacturer": "Bombardier",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 41000,
+    "Max_Range_nm": 1700
   },
   {
     "IATA_Code": "CR7",
@@ -1261,7 +1575,9 @@
     "Model": "Canadair Challenger 870",
     "Manufacturer": "Bombardier",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 41000,
+    "Max_Range_nm": 2100
   },
   {
     "IATA_Code": "CR7",
@@ -1269,7 +1585,9 @@
     "Model": "Canadair Regional Jet 700",
     "Manufacturer": "Bombardier",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 41000,
+    "Max_Range_nm": 1800
   },
   {
     "IATA_Code": "CR9",
@@ -1277,7 +1595,9 @@
     "Model": "Canadair Challenger 890",
     "Manufacturer": "Bombardier",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 41000,
+    "Max_Range_nm": 2200
   },
   {
     "IATA_Code": "CR9",
@@ -1285,7 +1605,9 @@
     "Model": "Canadair Regional Jet 900",
     "Manufacturer": "Bombardier",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 41000,
+    "Max_Range_nm": 1900
   },
   {
     "IATA_Code": "CRA",
@@ -1293,7 +1615,9 @@
     "Model": "Canadair Regional Jet 705",
     "Manufacturer": "Bombardier",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 41000,
+    "Max_Range_nm": 1850
   },
   {
     "IATA_Code": "CRK",
@@ -1301,7 +1625,9 @@
     "Model": "Canadair Regional Jet 1000",
     "Manufacturer": "Bombardier",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 41000,
+    "Max_Range_nm": 1650
   },
   {
     "IATA_Code": "CV5",
@@ -1309,7 +1635,9 @@
     "Model": "Convair CV-580",
     "Manufacturer": "Convair",
     "Engine_Type": "Turboprop",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 25000,
+    "Max_Range_nm": 1600
   },
   {
     "IATA_Code": "D11",
@@ -1317,7 +1645,9 @@
     "Model": "Douglas DC-10-10 / -15 Passenger",
     "Manufacturer": "McDonnell Douglas",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 3
+    "Number_of_Engines": 3,
+    "Service_Ceiling_ft": 42000,
+    "Max_Range_nm": 3800
   },
   {
     "IATA_Code": "D1C",
@@ -1325,7 +1655,9 @@
     "Model": "Douglas DC-10-30 / -40 Passenger",
     "Manufacturer": "McDonnell Douglas",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 3
+    "Number_of_Engines": 3,
+    "Service_Ceiling_ft": 42000,
+    "Max_Range_nm": 6200
   },
   {
     "IATA_Code": "D1M",
@@ -1333,7 +1665,9 @@
     "Model": "Douglas DC-10-30 Combi",
     "Manufacturer": "McDonnell Douglas",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 3
+    "Number_of_Engines": 3,
+    "Service_Ceiling_ft": 42000,
+    "Max_Range_nm": 5800
   },
   {
     "IATA_Code": "D1X",
@@ -1341,7 +1675,9 @@
     "Model": "Douglas DC-10-10 Freighter",
     "Manufacturer": "McDonnell Douglas",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 3
+    "Number_of_Engines": 3,
+    "Service_Ceiling_ft": 42000,
+    "Max_Range_nm": 3500
   },
   {
     "IATA_Code": "D1Y",
@@ -1349,7 +1685,9 @@
     "Model": "Douglas DC-10-30 / -40 Freighter",
     "Manufacturer": "McDonnell Douglas",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 3
+    "Number_of_Engines": 3,
+    "Service_Ceiling_ft": 42000,
+    "Max_Range_nm": 5600
   },
   {
     "IATA_Code": "D20",
@@ -1357,7 +1695,9 @@
     "Model": "Dassault Falcon 2000",
     "Manufacturer": "Dassault Aviation",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 47000,
+    "Max_Range_nm": 3000
   },
   {
     "IATA_Code": "D20",
@@ -1365,7 +1705,9 @@
     "Model": "Dassault Falcon 2000DX",
     "Manufacturer": "Dassault Aviation",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 47000,
+    "Max_Range_nm": 3250
   },
   {
     "IATA_Code": "D28",
@@ -1373,7 +1715,9 @@
     "Model": "Dornier 228",
     "Manufacturer": "Dornier",
     "Engine_Type": "Turboprop",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 28000,
+    "Max_Range_nm": 750
   },
   {
     "IATA_Code": "D2L",
@@ -1381,7 +1725,9 @@
     "Model": "Dassault Falcon 2000EASY",
     "Manufacturer": "Dassault Aviation",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 47000,
+    "Max_Range_nm": 2900
   },
   {
     "IATA_Code": "D2L",
@@ -1389,7 +1735,9 @@
     "Model": "Dassault Falcon 2000EX",
     "Manufacturer": "Dassault Aviation",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 47000,
+    "Max_Range_nm": 3450
   },
   {
     "IATA_Code": "D2L",
@@ -1397,7 +1745,9 @@
     "Model": "Dassault Falcon 2000LX",
     "Manufacturer": "Dassault Aviation",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 47000,
+    "Max_Range_nm": 4000
   },
   {
     "IATA_Code": "D38",
@@ -1405,7 +1755,9 @@
     "Model": "Dornier 328-100",
     "Manufacturer": "Dornier",
     "Engine_Type": "Turboprop",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 31000,
+    "Max_Range_nm": 750
   },
   {
     "IATA_Code": "D42",
@@ -1413,7 +1765,9 @@
     "Model": "Diamond DA42",
     "Manufacturer": "Diamond Aircraft",
     "Engine_Type": "Piston",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 18000,
+    "Max_Range_nm": 1100
   },
   {
     "IATA_Code": "D9L",
@@ -1421,7 +1775,9 @@
     "Model": "Dassault Falcon 900LX",
     "Manufacturer": "Dassault Aviation",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 3
+    "Number_of_Engines": 3,
+    "Service_Ceiling_ft": 51000,
+    "Max_Range_nm": 4750
   },
   {
     "IATA_Code": "DF1",
@@ -1429,7 +1785,9 @@
     "Model": "Dassault Falcon 10",
     "Manufacturer": "Dassault Aviation",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 45000,
+    "Max_Range_nm": 1850
   },
   {
     "IATA_Code": "DF1",
@@ -1437,7 +1795,9 @@
     "Model": "Dassault Falcon 100",
     "Manufacturer": "Dassault Aviation",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 45000,
+    "Max_Range_nm": 2000
   },
   {
     "IATA_Code": "DF2",
@@ -1445,7 +1805,9 @@
     "Model": "Dassault Falcon 20",
     "Manufacturer": "Dassault Aviation",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 42000,
+    "Max_Range_nm": 1600
   },
   {
     "IATA_Code": "DF2",
@@ -1453,7 +1815,9 @@
     "Model": "Dassault Falcon 200",
     "Manufacturer": "Dassault Aviation",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 42000,
+    "Max_Range_nm": 1700
   },
   {
     "IATA_Code": "DF5",
@@ -1461,7 +1825,9 @@
     "Model": "Dassault Falcon 50",
     "Manufacturer": "Dassault Aviation",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 3
+    "Number_of_Engines": 3,
+    "Service_Ceiling_ft": 49000,
+    "Max_Range_nm": 3100
   },
   {
     "IATA_Code": "DF7",
@@ -1469,7 +1835,9 @@
     "Model": "Dassault Falcon 7X",
     "Manufacturer": "Dassault Aviation",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 3
+    "Number_of_Engines": 3,
+    "Service_Ceiling_ft": 51000,
+    "Max_Range_nm": 5950
   },
   {
     "IATA_Code": "DF9",
@@ -1477,7 +1845,9 @@
     "Model": "Dassault Falcon 900",
     "Manufacturer": "Dassault Aviation",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 3
+    "Number_of_Engines": 3,
+    "Service_Ceiling_ft": 51000,
+    "Max_Range_nm": 3800
   },
   {
     "IATA_Code": "DF9",
@@ -1485,7 +1855,9 @@
     "Model": "Dassault Falcon 900B",
     "Manufacturer": "Dassault Aviation",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 3
+    "Number_of_Engines": 3,
+    "Service_Ceiling_ft": 51000,
+    "Max_Range_nm": 4000
   },
   {
     "IATA_Code": "DF9",
@@ -1493,7 +1865,9 @@
     "Model": "Dassault Falcon 900C",
     "Manufacturer": "Dassault Aviation",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 3
+    "Number_of_Engines": 3,
+    "Service_Ceiling_ft": 51000,
+    "Max_Range_nm": 4100
   },
   {
     "IATA_Code": "DF9",
@@ -1501,7 +1875,9 @@
     "Model": "Dassault Falcon 900DX",
     "Manufacturer": "Dassault Aviation",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 3
+    "Number_of_Engines": 3,
+    "Service_Ceiling_ft": 51000,
+    "Max_Range_nm": 4550
   },
   {
     "IATA_Code": "DF9",
@@ -1509,7 +1885,9 @@
     "Model": "Dassault Falcon 900EASY",
     "Manufacturer": "Dassault Aviation",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 3
+    "Number_of_Engines": 3,
+    "Service_Ceiling_ft": 51000,
+    "Max_Range_nm": 4200
   },
   {
     "IATA_Code": "DF9",
@@ -1517,7 +1895,9 @@
     "Model": "Dassault Falcon 900EX",
     "Manufacturer": "Dassault Aviation",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 3
+    "Number_of_Engines": 3,
+    "Service_Ceiling_ft": 51000,
+    "Max_Range_nm": 4500
   },
   {
     "IATA_Code": "DH1",
@@ -1525,7 +1905,9 @@
     "Model": "De Havilland DHC-8-100",
     "Manufacturer": "De Havilland Canada",
     "Engine_Type": "Turboprop",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 25000,
+    "Max_Range_nm": 1000
   },
   {
     "IATA_Code": "DH2",
@@ -1533,7 +1915,9 @@
     "Model": "De Havilland DHC-8-200",
     "Manufacturer": "De Havilland Canada",
     "Engine_Type": "Turboprop",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 25000,
+    "Max_Range_nm": 1100
   },
   {
     "IATA_Code": "DH3",
@@ -1541,7 +1925,9 @@
     "Model": "De Havilland DHC-8-300",
     "Manufacturer": "De Havilland Canada",
     "Engine_Type": "Turboprop",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 25000,
+    "Max_Range_nm": 1100
   },
   {
     "IATA_Code": "DH4",
@@ -1549,7 +1935,9 @@
     "Model": "De Havilland DHC-8-400",
     "Manufacturer": "De Havilland Canada",
     "Engine_Type": "Turboprop",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 25000,
+    "Max_Range_nm": 1200
   },
   {
     "IATA_Code": "DH7",
@@ -1557,7 +1945,9 @@
     "Model": "De Havilland Canada DHC-7 Dash 7",
     "Manufacturer": "De Havilland Canada",
     "Engine_Type": "Turboprop",
-    "Number_of_Engines": 4
+    "Number_of_Engines": 4,
+    "Service_Ceiling_ft": 21000,
+    "Max_Range_nm": 700
   },
   {
     "IATA_Code": "DHC",
@@ -1565,7 +1955,9 @@
     "Model": "De Havilland Canada DHC-5 Buffalo",
     "Manufacturer": "De Havilland Canada",
     "Engine_Type": "Turboprop",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 30000,
+    "Max_Range_nm": 1200
   },
   {
     "IATA_Code": "DHT",
@@ -1573,7 +1965,9 @@
     "Model": "De Havilland Canada DHC-6 Twin Otter",
     "Manufacturer": "De Havilland Canada",
     "Engine_Type": "Turboprop",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 26700,
+    "Max_Range_nm": 806
   },
   {
     "IATA_Code": "E50",
@@ -1581,7 +1975,9 @@
     "Model": "Eclipse 500",
     "Manufacturer": "Eclipse Aerospace",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 41000,
+    "Max_Range_nm": 1125
   },
   {
     "IATA_Code": "E70",
@@ -1589,7 +1985,9 @@
     "Model": "Embraer 170",
     "Manufacturer": "Embraer",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 41000,
+    "Max_Range_nm": 2100
   },
   {
     "IATA_Code": "E75",
@@ -1597,7 +1995,9 @@
     "Model": "Embraer 175",
     "Manufacturer": "Embraer",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 41000,
+    "Max_Range_nm": 2200
   },
   {
     "IATA_Code": "E7W",
@@ -1605,7 +2005,9 @@
     "Model": "Embraer 175 (long wing)",
     "Manufacturer": "Embraer",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 41000,
+    "Max_Range_nm": 2200
   },
   {
     "IATA_Code": "E90",
@@ -1613,7 +2015,9 @@
     "Model": "Embraer 190",
     "Manufacturer": "Embraer",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 41000,
+    "Max_Range_nm": 2400
   },
   {
     "IATA_Code": "E90",
@@ -1621,7 +2025,9 @@
     "Model": "Embraer Lineage 1000",
     "Manufacturer": "Embraer",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 41000,
+    "Max_Range_nm": 4200
   },
   {
     "IATA_Code": "E95",
@@ -1629,7 +2035,9 @@
     "Model": "Embraer 195",
     "Manufacturer": "Embraer",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 41000,
+    "Max_Range_nm": 2300
   },
   {
     "IATA_Code": "EA5",
@@ -1637,7 +2045,9 @@
     "Model": "Eclipse EA500",
     "Manufacturer": "Eclipse Aerospace",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 41000,
+    "Max_Range_nm": 1125
   },
   {
     "IATA_Code": "EC3",
@@ -1645,7 +2055,9 @@
     "Model": "Eurocopter EC130",
     "Manufacturer": "Eurocopter",
     "Engine_Type": "Turboshaft",
-    "Number_of_Engines": 1
+    "Number_of_Engines": 1,
+    "Service_Ceiling_ft": 23000,
+    "Max_Range_nm": 370
   },
   {
     "IATA_Code": "EC3",
@@ -1653,7 +2065,9 @@
     "Model": "Eurocopter EC135",
     "Manufacturer": "Eurocopter",
     "Engine_Type": "Turboshaft",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 20000,
+    "Max_Range_nm": 350
   },
   {
     "IATA_Code": "EC5",
@@ -1661,7 +2075,9 @@
     "Model": "Eurocopter EC155",
     "Manufacturer": "Eurocopter",
     "Engine_Type": "Turboshaft",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 16000,
+    "Max_Range_nm": 450
   },
   {
     "IATA_Code": "EH1",
@@ -1669,7 +2085,9 @@
     "Model": "Agusta EH101",
     "Manufacturer": "AgustaWestland",
     "Engine_Type": "Turboshaft",
-    "Number_of_Engines": 3
+    "Number_of_Engines": 3,
+    "Service_Ceiling_ft": 15000,
+    "Max_Range_nm": 540
   },
   {
     "IATA_Code": "EM2",
@@ -1677,7 +2095,9 @@
     "Model": "Embraer 120",
     "Manufacturer": "Embraer",
     "Engine_Type": "Turboprop",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 30000,
+    "Max_Range_nm": 900
   },
   {
     "IATA_Code": "EMB",
@@ -1685,7 +2105,9 @@
     "Model": "Embraer 110",
     "Manufacturer": "Embraer",
     "Engine_Type": "Turboprop",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 27000,
+    "Max_Range_nm": 1100
   },
   {
     "IATA_Code": "EP1",
@@ -1693,7 +2115,9 @@
     "Model": "Embraer 500 Phenom 100",
     "Manufacturer": "Embraer",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 41000,
+    "Max_Range_nm": 1178
   },
   {
     "IATA_Code": "EP3",
@@ -1701,7 +2125,9 @@
     "Model": "Embraer 505 Phenom 300",
     "Manufacturer": "Embraer",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 45000,
+    "Max_Range_nm": 1971
   },
   {
     "IATA_Code": "ER3",
@@ -1709,7 +2135,9 @@
     "Model": "Embraer 135",
     "Manufacturer": "Embraer",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 37000,
+    "Max_Range_nm": 1750
   },
   {
     "IATA_Code": "ER3",
@@ -1717,7 +2145,9 @@
     "Model": "Embraer Legacy 600/650",
     "Manufacturer": "Embraer",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 41000,
+    "Max_Range_nm": 3900
   },
   {
     "IATA_Code": "ER4",
@@ -1725,7 +2155,9 @@
     "Model": "Embraer 145",
     "Manufacturer": "Embraer",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 37000,
+    "Max_Range_nm": 1550
   },
   {
     "IATA_Code": "ERD",
@@ -1733,7 +2165,9 @@
     "Model": "Embraer RJ140",
     "Manufacturer": "Embraer",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 37000,
+    "Max_Range_nm": 1650
   },
   {
     "IATA_Code": "F21",
@@ -1741,7 +2175,9 @@
     "Model": "Fokker F28 Fellowship",
     "Manufacturer": "Fokker",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 35000,
+    "Max_Range_nm": 1200
   },
   {
     "IATA_Code": "F27",
@@ -1749,7 +2185,9 @@
     "Model": "Fokker F27 Friendship",
     "Manufacturer": "Fokker",
     "Engine_Type": "Turboprop",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 29500,
+    "Max_Range_nm": 1100
   },
   {
     "IATA_Code": "F50",
@@ -1757,7 +2195,9 @@
     "Model": "Fokker 50",
     "Manufacturer": "Fokker",
     "Engine_Type": "Turboprop",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 25000,
+    "Max_Range_nm": 1200
   },
   {
     "IATA_Code": "F70",
@@ -1765,7 +2205,9 @@
     "Model": "Fokker 70",
     "Manufacturer": "Fokker",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 35000,
+    "Max_Range_nm": 1540
   },
   {
     "IATA_Code": "FRJ",
@@ -1773,7 +2215,9 @@
     "Model": "Dornier 328-300",
     "Manufacturer": "Dornier",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 35000,
+    "Max_Range_nm": 1000
   },
   {
     "IATA_Code": "G2B",
@@ -1781,7 +2225,9 @@
     "Model": "Gulfstream 2B",
     "Manufacturer": "Gulfstream Aerospace",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 43000,
+    "Max_Range_nm": 2540
   },
   {
     "IATA_Code": "G2S",
@@ -1789,7 +2235,9 @@
     "Model": "Gulfstream 2SP",
     "Manufacturer": "Gulfstream Aerospace",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 43000,
+    "Max_Range_nm": 2650
   },
   {
     "IATA_Code": "G7C",
@@ -1797,7 +2245,9 @@
     "Model": "Gulfstream G700",
     "Manufacturer": "Gulfstream Aerospace",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 51000,
+    "Max_Range_nm": 7500
   },
   {
     "IATA_Code": "GA8",
@@ -1805,7 +2255,9 @@
     "Model": "Gippsland GA-8",
     "Manufacturer": "GippsAero",
     "Engine_Type": "Piston",
-    "Number_of_Engines": 1
+    "Number_of_Engines": 1,
+    "Service_Ceiling_ft": 20000,
+    "Max_Range_nm": 810
   },
   {
     "IATA_Code": "GJ2",
@@ -1813,7 +2265,9 @@
     "Model": "Gulfstream 2",
     "Manufacturer": "Gulfstream Aerospace",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 43000,
+    "Max_Range_nm": 2540
   },
   {
     "IATA_Code": "GJ3",
@@ -1821,7 +2275,9 @@
     "Model": "Gulfstream 3",
     "Manufacturer": "Gulfstream Aerospace",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 45000,
+    "Max_Range_nm": 3650
   },
   {
     "IATA_Code": "GJ4",
@@ -1829,7 +2285,9 @@
     "Model": "Gulfstream 300",
     "Manufacturer": "Gulfstream Aerospace",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 45000,
+    "Max_Range_nm": 3600
   },
   {
     "IATA_Code": "GJ4",
@@ -1837,7 +2295,9 @@
     "Model": "Gulfstream 350",
     "Manufacturer": "Gulfstream Aerospace",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 45000,
+    "Max_Range_nm": 3800
   },
   {
     "IATA_Code": "GJ4",
@@ -1845,7 +2305,9 @@
     "Model": "Gulfstream 4",
     "Manufacturer": "Gulfstream Aerospace",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 45000,
+    "Max_Range_nm": 4220
   },
   {
     "IATA_Code": "GJ4",
@@ -1853,7 +2315,9 @@
     "Model": "Gulfstream 400",
     "Manufacturer": "Gulfstream Aerospace",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 45000,
+    "Max_Range_nm": 4220
   },
   {
     "IATA_Code": "GJ4",
@@ -1861,7 +2325,9 @@
     "Model": "Gulfstream 450",
     "Manufacturer": "Gulfstream Aerospace",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 45000,
+    "Max_Range_nm": 4350
   },
   {
     "IATA_Code": "GJ4",
@@ -1869,7 +2335,9 @@
     "Model": "Gulfstream 4SP",
     "Manufacturer": "Gulfstream Aerospace",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 45000,
+    "Max_Range_nm": 4280
   },
   {
     "IATA_Code": "GJ5",
@@ -1877,7 +2345,9 @@
     "Model": "Gulfstream 5",
     "Manufacturer": "Gulfstream Aerospace",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 51000,
+    "Max_Range_nm": 6500
   },
   {
     "IATA_Code": "GJ5",
@@ -1885,7 +2355,9 @@
     "Model": "Gulfstream 500",
     "Manufacturer": "Gulfstream Aerospace",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 51000,
+    "Max_Range_nm": 5200
   },
   {
     "IATA_Code": "GJ5",
@@ -1893,7 +2365,9 @@
     "Model": "Gulfstream 550",
     "Manufacturer": "Gulfstream Aerospace",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 51000,
+    "Max_Range_nm": 6750
   },
   {
     "IATA_Code": "GJ6",
@@ -1901,7 +2375,9 @@
     "Model": "Gulfstream 650",
     "Manufacturer": "Gulfstream Aerospace",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 51000,
+    "Max_Range_nm": 7000
   },
   {
     "IATA_Code": "GR1",
@@ -1909,7 +2385,9 @@
     "Model": "Gulfstream Aerospace (IAI) G100",
     "Manufacturer": "Gulfstream Aerospace",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 45000,
+    "Max_Range_nm": 2950
   },
   {
     "IATA_Code": "GR1",
@@ -1917,7 +2395,9 @@
     "Model": "Gulfstream Aerospace (IAI) G150",
     "Manufacturer": "Gulfstream Aerospace",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 45000,
+    "Max_Range_nm": 3000
   },
   {
     "IATA_Code": "GR2",
@@ -1925,7 +2405,9 @@
     "Model": "Gulfstream Aerospace (IAI) G200",
     "Manufacturer": "Gulfstream Aerospace",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 45000,
+    "Max_Range_nm": 3400
   },
   {
     "IATA_Code": "GR3",
@@ -1933,7 +2415,9 @@
     "Model": "Gulfstream Aerospace (IAI) G280",
     "Manufacturer": "Gulfstream Aerospace",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 45000,
+    "Max_Range_nm": 3600
   },
   {
     "IATA_Code": "GRM",
@@ -1941,7 +2425,9 @@
     "Model": "Grumman G-73 Turbo Mallard",
     "Manufacturer": "Grumman",
     "Engine_Type": "Turboprop",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 20000,
+    "Max_Range_nm": 800
   },
   {
     "IATA_Code": "GRS",
@@ -1949,7 +2435,9 @@
     "Model": "Gulfstream 1",
     "Manufacturer": "Gulfstream Aerospace",
     "Engine_Type": "Turboprop",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 35000,
+    "Max_Range_nm": 2200
   },
   {
     "IATA_Code": "H20",
@@ -1957,7 +2445,9 @@
     "Model": "Hawker 200",
     "Manufacturer": "Hawker Beechcraft",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 41000,
+    "Max_Range_nm": 1500
   },
   {
     "IATA_Code": "H21",
@@ -1965,7 +2455,9 @@
     "Model": "Hawker 1000",
     "Manufacturer": "Hawker Beechcraft",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 43000,
+    "Max_Range_nm": 3100
   },
   {
     "IATA_Code": "H24",
@@ -1973,7 +2465,9 @@
     "Model": "Hawker 4000",
     "Manufacturer": "Hawker Beechcraft",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 45000,
+    "Max_Range_nm": 3190
   },
   {
     "IATA_Code": "H25",
@@ -1981,7 +2475,9 @@
     "Model": "Hawker 750",
     "Manufacturer": "Hawker Beechcraft",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 41000,
+    "Max_Range_nm": 2200
   },
   {
     "IATA_Code": "H25",
@@ -1989,7 +2485,9 @@
     "Model": "Hawker 800",
     "Manufacturer": "Hawker Beechcraft",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 41000,
+    "Max_Range_nm": 2540
   },
   {
     "IATA_Code": "H25",
@@ -1997,7 +2495,9 @@
     "Model": "Hawker 800SP",
     "Manufacturer": "Hawker Beechcraft",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 41000,
+    "Max_Range_nm": 2400
   },
   {
     "IATA_Code": "H25",
@@ -2005,7 +2505,9 @@
     "Model": "Hawker 800XP",
     "Manufacturer": "Hawker Beechcraft",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 41000,
+    "Max_Range_nm": 2540
   },
   {
     "IATA_Code": "H25",
@@ -2013,7 +2515,9 @@
     "Model": "Hawker Siddeley (Bae) 125",
     "Manufacturer": "Hawker Siddeley",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 41000,
+    "Max_Range_nm": 1500
   },
   {
     "IATA_Code": "H28",
@@ -2021,7 +2525,9 @@
     "Model": "Hawker 850XP",
     "Manufacturer": "Hawker Beechcraft",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 41000,
+    "Max_Range_nm": 2642
   },
   {
     "IATA_Code": "H28",
@@ -2029,7 +2535,9 @@
     "Model": "Hawker 900",
     "Manufacturer": "Hawker Beechcraft",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 41000,
+    "Max_Range_nm": 2800
   },
   {
     "IATA_Code": "H29",
@@ -2037,7 +2545,9 @@
     "Model": "Hawker 900XP",
     "Manufacturer": "Hawker Beechcraft",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 41000,
+    "Max_Range_nm": 2900
   },
   {
     "IATA_Code": "HHJ",
@@ -2045,7 +2555,9 @@
     "Model": "Honda HA-420",
     "Manufacturer": "Honda Aircraft Company",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 43000,
+    "Max_Range_nm": 1437
   },
   {
     "IATA_Code": "HS7",
@@ -2053,7 +2565,9 @@
     "Model": "Hawker Siddeley HS 748",
     "Manufacturer": "Hawker Siddeley",
     "Engine_Type": "Turboprop",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 25000,
+    "Max_Range_nm": 700
   },
   {
     "IATA_Code": "I14",
@@ -2061,7 +2575,9 @@
     "Model": "Ilyushin Il-114",
     "Manufacturer": "Ilyushin",
     "Engine_Type": "Turboprop",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 25000,
+    "Max_Range_nm": 1000
   },
   {
     "IATA_Code": "I93",
@@ -2069,7 +2585,9 @@
     "Model": "Ilyushin Il-96",
     "Manufacturer": "Ilyushin",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 4
+    "Number_of_Engines": 4,
+    "Service_Ceiling_ft": 39000,
+    "Max_Range_nm": 5400
   },
   {
     "IATA_Code": "IL6",
@@ -2077,7 +2595,9 @@
     "Model": "Ilyushin Il-62",
     "Manufacturer": "Ilyushin",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 4
+    "Number_of_Engines": 4,
+    "Service_Ceiling_ft": 39700,
+    "Max_Range_nm": 5500
   },
   {
     "IATA_Code": "IL7",
@@ -2085,7 +2605,9 @@
     "Model": "Ilyushin Il-76",
     "Manufacturer": "Ilyushin",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 4
+    "Number_of_Engines": 4,
+    "Service_Ceiling_ft": 43000,
+    "Max_Range_nm": 2700
   },
   {
     "IATA_Code": "IL8",
@@ -2093,7 +2615,9 @@
     "Model": "Ilyushin Il-18",
     "Manufacturer": "Ilyushin",
     "Engine_Type": "Turboprop",
-    "Number_of_Engines": 4
+    "Number_of_Engines": 4,
+    "Service_Ceiling_ft": 32800,
+    "Max_Range_nm": 3500
   },
   {
     "IATA_Code": "IL86",
@@ -2101,7 +2625,9 @@
     "Model": "Ilyushin Il-86",
     "Manufacturer": "Ilyushin",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 4
+    "Number_of_Engines": 4,
+    "Service_Ceiling_ft": 36100,
+    "Max_Range_nm": 2100
   },
   {
     "IATA_Code": "IL9",
@@ -2109,7 +2635,9 @@
     "Model": "Ilyushin Il-96",
     "Manufacturer": "Ilyushin",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 4
+    "Number_of_Engines": 4,
+    "Service_Ceiling_ft": 39000,
+    "Max_Range_nm": 5400
   },
   {
     "IATA_Code": "J31",
@@ -2117,7 +2645,9 @@
     "Model": "Bae Jetstream 31",
     "Manufacturer": "British Aerospace",
     "Engine_Type": "Turboprop",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 25000,
+    "Max_Range_nm": 700
   },
   {
     "IATA_Code": "J32",
@@ -2125,7 +2655,9 @@
     "Model": "Bae Jetstream 32",
     "Manufacturer": "British Aerospace",
     "Engine_Type": "Turboprop",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 25000,
+    "Max_Range_nm": 745
   },
   {
     "IATA_Code": "J41",
@@ -2133,7 +2665,9 @@
     "Model": "Bae Jetstream 41",
     "Manufacturer": "British Aerospace",
     "Engine_Type": "Turboprop",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 26000,
+    "Max_Range_nm": 800
   },
   {
     "IATA_Code": "JSR",
@@ -2141,7 +2675,9 @@
     "Model": "Lockheed L1329 Jetstar 2",
     "Manufacturer": "Lockheed",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 4
+    "Number_of_Engines": 4,
+    "Service_Ceiling_ft": 45000,
+    "Max_Range_nm": 2500
   },
   {
     "IATA_Code": "JSR",
@@ -2149,7 +2685,9 @@
     "Model": "Lockheed L1329 Jetstar 6/8",
     "Manufacturer": "Lockheed",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 4
+    "Number_of_Engines": 4,
+    "Service_Ceiling_ft": 45000,
+    "Max_Range_nm": 2400
   },
   {
     "IATA_Code": "K35",
@@ -2157,7 +2695,9 @@
     "Model": "Boeing KC-135 Stratotanker",
     "Manufacturer": "Boeing",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 4
+    "Number_of_Engines": 4,
+    "Service_Ceiling_ft": 50000,
+    "Max_Range_nm": 1500
   },
   {
     "IATA_Code": "L10",
@@ -2165,7 +2705,9 @@
     "Model": "Lockheed L-1011 Tristar",
     "Manufacturer": "Lockheed",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 3
+    "Number_of_Engines": 3,
+    "Service_Ceiling_ft": 42000,
+    "Max_Range_nm": 4300
   },
   {
     "IATA_Code": "L4T",
@@ -2173,7 +2715,9 @@
     "Model": "LET 410",
     "Manufacturer": "LET Aircraft Industries",
     "Engine_Type": "Turboprop",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 23000,
+    "Max_Range_nm": 850
   },
   {
     "IATA_Code": "L4T",
@@ -2181,7 +2725,9 @@
     "Model": "LET 410",
     "Manufacturer": "LET Aircraft Industries",
     "Engine_Type": "Turboprop",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 23000,
+    "Max_Range_nm": 850
   },
   {
     "IATA_Code": "LJ2",
@@ -2189,7 +2735,9 @@
     "Model": "Learjet 23",
     "Manufacturer": "Learjet",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 45000,
+    "Max_Range_nm": 1650
   },
   {
     "IATA_Code": "LJ2",
@@ -2197,7 +2745,9 @@
     "Model": "Learjet 24",
     "Manufacturer": "Learjet",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 45000,
+    "Max_Range_nm": 1650
   },
   {
     "IATA_Code": "LJ2",
@@ -2205,7 +2755,9 @@
     "Model": "Learjet 25",
     "Manufacturer": "Learjet",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 45000,
+    "Max_Range_nm": 1670
   },
   {
     "IATA_Code": "LJ3",
@@ -2213,7 +2765,9 @@
     "Model": "Learjet 31",
     "Manufacturer": "Learjet",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 51000,
+    "Max_Range_nm": 1350
   },
   {
     "IATA_Code": "LJ3",
@@ -2221,7 +2775,9 @@
     "Model": "Learjet 35",
     "Manufacturer": "Learjet",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 45000,
+    "Max_Range_nm": 2056
   },
   {
     "IATA_Code": "LJ4",
@@ -2229,7 +2785,9 @@
     "Model": "Learjet 40",
     "Manufacturer": "Learjet",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 51000,
+    "Max_Range_nm": 1750
   },
   {
     "IATA_Code": "LJ4",
@@ -2237,7 +2795,9 @@
     "Model": "Learjet 45",
     "Manufacturer": "Learjet",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 51000,
+    "Max_Range_nm": 2000
   },
   {
     "IATA_Code": "LJ6",
@@ -2245,7 +2805,9 @@
     "Model": "Learjet 55",
     "Manufacturer": "Learjet",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 51000,
+    "Max_Range_nm": 2050
   },
   {
     "IATA_Code": "LJ6",
@@ -2253,7 +2815,9 @@
     "Model": "Learjet 60",
     "Manufacturer": "Learjet",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 51000,
+    "Max_Range_nm": 2405
   },
   {
     "IATA_Code": "LJ7",
@@ -2261,7 +2825,9 @@
     "Model": "Learjet 75",
     "Manufacturer": "Learjet",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 51000,
+    "Max_Range_nm": 2040
   },
   {
     "IATA_Code": "LJ8",
@@ -2269,7 +2835,9 @@
     "Model": "Learjet 85",
     "Manufacturer": "Learjet",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 43000,
+    "Max_Range_nm": 3000
   },
   {
     "IATA_Code": "LOE",
@@ -2277,7 +2845,9 @@
     "Model": "Lockheed L-188 Electra",
     "Manufacturer": "Lockheed",
     "Engine_Type": "Turboprop",
-    "Number_of_Engines": 4
+    "Number_of_Engines": 4,
+    "Service_Ceiling_ft": 28400,
+    "Max_Range_nm": 2200
   },
   {
     "IATA_Code": "LOH",
@@ -2285,7 +2855,9 @@
     "Model": "Lockheed C130",
     "Manufacturer": "Lockheed",
     "Engine_Type": "Turboprop",
-    "Number_of_Engines": 4
+    "Number_of_Engines": 4,
+    "Service_Ceiling_ft": 33000,
+    "Max_Range_nm": 2360
   },
   {
     "IATA_Code": "M11",
@@ -2293,7 +2865,9 @@
     "Model": "McDonnell Douglas MD-11",
     "Manufacturer": "McDonnell Douglas",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 3
+    "Number_of_Engines": 3,
+    "Service_Ceiling_ft": 43000,
+    "Max_Range_nm": 7240
   },
   {
     "IATA_Code": "M1F",
@@ -2301,7 +2875,9 @@
     "Model": "McDonnell Douglas MD-11F",
     "Manufacturer": "McDonnell Douglas",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 3
+    "Number_of_Engines": 3,
+    "Service_Ceiling_ft": 43000,
+    "Max_Range_nm": 4000
   },
   {
     "IATA_Code": "M1M",
@@ -2309,7 +2885,9 @@
     "Model": "McDonnell Douglas MD-11C",
     "Manufacturer": "McDonnell Douglas",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 3
+    "Number_of_Engines": 3,
+    "Service_Ceiling_ft": 43000,
+    "Max_Range_nm": 6500
   },
   {
     "IATA_Code": "M81",
@@ -2317,7 +2895,9 @@
     "Model": "McDonnell Douglas MD-81",
     "Manufacturer": "McDonnell Douglas",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 37000,
+    "Max_Range_nm": 1564
   },
   {
     "IATA_Code": "M82",
@@ -2325,7 +2905,9 @@
     "Model": "McDonnell Douglas MD-82",
     "Manufacturer": "McDonnell Douglas",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 37000,
+    "Max_Range_nm": 1967
   },
   {
     "IATA_Code": "M83",
@@ -2333,7 +2915,9 @@
     "Model": "McDonnell Douglas MD-83",
     "Manufacturer": "McDonnell Douglas",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 37000,
+    "Max_Range_nm": 2504
   },
   {
     "IATA_Code": "M87",
@@ -2341,7 +2925,9 @@
     "Model": "McDonnell Douglas MD-87",
     "Manufacturer": "McDonnell Douglas",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 37000,
+    "Max_Range_nm": 2370
   },
   {
     "IATA_Code": "M88",
@@ -2349,7 +2935,9 @@
     "Model": "McDonnell Douglas MD-88",
     "Manufacturer": "McDonnell Douglas",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 37000,
+    "Max_Range_nm": 2050
   },
   {
     "IATA_Code": "M90",
@@ -2357,7 +2945,9 @@
     "Model": "McDonnell Douglas MD-90",
     "Manufacturer": "McDonnell Douglas",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 37000,
+    "Max_Range_nm": 2400
   },
   {
     "IATA_Code": "MBH",
@@ -2365,7 +2955,9 @@
     "Model": "Bolkow Bo-105",
     "Manufacturer": "MBB (Messerschmitt-Bölkow-Blohm)",
     "Engine_Type": "Turboshaft",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 17000,
+    "Max_Range_nm": 300
   },
   {
     "IATA_Code": "MD9",
@@ -2373,7 +2965,9 @@
     "Model": "MD Helicopters MD900",
     "Manufacturer": "MD Helicopters",
     "Engine_Type": "Turboshaft",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 20000,
+    "Max_Range_nm": 250
   },
   {
     "IATA_Code": "MU2",
@@ -2381,7 +2975,9 @@
     "Model": "Mitsubishi MU-2",
     "Manufacturer": "Mitsubishi",
     "Engine_Type": "Turboprop",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 29400,
+    "Max_Range_nm": 1350
   },
   {
     "IATA_Code": "ND2",
@@ -2389,7 +2985,9 @@
     "Model": "Aerospatiale (Nord) 262",
     "Manufacturer": "Aerospatiale",
     "Engine_Type": "Turboprop",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 23950,
+    "Max_Range_nm": 650
   },
   {
     "IATA_Code": "NDC",
@@ -2397,7 +2995,9 @@
     "Model": "Aerospatiale SN601",
     "Manufacturer": "Aerospatiale",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 42000,
+    "Max_Range_nm": 1800
   },
   {
     "IATA_Code": "NDE",
@@ -2405,7 +3005,9 @@
     "Model": "Aerospatiale AS350",
     "Manufacturer": "Aerospatiale",
     "Engine_Type": "Turboshaft",
-    "Number_of_Engines": 1
+    "Number_of_Engines": 1,
+    "Service_Ceiling_ft": 15000,
+    "Max_Range_nm": 360
   },
   {
     "IATA_Code": "NDE",
@@ -2413,7 +3015,9 @@
     "Model": "Aerospatiale AS355",
     "Manufacturer": "Aerospatiale",
     "Engine_Type": "Turboshaft",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 16000,
+    "Max_Range_nm": 400
   },
   {
     "IATA_Code": "NDH",
@@ -2421,7 +3025,9 @@
     "Model": "Aerospatiale AS365",
     "Manufacturer": "Aerospatiale",
     "Engine_Type": "Turboshaft",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 15000,
+    "Max_Range_nm": 450
   },
   {
     "IATA_Code": "P18",
@@ -2429,7 +3035,9 @@
     "Model": "Piaggio P180",
     "Manufacturer": "Piaggio Aerospace",
     "Engine_Type": "Turboprop",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 41000,
+    "Max_Range_nm": 1440
   },
   {
     "IATA_Code": "PA2",
@@ -2437,7 +3045,9 @@
     "Model": "Piper Pa-31",
     "Manufacturer": "Piper Aircraft",
     "Engine_Type": "Piston",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 26000,
+    "Max_Range_nm": 1000
   },
   {
     "IATA_Code": "PAG",
@@ -2445,7 +3055,9 @@
     "Model": "Piper Pa-46",
     "Manufacturer": "Piper Aircraft",
     "Engine_Type": "Piston",
-    "Number_of_Engines": 1
+    "Number_of_Engines": 1,
+    "Service_Ceiling_ft": 25000,
+    "Max_Range_nm": 1000
   },
   {
     "IATA_Code": "PAT",
@@ -2453,7 +3065,9 @@
     "Model": "Piper Pa-31T",
     "Manufacturer": "Piper Aircraft",
     "Engine_Type": "Turboprop",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 29000,
+    "Max_Range_nm": 1100
   },
   {
     "IATA_Code": "PAT",
@@ -2461,7 +3075,9 @@
     "Model": "Piper Pa-42",
     "Manufacturer": "Piper Aircraft",
     "Engine_Type": "Turboprop",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 35000,
+    "Max_Range_nm": 1200
   },
   {
     "IATA_Code": "PL2",
@@ -2469,7 +3085,9 @@
     "Model": "Pilatus PC-12",
     "Manufacturer": "Pilatus Aircraft",
     "Engine_Type": "Turboprop",
-    "Number_of_Engines": 1
+    "Number_of_Engines": 1,
+    "Service_Ceiling_ft": 30000,
+    "Max_Range_nm": 1560
   },
   {
     "IATA_Code": "PL4",
@@ -2477,7 +3095,9 @@
     "Model": "Pilatus PC-24",
     "Manufacturer": "Pilatus Aircraft",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 45000,
+    "Max_Range_nm": 2000
   },
   {
     "IATA_Code": "PN6",
@@ -2485,7 +3105,9 @@
     "Model": "Partenavia P68",
     "Manufacturer": "Partenavia",
     "Engine_Type": "Piston",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 20000,
+    "Max_Range_nm": 850
   },
   {
     "IATA_Code": "PR1",
@@ -2493,7 +3115,9 @@
     "Model": "Hawker 390 Premier 1",
     "Manufacturer": "Hawker Beechcraft",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 41000,
+    "Max_Range_nm": 1460
   },
   {
     "IATA_Code": "S20",
@@ -2501,7 +3125,9 @@
     "Model": "SAAB 2000",
     "Manufacturer": "Saab",
     "Engine_Type": "Turboprop",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 31000,
+    "Max_Range_nm": 1650
   },
   {
     "IATA_Code": "S61",
@@ -2509,7 +3135,9 @@
     "Model": "Sikorsky S-61",
     "Manufacturer": "Sikorsky Aircraft",
     "Engine_Type": "Turboshaft",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 14000,
+    "Max_Range_nm": 450
   },
   {
     "IATA_Code": "S76",
@@ -2517,7 +3145,9 @@
     "Model": "Sikorsky S-76",
     "Manufacturer": "Sikorsky Aircraft",
     "Engine_Type": "Turboshaft",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 15000,
+    "Max_Range_nm": 420
   },
   {
     "IATA_Code": "S92",
@@ -2525,7 +3155,9 @@
     "Model": "Sikorsky S-92",
     "Manufacturer": "Sikorsky Aircraft",
     "Engine_Type": "Turboshaft",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 15000,
+    "Max_Range_nm": 540
   },
   {
     "IATA_Code": "SF3",
@@ -2533,7 +3165,9 @@
     "Model": "SAAB SF340",
     "Manufacturer": "Saab",
     "Engine_Type": "Turboprop",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 25000,
+    "Max_Range_nm": 1000
   },
   {
     "IATA_Code": "SH3",
@@ -2541,7 +3175,9 @@
     "Model": "Shorts SD.330",
     "Manufacturer": "Short Brothers",
     "Engine_Type": "Turboprop",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 20000,
+    "Max_Range_nm": 600
   },
   {
     "IATA_Code": "SH6",
@@ -2549,7 +3185,9 @@
     "Model": "Shorts SD.360",
     "Manufacturer": "Short Brothers",
     "Engine_Type": "Turboprop",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 20000,
+    "Max_Range_nm": 650
   },
   {
     "IATA_Code": "SHB",
@@ -2557,7 +3195,9 @@
     "Model": "Shorts SC-5 Belfast",
     "Manufacturer": "Short Brothers",
     "Engine_Type": "Turboprop",
-    "Number_of_Engines": 4
+    "Number_of_Engines": 4,
+    "Service_Ceiling_ft": 30000,
+    "Max_Range_nm": 4700
   },
   {
     "IATA_Code": "SHS",
@@ -2565,7 +3205,9 @@
     "Model": "Shorts SC-7 Skyvan",
     "Manufacturer": "Short Brothers",
     "Engine_Type": "Turboprop",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 22000,
+    "Max_Range_nm": 650
   },
   {
     "IATA_Code": "SU9",
@@ -2573,7 +3215,9 @@
     "Model": "Sukhoi Superjet 100-95",
     "Manufacturer": "Sukhoi",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 41000,
+    "Max_Range_nm": 2500
   },
   {
     "IATA_Code": "SW4",
@@ -2581,7 +3225,9 @@
     "Model": "Fairchild Swearingen Metroliner",
     "Manufacturer": "Fairchild",
     "Engine_Type": "Turboprop",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 27000,
+    "Max_Range_nm": 1000
   },
   {
     "IATA_Code": "SWM",
@@ -2589,7 +3235,9 @@
     "Model": "Fairchild SA226/227",
     "Manufacturer": "Fairchild",
     "Engine_Type": "Turboprop",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 27000,
+    "Max_Range_nm": 1100
   },
   {
     "IATA_Code": "SWM",
@@ -2597,7 +3245,9 @@
     "Model": "Fairchild SA26/226",
     "Manufacturer": "Fairchild",
     "Engine_Type": "Turboprop",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 27000,
+    "Max_Range_nm": 1000
   },
   {
     "IATA_Code": "T20",
@@ -2605,7 +3255,9 @@
     "Model": "Tupolev Tu-204",
     "Manufacturer": "Tupolev",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 41000,
+    "Max_Range_nm": 3200
   },
   {
     "IATA_Code": "T20",
@@ -2613,7 +3265,9 @@
     "Model": "Tupolev Tu-214",
     "Manufacturer": "Tupolev",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 41000,
+    "Max_Range_nm": 3500
   },
   {
     "IATA_Code": "TBM",
@@ -2621,7 +3275,9 @@
     "Model": "SOCATA TBM700",
     "Manufacturer": "SOCATA",
     "Engine_Type": "Turboprop",
-    "Number_of_Engines": 1
+    "Number_of_Engines": 1,
+    "Service_Ceiling_ft": 31000,
+    "Max_Range_nm": 1700
   },
   {
     "IATA_Code": "TBM",
@@ -2629,7 +3285,9 @@
     "Model": "SOCATA TBM850",
     "Manufacturer": "SOCATA",
     "Engine_Type": "Turboprop",
-    "Number_of_Engines": 1
+    "Number_of_Engines": 1,
+    "Service_Ceiling_ft": 31000,
+    "Max_Range_nm": 1730
   },
   {
     "IATA_Code": "TU3",
@@ -2637,7 +3295,9 @@
     "Model": "Tupolev Tu-134",
     "Manufacturer": "Tupolev",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 39000,
+    "Max_Range_nm": 1200
   },
   {
     "IATA_Code": "TU3",
@@ -2645,7 +3305,9 @@
     "Model": "Tupolev Tu-134",
     "Manufacturer": "Tupolev",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 39000,
+    "Max_Range_nm": 1200
   },
   {
     "IATA_Code": "TU5",
@@ -2653,7 +3315,9 @@
     "Model": "Tupolev Tu-154",
     "Manufacturer": "Tupolev",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 3
+    "Number_of_Engines": 3,
+    "Service_Ceiling_ft": 39000,
+    "Max_Range_nm": 3540
   },
   {
     "IATA_Code": "TU5",
@@ -2661,7 +3325,9 @@
     "Model": "Tupolev Tu-154",
     "Manufacturer": "Tupolev",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 3
+    "Number_of_Engines": 3,
+    "Service_Ceiling_ft": 39000,
+    "Max_Range_nm": 3540
   },
   {
     "IATA_Code": "WWP",
@@ -2669,7 +3335,9 @@
     "Model": "IAI 1124",
     "Manufacturer": "Israel Aerospace Industries",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 45000,
+    "Max_Range_nm": 2800
   },
   {
     "IATA_Code": "YK2",
@@ -2677,7 +3345,9 @@
     "Model": "Yakovlev Yak-42",
     "Manufacturer": "Yakovlev",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 3
+    "Number_of_Engines": 3,
+    "Service_Ceiling_ft": 31200,
+    "Max_Range_nm": 1250
   },
   {
     "IATA_Code": "YK4",
@@ -2685,7 +3355,9 @@
     "Model": "Yakovlev Yak-40",
     "Manufacturer": "Yakovlev",
     "Engine_Type": "Turbofan",
-    "Number_of_Engines": 3
+    "Number_of_Engines": 3,
+    "Service_Ceiling_ft": 22965,
+    "Max_Range_nm": 945
   },
   {
     "IATA_Code": "YN2",
@@ -2693,7 +3365,9 @@
     "Model": "Harbin Y-12",
     "Manufacturer": "Harbin Aircraft Industry Group",
     "Engine_Type": "Turboprop",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 22965,
+    "Max_Range_nm": 700
   },
   {
     "IATA_Code": "YS1",
@@ -2701,6 +3375,8 @@
     "Model": "NAMC YS-11",
     "Manufacturer": "NAMC",
     "Engine_Type": "Turboprop",
-    "Number_of_Engines": 2
+    "Number_of_Engines": 2,
+    "Service_Ceiling_ft": 25000,
+    "Max_Range_nm": 1090
   }
 ]
